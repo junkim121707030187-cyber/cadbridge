@@ -195,8 +195,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "ffc2e9a15ca27cff332555a4a636cdcb97773ee0f8fe6b4a996eeb62e494940f",
-      "size_bytes": 3783
+      "sha256": "edee93b52f48940521f4be43c98398804bdd5258a8921e0d03df1158dc818663",
+      "size_bytes": 4127
     },
     {
       "path": "scripts/check_workspace.py",

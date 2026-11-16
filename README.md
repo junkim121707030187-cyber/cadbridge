@@ -1,9 +1,11 @@
 # CADBridge 개발 준비 정본
-문서 버전 1.2.1 · 2026-11-16 KST
+문서 기준선 1.2.1 + 분담 인수인계 0.1.0 · 2026-11-16 KST
 
 서로 다른 CAD 프로그램·버전을 사용하는 기업체와 팀이 설계와 변경 이력을 공유하고 이어서 편집하는 협업 워크스페이스를 목표로 한다. 첫 단계는 STEP에서 편집 가능한 오픈소스 CAD native 부품을 재구성하는 것이다. 이후 서로 다른 오픈소스 CAD 프로그램 사이로 설계 맥락과 제약을 이전한다.
 
-문서·제품 개념도와 협업 작업 환경 파일 33개를 사용자 지정 비공개 [cadbridge 저장소](https://github.com/junkim121707030187-cyber/cadbridge)의 main에 반영했다. 원격 파일 해시를 로컬 원본과 대조했다. 실제 commit·문서 검사·CI 상태는 [상태·근거](docs/STATUS_AND_EVIDENCE.md)를 따른다. 프로그램 선정·구현·설치·CAD 실행·제품 외부 API 시험은 수행하지 않았으며 M3 소스를 회수하거나 옮긴 패키지가 아니다. LICENSE는 소유자 결정 전 만들지 않는다.
+초기 1.2.1 기록: 문서·제품 개념도와 협업 작업 환경 파일 33개를 사용자 지정 비공개 [cadbridge 저장소](https://github.com/junkim121707030187-cyber/cadbridge)의 main에 반영하고 원격 파일 해시를 대조했다. 당시 프로그램 선정·CAD/API 실행·M3 소스 이식은 하지 않았다. 실제 commit·문서 검사·CI 상태는 [상태·근거](docs/STATUS_AND_EVIDENCE.md)를 따른다.
+
+후속 합의와 이번 추가분: 사용자는 FreeCAD 1.1.4·SALOME SHAPER 9.16.0, CB-P01 부품·공차를 채택했다. [세 파트 인수인계](docs/MODULE_HANDOFFS.md)에 최신 기준과 AI 연결·UIUX·기계 제약 ZIP을 정리했다. AI 묶음에는 M3 관련 원문 23파일을 참고용으로 선별했고 전체 코드 이식이나 새 실행 성공을 뜻하지 않는다. LICENSE는 소유자 결정 전 만들지 않는다.
 
 ## 읽는 순서
 1. [제품 개념도와 미정 사항](docs/PRODUCT_CONCEPT.md), [제품 개요](docs/PROJECT_BRIEF.md)와 [요구사항](docs/REQUIREMENTS.md)
