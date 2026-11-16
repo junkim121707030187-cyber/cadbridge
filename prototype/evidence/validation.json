@@ -1,0 +1,106 @@
+{
+  "schema": "cadbridge.prototype-validation.v1",
+  "status": "passed",
+  "validated_at": "2026-11-16T05:52:14.810779+00:00",
+  "platform": "Windows",
+  "freecad_version": "1.1.4",
+  "project_id": "3e021549-36ac-45b6-87d2-2df611ec475b",
+  "agent": {
+    "model": "gpt-6.1-terra",
+    "requested_model": "gpt-6.1-terra",
+    "execution_verified": true,
+    "transport": "codex_cli",
+    "name": "Terra CLI",
+    "completed_at": "2026-11-16T05:31:13.812542+00:00",
+    "request_sha256": "4f13f6a0e90d7ecf0b86790de602f145eb0834b51cf10a691f336f3edf96f40f",
+    "response_sha256": "a4c66154b9a7f33e349f97eb11c2b901092c6201c8d1f3dbf984db5d4c87d615",
+    "candidate_id": "f7def17d-507b-4e12-9af4-2f56c73af61d",
+    "request_document": "executed-agent-request.txt",
+    "response_document": "executed-agent-response.json"
+  },
+  "source": "synthetic_demo_fixture",
+  "actual_llm_automatic_connection": true,
+  "external_llm_api_client_calls": 0,
+  "native_semantics": {
+    "driver_parameters_mm": {
+      "HoleDiameter": 10.0,
+      "PitchX": 70.0,
+      "PitchY": 40.0,
+      "PlateHeight": 80.0,
+      "PlateWidth": 100.0,
+      "PocketDepth": 5.0,
+      "PocketHeight": 20.0,
+      "PocketWidth": 30.0,
+      "Thickness": 15.0
+    },
+    "equal_hole_diameter": true,
+    "parameter_driven": true,
+    "parameter_object": "Parameters",
+    "pocket_depth_independent_of_thickness": true,
+    "symmetric_four_hole_pattern": true,
+    "through_all_holes": true
+  },
+  "separate_process_reopen": true,
+  "final_plan": {
+    "schema": "cadbridge.plan.v1",
+    "units": "mm",
+    "plate": {
+      "width": 100.0,
+      "height": 80.0,
+      "thickness": 15.0
+    },
+    "pocket": {
+      "width": 30.0,
+      "height": 20.0,
+      "depth": 5.0
+    },
+    "holes": [
+      {
+        "x": -35.0,
+        "y": -20.0,
+        "diameter": 10.0
+      },
+      {
+        "x": 35.0,
+        "y": -20.0,
+        "diameter": 10.0
+      },
+      {
+        "x": -35.0,
+        "y": 20.0,
+        "diameter": 10.0
+      },
+      {
+        "x": 35.0,
+        "y": 20.0,
+        "diameter": 10.0
+      }
+    ],
+    "hole_relation": "equal_diameter"
+  },
+  "versions": [
+    "v001",
+    "v002"
+  ],
+  "geometry": {
+    "status": "ok",
+    "maximum_sample_distance_mm": 7.105427357601002e-15,
+    "maximum_dimension_delta_mm": 0.0,
+    "input_internal_max_mm": 1e-07
+  },
+  "unit_and_workflow_tests": {
+    "passed": 39,
+    "subtests": 164
+  },
+  "independent_guard_tests": {
+    "passed": 9,
+    "cad_transport": "mocked, not counted as actual CAD runs"
+  },
+  "additional_actual_native_sequence": "data/demo-run.json: thickness, diameter, pitch edited in separate versions; impossible thickness4 rejected",
+  "limits": [
+    "One synthetic part; no industrial-part generalization",
+    "Finite surface samples, same OCCT family",
+    "FreeCAD only; SHAPER remains unverified",
+    "Local single-user prototype"
+  ]
+}

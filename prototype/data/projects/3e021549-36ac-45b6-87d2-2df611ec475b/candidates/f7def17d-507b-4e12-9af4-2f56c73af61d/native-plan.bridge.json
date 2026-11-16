@@ -1,0 +1,1229 @@
+{
+  "schema": "cadbridge.legacy-native-bridge.v1",
+  "status": "ok",
+  "source_sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+  "observation_sha256": "ea9238f766f8c99c2aab53e835d3b76f8b7a8be326dfa676be728454417a6cb4",
+  "candidate_sha256": "6c7350fb1c4024e5119c1105157ad8f5a5d9c7067a30cd3228f0824c8f6c28d1",
+  "validated_ir": {
+    "schema_version": "cadbridge.ir/1",
+    "units": "mm",
+    "frame": {
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "x_axis": [
+        1,
+        0,
+        0
+      ],
+      "y_axis": [
+        0,
+        1,
+        0
+      ],
+      "z_axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    "source": {
+      "kind": "step_measurement",
+      "sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+      "observation_sha256": "ea9238f766f8c99c2aab53e835d3b76f8b7a8be326dfa676be728454417a6cb4"
+    },
+    "proposal": {
+      "kind": "ai_proposal",
+      "approval": "unapproved"
+    },
+    "parameters": [
+      {
+        "id": "base_cx",
+        "value": 0,
+        "evidence": [
+          "base.cx"
+        ]
+      },
+      {
+        "id": "base_cy",
+        "value": 0,
+        "evidence": [
+          "base.cy"
+        ]
+      },
+      {
+        "id": "base_z",
+        "value": 0,
+        "evidence": [
+          "base.z"
+        ]
+      },
+      {
+        "id": "base_length",
+        "value": 100,
+        "evidence": [
+          "base.length"
+        ]
+      },
+      {
+        "id": "base_width",
+        "value": 80,
+        "evidence": [
+          "base.width"
+        ]
+      },
+      {
+        "id": "base_thickness",
+        "value": 10,
+        "evidence": [
+          "base.thickness"
+        ]
+      },
+      {
+        "id": "pocket_cx",
+        "value": 0,
+        "evidence": [
+          "pocket_1.cx"
+        ]
+      },
+      {
+        "id": "pocket_cy",
+        "value": 0,
+        "evidence": [
+          "pocket_1.cy"
+        ]
+      },
+      {
+        "id": "pocket_length",
+        "value": 30,
+        "evidence": [
+          "pocket_1.length"
+        ]
+      },
+      {
+        "id": "pocket_width",
+        "value": 20,
+        "evidence": [
+          "pocket_1.width"
+        ]
+      },
+      {
+        "id": "pocket_depth",
+        "value": 5,
+        "evidence": [
+          "pocket_1.depth"
+        ]
+      },
+      {
+        "id": "h1x",
+        "value": -30,
+        "evidence": [
+          "hole_1.cx"
+        ]
+      },
+      {
+        "id": "h1y",
+        "value": -20,
+        "evidence": [
+          "hole_1.cy"
+        ]
+      },
+      {
+        "id": "h2x",
+        "value": 30,
+        "evidence": [
+          "hole_2.cx"
+        ]
+      },
+      {
+        "id": "h2y",
+        "value": -20,
+        "evidence": [
+          "hole_2.cy"
+        ]
+      },
+      {
+        "id": "h3x",
+        "value": -30,
+        "evidence": [
+          "hole_3.cx"
+        ]
+      },
+      {
+        "id": "h3y",
+        "value": 20,
+        "evidence": [
+          "hole_3.cy"
+        ]
+      },
+      {
+        "id": "h4x",
+        "value": 30,
+        "evidence": [
+          "hole_4.cx"
+        ]
+      },
+      {
+        "id": "h4y",
+        "value": 20,
+        "evidence": [
+          "hole_4.cy"
+        ]
+      },
+      {
+        "id": "hole_diameter",
+        "value": 8,
+        "evidence": [
+          "hole_1.diameter",
+          "hole_2.diameter",
+          "hole_3.diameter",
+          "hole_4.diameter"
+        ]
+      }
+    ],
+    "sketches": [
+      {
+        "id": "profiles",
+        "plane": "XY",
+        "entities": [
+          {
+            "id": "base_profile",
+            "kind": "rectangle",
+            "parameters": {
+              "cx": "base_cx",
+              "cy": "base_cy",
+              "length": "base_length",
+              "width": "base_width"
+            },
+            "evidence": [
+              "base"
+            ]
+          },
+          {
+            "id": "pocket_profile",
+            "kind": "rectangle",
+            "parameters": {
+              "cx": "pocket_cx",
+              "cy": "pocket_cy",
+              "length": "pocket_length",
+              "width": "pocket_width"
+            },
+            "evidence": [
+              "pocket_1"
+            ]
+          },
+          {
+            "id": "hole_1_profile",
+            "kind": "circle",
+            "parameters": {
+              "cx": "h1x",
+              "cy": "h1y",
+              "diameter": "hole_diameter"
+            },
+            "evidence": [
+              "hole_1"
+            ]
+          },
+          {
+            "id": "hole_2_profile",
+            "kind": "circle",
+            "parameters": {
+              "cx": "h2x",
+              "cy": "h2y",
+              "diameter": "hole_diameter"
+            },
+            "evidence": [
+              "hole_2"
+            ]
+          },
+          {
+            "id": "hole_3_profile",
+            "kind": "circle",
+            "parameters": {
+              "cx": "h3x",
+              "cy": "h3y",
+              "diameter": "hole_diameter"
+            },
+            "evidence": [
+              "hole_3"
+            ]
+          },
+          {
+            "id": "hole_4_profile",
+            "kind": "circle",
+            "parameters": {
+              "cx": "h4x",
+              "cy": "h4y",
+              "diameter": "hole_diameter"
+            },
+            "evidence": [
+              "hole_4"
+            ]
+          }
+        ]
+      }
+    ],
+    "features": [
+      {
+        "id": "base",
+        "operation": "extrude",
+        "sketch": "profiles",
+        "entity": "base_profile",
+        "parameters": {
+          "z": "base_z",
+          "thickness": "base_thickness"
+        },
+        "depends_on": []
+      },
+      {
+        "id": "pocket_1",
+        "operation": "pocket",
+        "sketch": "profiles",
+        "entity": "pocket_profile",
+        "parameters": {
+          "depth": "pocket_depth"
+        },
+        "depends_on": [
+          "base"
+        ]
+      },
+      {
+        "id": "hole_1",
+        "operation": "through_hole",
+        "sketch": "profiles",
+        "entity": "hole_1_profile",
+        "parameters": {},
+        "depends_on": [
+          "base"
+        ]
+      },
+      {
+        "id": "hole_2",
+        "operation": "through_hole",
+        "sketch": "profiles",
+        "entity": "hole_2_profile",
+        "parameters": {},
+        "depends_on": [
+          "base"
+        ]
+      },
+      {
+        "id": "hole_3",
+        "operation": "through_hole",
+        "sketch": "profiles",
+        "entity": "hole_3_profile",
+        "parameters": {},
+        "depends_on": [
+          "base"
+        ]
+      },
+      {
+        "id": "hole_4",
+        "operation": "through_hole",
+        "sketch": "profiles",
+        "entity": "hole_4_profile",
+        "parameters": {},
+        "depends_on": [
+          "base"
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "id": "c_base_cx",
+        "type": "dimension",
+        "refs": [
+          "base_cx"
+        ],
+        "value": 0,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_base_cy",
+        "type": "dimension",
+        "refs": [
+          "base_cy"
+        ],
+        "value": 0,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_base_z",
+        "type": "dimension",
+        "refs": [
+          "base_z"
+        ],
+        "value": 0,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_base_length",
+        "type": "dimension",
+        "refs": [
+          "base_length"
+        ],
+        "value": 100,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_base_width",
+        "type": "dimension",
+        "refs": [
+          "base_width"
+        ],
+        "value": 80,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_base_thickness",
+        "type": "dimension",
+        "refs": [
+          "base_thickness"
+        ],
+        "value": 10,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_pocket_cx",
+        "type": "equal",
+        "refs": [
+          "pocket_cx",
+          "base_cx"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_pocket_cy",
+        "type": "equal",
+        "refs": [
+          "pocket_cy",
+          "base_cy"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_pocket_length",
+        "type": "dimension",
+        "refs": [
+          "pocket_length"
+        ],
+        "value": 30,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_pocket_width",
+        "type": "dimension",
+        "refs": [
+          "pocket_width"
+        ],
+        "value": 20,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_pocket_depth",
+        "type": "dimension",
+        "refs": [
+          "pocket_depth"
+        ],
+        "value": 5,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_h1x",
+        "type": "dimension",
+        "refs": [
+          "h1x"
+        ],
+        "value": -30,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_h1y",
+        "type": "dimension",
+        "refs": [
+          "h1y"
+        ],
+        "value": -20,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_h2x",
+        "type": "symmetric",
+        "refs": [
+          "h2x",
+          "h1x",
+          "base_cx"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_h2y",
+        "type": "equal",
+        "refs": [
+          "h2y",
+          "h1y"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_h3x",
+        "type": "equal",
+        "refs": [
+          "h3x",
+          "h1x"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_h3y",
+        "type": "symmetric",
+        "refs": [
+          "h3y",
+          "h1y",
+          "base_cy"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_h4x",
+        "type": "equal",
+        "refs": [
+          "h4x",
+          "h2x"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_h4y",
+        "type": "equal",
+        "refs": [
+          "h4y",
+          "h3y"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_hole_diameter",
+        "type": "dimension",
+        "refs": [
+          "hole_diameter"
+        ],
+        "value": 8,
+        "provenance": "measured"
+      }
+    ],
+    "execution_order": [
+      "base",
+      "pocket_1",
+      "hole_1",
+      "hole_2",
+      "hole_3",
+      "hole_4"
+    ],
+    "rationale": "The centered base and pocket match the measured geometry. A shared diameter and symmetric coordinate constraints encode the requested hole relationships. The pocket operation uses depth from the base top, and through-hole operations extend through the base. Relations are proposed constraints, not recovered design history."
+  },
+  "solved": {
+    "values": {
+      "base_cx": 1.0919994475622833e-14,
+      "base_cy": 1.1554324736040524e-13,
+      "base_length": 99.99999999999999,
+      "base_thickness": 9.999999999999975,
+      "base_width": 80.0,
+      "base_z": 3.552713678800501e-14,
+      "h1x": -29.999999999999982,
+      "h1y": -19.999999999999993,
+      "h2x": 30.0,
+      "h2y": -20.000000000000117,
+      "h3x": -30.00000000000001,
+      "h3y": 20.000000000000096,
+      "h4x": 29.999999999999968,
+      "h4y": 19.999999999999932,
+      "hole_diameter": 8.0,
+      "pocket_cx": -5.799179763790299e-15,
+      "pocket_cy": 4.488193672931773e-13,
+      "pocket_depth": 5.0,
+      "pocket_length": 30.0,
+      "pocket_width": 20.0
+    },
+    "status": "fully_constrained",
+    "degrees_of_freedom": 0,
+    "rank": 20,
+    "variable_count": 20,
+    "equation_count": 20,
+    "redundant_equations": 0,
+    "max_residual": 3.332761199327721e-13,
+    "residuals": {
+      "c_base_cx": 1.0919994475622833e-14,
+      "c_base_cy": 1.1554324736040524e-13,
+      "c_base_length": -1.4210854715202004e-14,
+      "c_base_thickness": -2.4868995751603507e-14,
+      "c_base_width": 0.0,
+      "c_base_z": 3.552713678800501e-14,
+      "c_h1x": 1.7763568394002505e-14,
+      "c_h1y": 7.105427357601002e-15,
+      "c_h2x": -3.552713678800501e-15,
+      "c_h2y": -1.2434497875801753e-13,
+      "c_h3x": -2.842170943040401e-14,
+      "c_h3y": -1.2805779803559595e-13,
+      "c_h4x": -3.197442310920451e-14,
+      "c_h4y": -1.6342482922482304e-13,
+      "c_hole_diameter": 0.0,
+      "c_pocket_cx": -1.6719174239413132e-14,
+      "c_pocket_cy": 3.332761199327721e-13,
+      "c_pocket_depth": 0.0,
+      "c_pocket_length": 0.0,
+      "c_pocket_width": 0.0
+    },
+    "residual_tolerances": {
+      "c_base_cx": 1e-09,
+      "c_base_cy": 1.0000000000000003e-09,
+      "c_base_length": 1.1000000000000001e-09,
+      "c_base_thickness": 1.01e-09,
+      "c_base_width": 1.08e-09,
+      "c_base_z": 1e-09,
+      "c_h1x": 1.03e-09,
+      "c_h1y": 1.02e-09,
+      "c_h2x": 1.06e-09,
+      "c_h2y": 1.0400000000000001e-09,
+      "c_h3x": 1.06e-09,
+      "c_h3y": 1.0400000000000003e-09,
+      "c_h4x": 1.06e-09,
+      "c_h4y": 1.0400000000000001e-09,
+      "c_hole_diameter": 1.008e-09,
+      "c_pocket_cx": 1e-09,
+      "c_pocket_cy": 1.0000000000000007e-09,
+      "c_pocket_depth": 1.0050000000000001e-09,
+      "c_pocket_length": 1.03e-09,
+      "c_pocket_width": 1.02e-09
+    },
+    "inconsistent_constraints": [],
+    "applied_edits": {},
+    "solver": "numpy.linalg.lstsq",
+    "solution_policy": "minimum_norm",
+    "dof_scope": "affine_scalar_parameter_system",
+    "nonlinear_sketch_dof_supported": false,
+    "singular_values": [
+      2.8279002726950724,
+      2.8279002726950697,
+      1.618033988749897,
+      1.6180339887498953,
+      1.4406964516928742,
+      1.4406964516928737,
+      1.0000000000000002,
+      1.0000000000000002,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9999999999999999,
+      0.9257872401047686,
+      0.9257872401047684,
+      0.6180339887498953,
+      0.618033988749895,
+      0.2651259471079285,
+      0.2651259471079284
+    ],
+    "condition_number": 10.666252411514746,
+    "condition_limit": 100000000.0,
+    "numerical_policy": "Reject full-rank ill-conditioned systems; small residual alone is not accuracy proof."
+  },
+  "legacy_plan": {
+    "schema_version": "0.1",
+    "units": "mm",
+    "base": {
+      "id": "base",
+      "cx": 1.0919994475622833e-14,
+      "cy": 1.1554324736040524e-13,
+      "length": 99.99999999999999,
+      "width": 80.0,
+      "z": 3.552713678800501e-14,
+      "thickness": 9.999999999999975
+    },
+    "holes": [
+      {
+        "id": "hole_1",
+        "cx": -29.999999999999982,
+        "cy": -19.999999999999993,
+        "diameter": 8.0
+      },
+      {
+        "id": "hole_2",
+        "cx": 30.0,
+        "cy": -20.000000000000117,
+        "diameter": 8.0
+      },
+      {
+        "id": "hole_3",
+        "cx": -30.00000000000001,
+        "cy": 20.000000000000096,
+        "diameter": 8.0
+      },
+      {
+        "id": "hole_4",
+        "cx": 29.999999999999968,
+        "cy": 19.999999999999932,
+        "diameter": 8.0
+      }
+    ],
+    "pockets": [
+      {
+        "id": "pocket_1",
+        "cx": -5.799179763790299e-15,
+        "cy": 4.488193672931773e-13,
+        "length": 30.0,
+        "width": 20.0,
+        "depth": 5.0
+      }
+    ],
+    "feature_order": [
+      "base",
+      "pocket_1",
+      "hole_1",
+      "hole_2",
+      "hole_3",
+      "hole_4"
+    ]
+  },
+  "native_plan": {
+    "schema": "cadbridge.plan.v1",
+    "units": "mm",
+    "plate": {
+      "width": 100.0,
+      "height": 80.0,
+      "thickness": 10.0
+    },
+    "pocket": {
+      "width": 30.0,
+      "height": 20.0,
+      "depth": 5.0
+    },
+    "holes": [
+      {
+        "x": -30.0,
+        "y": -20.0,
+        "diameter": 8.0
+      },
+      {
+        "x": 30.0,
+        "y": -20.0,
+        "diameter": 8.0
+      },
+      {
+        "x": -30.0,
+        "y": 20.0,
+        "diameter": 8.0
+      },
+      {
+        "x": 30.0,
+        "y": 20.0,
+        "diameter": 8.0
+      }
+    ],
+    "hole_relation": "equal_diameter"
+  },
+  "input_internal_tolerances": {
+    "maximum_mm": 1e-07,
+    "by_topology": {
+      "faces": {
+        "count": 15,
+        "max_mm": 1e-07
+      },
+      "edges": {
+        "count": 36,
+        "max_mm": 1e-07
+      },
+      "vertices": {
+        "count": 24,
+        "max_mm": 1e-07
+      }
+    },
+    "threshold_mm": 0.002,
+    "comparison": "strictly_less_than",
+    "passed": true,
+    "scope": "Stored OCCT BRep face/edge/vertex tolerance after STEP transfer, not a certificate of source manufacturing tolerance."
+  },
+  "numerical_normalization": [
+    {
+      "field": "base.cx",
+      "before": 1.0919994475622833e-14,
+      "after": 0,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "base.cy",
+      "before": 1.1554324736040524e-13,
+      "after": 0,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "base.length",
+      "before": 99.99999999999999,
+      "after": 100,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "base.z",
+      "before": 3.552713678800501e-14,
+      "after": 0,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "base.thickness",
+      "before": 9.999999999999975,
+      "after": 10,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "pocket_1.cx",
+      "before": -5.799179763790299e-15,
+      "after": 0,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "pocket_1.cy",
+      "before": 4.488193672931773e-13,
+      "after": 0,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "hole_1.cx",
+      "before": -29.999999999999982,
+      "after": -30,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "hole_1.cy",
+      "before": -19.999999999999993,
+      "after": -20,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "hole_2.cy",
+      "before": -20.000000000000117,
+      "after": -20,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "hole_3.cx",
+      "before": -30.00000000000001,
+      "after": -30,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "hole_3.cy",
+      "before": 20.000000000000096,
+      "after": 20,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "hole_4.cx",
+      "before": 29.999999999999968,
+      "after": 30,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    },
+    {
+      "field": "hole_4.cy",
+      "before": 19.999999999999932,
+      "after": 20,
+      "reason": "SVD numerical roundoff; snap to the same cited observation within 1e-8 mm."
+    }
+  ],
+  "semantics_required": {
+    "native_field_to_ir_parameter": {
+      "plate.width": "base_length",
+      "plate.height": "base_width",
+      "plate.thickness": "base_thickness",
+      "pocket.width": "pocket_length",
+      "pocket.height": "pocket_width",
+      "pocket.depth": "pocket_depth",
+      "holes.0.x": "h1x",
+      "holes.0.y": "h1y",
+      "holes.0.diameter": "hole_diameter",
+      "holes.1.x": "h2x",
+      "holes.1.y": "h2y",
+      "holes.1.diameter": "hole_diameter",
+      "holes.2.x": "h3x",
+      "holes.2.y": "h3y",
+      "holes.2.diameter": "hole_diameter",
+      "holes.3.x": "h4x",
+      "holes.3.y": "h4y",
+      "holes.3.diameter": "hole_diameter"
+    },
+    "ir_parameter_to_native_fields": {
+      "base_length": [
+        "plate.width"
+      ],
+      "base_width": [
+        "plate.height"
+      ],
+      "base_thickness": [
+        "plate.thickness"
+      ],
+      "pocket_length": [
+        "pocket.width"
+      ],
+      "pocket_width": [
+        "pocket.height"
+      ],
+      "pocket_depth": [
+        "pocket.depth"
+      ],
+      "h1x": [
+        "holes.0.x"
+      ],
+      "h1y": [
+        "holes.0.y"
+      ],
+      "hole_diameter": [
+        "holes.0.diameter",
+        "holes.1.diameter",
+        "holes.2.diameter",
+        "holes.3.diameter"
+      ],
+      "h2x": [
+        "holes.1.x"
+      ],
+      "h2y": [
+        "holes.1.y"
+      ],
+      "h3x": [
+        "holes.2.x"
+      ],
+      "h3y": [
+        "holes.2.y"
+      ],
+      "h4x": [
+        "holes.3.x"
+      ],
+      "h4y": [
+        "holes.3.y"
+      ]
+    },
+    "constraints": [
+      {
+        "id": "c_base_cx",
+        "type": "dimension",
+        "refs": [
+          "base_cx"
+        ],
+        "value": 0,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_base_cy",
+        "type": "dimension",
+        "refs": [
+          "base_cy"
+        ],
+        "value": 0,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_base_z",
+        "type": "dimension",
+        "refs": [
+          "base_z"
+        ],
+        "value": 0,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_base_length",
+        "type": "dimension",
+        "refs": [
+          "base_length"
+        ],
+        "value": 100,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_base_width",
+        "type": "dimension",
+        "refs": [
+          "base_width"
+        ],
+        "value": 80,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_base_thickness",
+        "type": "dimension",
+        "refs": [
+          "base_thickness"
+        ],
+        "value": 10,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_pocket_cx",
+        "type": "equal",
+        "refs": [
+          "pocket_cx",
+          "base_cx"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_pocket_cy",
+        "type": "equal",
+        "refs": [
+          "pocket_cy",
+          "base_cy"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_pocket_length",
+        "type": "dimension",
+        "refs": [
+          "pocket_length"
+        ],
+        "value": 30,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_pocket_width",
+        "type": "dimension",
+        "refs": [
+          "pocket_width"
+        ],
+        "value": 20,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_pocket_depth",
+        "type": "dimension",
+        "refs": [
+          "pocket_depth"
+        ],
+        "value": 5,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_h1x",
+        "type": "dimension",
+        "refs": [
+          "h1x"
+        ],
+        "value": -30,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_h1y",
+        "type": "dimension",
+        "refs": [
+          "h1y"
+        ],
+        "value": -20,
+        "provenance": "measured"
+      },
+      {
+        "id": "c_h2x",
+        "type": "symmetric",
+        "refs": [
+          "h2x",
+          "h1x",
+          "base_cx"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_h2y",
+        "type": "equal",
+        "refs": [
+          "h2y",
+          "h1y"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_h3x",
+        "type": "equal",
+        "refs": [
+          "h3x",
+          "h1x"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_h3y",
+        "type": "symmetric",
+        "refs": [
+          "h3y",
+          "h1y",
+          "base_cy"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_h4x",
+        "type": "equal",
+        "refs": [
+          "h4x",
+          "h2x"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_h4y",
+        "type": "equal",
+        "refs": [
+          "h4y",
+          "h3y"
+        ],
+        "provenance": "inferred"
+      },
+      {
+        "id": "c_hole_diameter",
+        "type": "dimension",
+        "refs": [
+          "hole_diameter"
+        ],
+        "value": 8,
+        "provenance": "measured"
+      }
+    ],
+    "hole_feature_order": [
+      "hole_1",
+      "hole_2",
+      "hole_3",
+      "hole_4"
+    ],
+    "coordinate_frame": {
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "x_axis": [
+        1,
+        0,
+        0
+      ],
+      "y_axis": [
+        0,
+        1,
+        0
+      ],
+      "z_axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    "symmetric_2x2_proof": {
+      "geometric_2x2": true,
+      "explicit_ir_2x2": true,
+      "axis_proofs": {
+        "cx": {
+          "passed": true,
+          "symmetric_constraint_ids": [
+            "c_h2x"
+          ]
+        },
+        "cy": {
+          "passed": true,
+          "symmetric_constraint_ids": [
+            "c_h3y"
+          ]
+        }
+      }
+    },
+    "unmapped_parameters": [
+      "base_cx",
+      "base_cy",
+      "base_z",
+      "pocket_cx",
+      "pocket_cy"
+    ],
+    "native_relational_acceptance": "Must be checked against these actual IR equations; identical measured numbers alone do not establish intended relations."
+  },
+  "relations_requiring_native_review": [
+    {
+      "id": "c_pocket_cx",
+      "type": "equal",
+      "refs": [
+        "pocket_cx",
+        "base_cx"
+      ],
+      "provenance": "inferred"
+    },
+    {
+      "id": "c_pocket_cy",
+      "type": "equal",
+      "refs": [
+        "pocket_cy",
+        "base_cy"
+      ],
+      "provenance": "inferred"
+    },
+    {
+      "id": "c_h2x",
+      "type": "symmetric",
+      "refs": [
+        "h2x",
+        "h1x",
+        "base_cx"
+      ],
+      "provenance": "inferred"
+    },
+    {
+      "id": "c_h2y",
+      "type": "equal",
+      "refs": [
+        "h2y",
+        "h1y"
+      ],
+      "provenance": "inferred"
+    },
+    {
+      "id": "c_h3x",
+      "type": "equal",
+      "refs": [
+        "h3x",
+        "h1x"
+      ],
+      "provenance": "inferred"
+    },
+    {
+      "id": "c_h3y",
+      "type": "symmetric",
+      "refs": [
+        "h3y",
+        "h1y",
+        "base_cy"
+      ],
+      "provenance": "inferred"
+    },
+    {
+      "id": "c_h4x",
+      "type": "equal",
+      "refs": [
+        "h4x",
+        "h2x"
+      ],
+      "provenance": "inferred"
+    },
+    {
+      "id": "c_h4y",
+      "type": "equal",
+      "refs": [
+        "h4y",
+        "h3y"
+      ],
+      "provenance": "inferred"
+    }
+  ],
+  "limits": [
+    "This boundary validates a reconstruction hypothesis, not original authoring history.",
+    "Only a plate centered at global XY with base Z=0 and one centered pocket are representable; offsets are rejected.",
+    "The generic native v1 plan carries explicit all-hole equal diameter or independent diameter. The integrated adapter additionally requires the recorded explicit IR 2x2 symmetry proof before creating its Parameters-driven symmetric pattern.",
+    "Other cross-feature relations remain in the IR evidence and are not generically implemented in native CAD. The integrated app rejects unsupported patterns instead of claiming full relation transfer.",
+    "Native creation, geometry comparison and separate-process reopen/edit must still be checked by the native worker."
+  ],
+  "external_api_calls": 0,
+  "proposal_approval": "unapproved"
+}

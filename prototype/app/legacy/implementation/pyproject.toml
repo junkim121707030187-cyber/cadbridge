@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cadbridge-mvp"
+version = "0.1.0"
+description = "Measured STEP reconstruction with explicit edit contracts and a common OCCT backend"
+requires-python = ">=3.11"
+dependencies = ["cadquery-ocp==7.8.1.1.post1", "jsonschema>=4.23,<5", "numpy>=2,<3"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+cadbridge = "cadbridge.cli:main"
+cadbridge-cloud = "cadbridge.cloud.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cadbridge*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

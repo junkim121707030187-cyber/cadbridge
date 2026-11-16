@@ -1,0 +1,8 @@
+{
+  "source": "CADBridge-M3-team",
+  "source_archive_sha256": "bc97e9aefaafd919254c10785384125836cb934e62f1585a2d036443b6b098e3",
+  "source_date": "2026-10-12",
+  "modified_legacy_engine_files": [],
+  "integration_boundary": "app/legacy_bridge.py separate process",
+  "historical_tests_not_claimed_as_current": 329
+}

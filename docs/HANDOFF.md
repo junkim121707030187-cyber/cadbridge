@@ -19,3 +19,8 @@
 
 ## 최신 전달 범위
 사용자가 대상 URL을 지정해 재요청한 비공개 cadbridge의 main에 문서·제품 개념도·협업 파일 33개를 반영하고 원격 blob 해시를 원본과 대조했다. 해당 commit·CI 결과는 [상태·근거](STATUS_AND_EVIDENCE.md)와 [검토 기록](WORKSPACE_REVIEW.md)을 따른다. 이전 직접 업로드용 1.2.0 ZIP과 복원 JSON은 체크포인트로 보존한다. 제품 개념도의 합의·제안·미정 구분과 CAD/API 미검증 범위를 유지한다. GitHub 개념도 내용은 다시 읽어 원본과 대조했으며 브라우저에서 그림을 시각 검토하지는 않았다.
+
+
+## 2026-11-16 · 통합 시제품 업로드 추가
+
+최신 진입점은 [prototype 설치·실행 안내](../prototype/README.md)이며, [AI 예제](../prototype/examples/AI_EXAMPLE.md)와 [DOCX](../deliverables/CADBridge_구현진척과_파트별후속작업_2026-11-16.docx)를 포함했습니다. 이번 수정은 앱·예제·출처 복사본과 README·상태·작업 보드·결정·인계·파일 목록입니다. 기존 개발 PC 검사 기록은 보존했고 이번 설치·실행 검사는 사용자 요청으로 미실행입니다. 팀원 PC 확인이 다음 행동입니다. [상세 인계](PROTOTYPE_UPLOAD_2026-11-16.md)를 따릅니다.

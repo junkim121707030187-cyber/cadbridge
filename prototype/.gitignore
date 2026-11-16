@@ -1,0 +1,8 @@
+runtime/
+runtime.json
+data/server.json
+data/workspace/exports/
+data/gui-open/
+__pycache__/
+.pytest_cache/
+*.py[cod]

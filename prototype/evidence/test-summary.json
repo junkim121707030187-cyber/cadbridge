@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "unit_and_workflow_test_count": 39,
+  "independent_application_guard_test_count": 9,
+  "total_test_functions": 48,
+  "pytest_reported_subtests": 173,
+  "command": "runtime/python-env/Scripts/python.exe -B -m pytest tests -q",
+  "cad_mocking_note": "Application guard tests mock CAD/observation transport; real CAD evidence is separate in validation.json and version reports."
+}

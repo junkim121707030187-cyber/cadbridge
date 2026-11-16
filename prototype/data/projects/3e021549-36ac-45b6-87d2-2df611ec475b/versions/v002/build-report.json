@@ -1,0 +1,150 @@
+{
+  "action": "edit",
+  "freecad_version": "1.1.4",
+  "input_information_group": "step_observed_agent_plan",
+  "native_features": [
+    {
+      "name": "Body",
+      "type": "PartDesign::Body"
+    },
+    {
+      "name": "PlateSketch",
+      "type": "Sketcher::SketchObject"
+    },
+    {
+      "name": "Pad",
+      "type": "PartDesign::Pad"
+    },
+    {
+      "name": "PocketSketch",
+      "type": "Sketcher::SketchObject"
+    },
+    {
+      "name": "Pocket",
+      "type": "PartDesign::Pocket"
+    },
+    {
+      "name": "HolesSketch",
+      "type": "Sketcher::SketchObject"
+    },
+    {
+      "name": "Holes",
+      "type": "PartDesign::Pocket"
+    }
+  ],
+  "native_parameters": {
+    "Holes": {
+      "length_mm": 5.0,
+      "type": "ThroughAll"
+    },
+    "HolesSketch": {
+      "Hole0Diameter": 10.0,
+      "Hole0X": -35.0,
+      "Hole0Y": -20.0,
+      "Hole1X": 35.0,
+      "Hole1Y": -20.0,
+      "Hole2X": -35.0,
+      "Hole2Y": 20.0,
+      "Hole3X": 35.0,
+      "Hole3Y": 20.0
+    },
+    "Pad": {
+      "length_mm": 15.0
+    },
+    "PlateSketch": {
+      "Height": 80.0,
+      "OriginX": -50.0,
+      "OriginY": -40.0,
+      "Width": 100.0
+    },
+    "Pocket": {
+      "length_mm": 5.0,
+      "type": "Length"
+    },
+    "PocketSketch": {
+      "Height": 20.0,
+      "OriginX": -15.0,
+      "OriginY": -10.0,
+      "Width": 30.0
+    }
+  },
+  "native_semantics": {
+    "driver_parameters_mm": {
+      "HoleDiameter": 10.0,
+      "PitchX": 70.0,
+      "PitchY": 40.0,
+      "PlateHeight": 80.0,
+      "PlateWidth": 100.0,
+      "PocketDepth": 5.0,
+      "PocketHeight": 20.0,
+      "PocketWidth": 30.0,
+      "Thickness": 15.0
+    },
+    "equal_hole_diameter": true,
+    "parameter_driven": true,
+    "parameter_object": "Parameters",
+    "pocket_depth_independent_of_thickness": true,
+    "symmetric_four_hole_pattern": true,
+    "through_all_holes": true
+  },
+  "plan": {
+    "hole_relation": "equal_diameter",
+    "holes": [
+      {
+        "diameter": 10.0,
+        "x": -35.0,
+        "y": -20.0
+      },
+      {
+        "diameter": 10.0,
+        "x": 35.0,
+        "y": -20.0
+      },
+      {
+        "diameter": 10.0,
+        "x": -35.0,
+        "y": 20.0
+      },
+      {
+        "diameter": 10.0,
+        "x": 35.0,
+        "y": 20.0
+      }
+    ],
+    "plate": {
+      "height": 80.0,
+      "thickness": 15.0,
+      "width": 100.0
+    },
+    "pocket": {
+      "depth": 5.0,
+      "height": 20.0,
+      "width": 30.0
+    },
+    "schema": "cadbridge.plan.v1",
+    "units": "mm"
+  },
+  "preview_mesh": {
+    "facets": 716,
+    "format": "stl",
+    "linear_deflection_mm": 0.15
+  },
+  "product_acceptance": "not_assessed",
+  "provenance_sha256": "f4a72d1b392226572efb5b5209120a5bd7283651e399dc808e9b128c96ed44a8",
+  "reopened": true,
+  "shape_valid": true,
+  "sketch_constraints": {
+    "HolesSketch": 12,
+    "PlateSketch": 12,
+    "PocketSketch": 12
+  },
+  "sketch_fully_constrained": {
+    "HolesSketch": true,
+    "PlateSketch": true,
+    "PocketSketch": true
+  },
+  "solid_count": 1,
+  "status": "ok",
+  "symmetric_difference_mm3": 0.0,
+  "volume_mm3": 112287.61101961532
+}

@@ -1,3 +1,19 @@
+# CADBridge · 로컬 통합 시제품
+
+2026-11-16 업데이트: STEP 관측·Terra 후보·FreeCAD native 모델과 Slack을 모티브로 한 파일·형상 워크스페이스를 `prototype/`에 추가했습니다. 현재 각 Windows PC에서 설치해 살펴보기 위한 소스·예제 묶음이며, 팀원 PC 실행 확인은 후속 작업입니다.
+
+- **처음 받는 팀원:** [설치·실행 안내](prototype/README.md)
+- **AI가 실제 작업한 예제:** [CB-P01 입력·Terra 응답·편집 전후 결과](prototype/examples/AI_EXAMPLE.md)
+- **공유 보고서:** [진척도와 파트별 후속 작업 DOCX](deliverables/CADBridge_구현진척과_파트별후속작업_2026-11-16.docx)
+- **통합 소스·예제 ZIP:** [배포 스냅샷](deliverables/CADBridgeWorkspace_MVP_소스와예제.zip)
+- **변경·한계:** [업로드 인계](docs/PROTOTYPE_UPLOAD_2026-11-16.md)
+
+예제의 저장 결과는 포함했습니다. Python·FreeCAD 실행 환경과 개인 AI 계정은 포함하지 않았으므로 최초 설치가 필요합니다. 각 PC의 작업은 서로 자동 동기화되지 않습니다. 이번 업로드에서는 새 실행 검사를 수행하지 않았습니다.
+
+## 기존 개발 준비 기록
+
+아래는 이번 시제품 추가 이전의 문서 1.2.1 기준선입니다. 당시 ‘구현 없음’ 표기는 아래 과거 체크포인트의 범위입니다. 최신 시제품 상태는 위 안내와 `prototype/evidence`를 참고하세요.
+
 # CADBridge 개발 준비 정본
 문서 버전 1.2.1 · 2026-11-16 KST
 

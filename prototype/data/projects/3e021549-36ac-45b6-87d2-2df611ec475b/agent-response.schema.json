@@ -1,0 +1,336 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "summary",
+    "assumptions",
+    "warnings",
+    "ir"
+  ],
+  "properties": {
+    "summary": {
+      "type": "string"
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ir": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "cadbridge.ir/1"
+        },
+        "units": {
+          "const": "mm"
+        },
+        "frame": {
+          "const": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "x_axis": [
+              1,
+              0,
+              0
+            ],
+            "y_axis": [
+              0,
+              1,
+              0
+            ],
+            "z_axis": [
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "source": {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "const": "step_measurement"
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "observation_sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          },
+          "required": [
+            "kind",
+            "sha256",
+            "observation_sha256"
+          ],
+          "additionalProperties": false
+        },
+        "proposal": {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "enum": [
+                "ai_proposal",
+                "rule_proposal"
+              ]
+            },
+            "approval": {
+              "const": "unapproved"
+            }
+          },
+          "required": [
+            "kind",
+            "approval"
+          ],
+          "additionalProperties": false
+        },
+        "parameters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+              },
+              "value": {
+                "type": "number",
+                "minimum": -10000,
+                "maximum": 10000
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "minItems": 1,
+                "maxItems": 8
+              }
+            },
+            "required": [
+              "id",
+              "value",
+              "evidence"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1,
+          "maxItems": 400
+        },
+        "sketches": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+              },
+              "plane": {
+                "const": "XY"
+              },
+              "entities": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+                    },
+                    "kind": {
+                      "enum": [
+                        "rectangle",
+                        "circle"
+                      ]
+                    },
+                    "parameters": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string",
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+                      },
+                      "minProperties": 3,
+                      "maxProperties": 4
+                    },
+                    "evidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+                      },
+                      "minItems": 1,
+                      "maxItems": 1
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "kind",
+                    "parameters",
+                    "evidence"
+                  ],
+                  "additionalProperties": false
+                },
+                "minItems": 1,
+                "maxItems": 100
+              }
+            },
+            "required": [
+              "id",
+              "plane",
+              "entities"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1,
+          "maxItems": 101
+        },
+        "features": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+              },
+              "operation": {
+                "enum": [
+                  "extrude",
+                  "pocket",
+                  "through_hole"
+                ]
+              },
+              "sketch": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+              },
+              "entity": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+              },
+              "parameters": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+                },
+                "maxProperties": 2
+              },
+              "depends_on": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+                },
+                "minItems": 0,
+                "maxItems": 100
+              }
+            },
+            "required": [
+              "id",
+              "operation",
+              "sketch",
+              "entity",
+              "parameters",
+              "depends_on"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1,
+          "maxItems": 101
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+              },
+              "type": {
+                "enum": [
+                  "dimension",
+                  "equal",
+                  "offset",
+                  "symmetric"
+                ]
+              },
+              "refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+                },
+                "minItems": 1,
+                "maxItems": 3
+              },
+              "value": {
+                "type": "number",
+                "minimum": -10000,
+                "maximum": 10000
+              },
+              "provenance": {
+                "enum": [
+                  "measured",
+                  "inferred"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "refs",
+              "provenance"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1,
+          "maxItems": 800
+        },
+        "execution_order": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"
+          },
+          "minItems": 1,
+          "maxItems": 101
+        },
+        "rationale": {
+          "type": "string",
+          "maxLength": 2000
+        }
+      },
+      "required": [
+        "schema_version",
+        "units",
+        "frame",
+        "source",
+        "proposal",
+        "parameters",
+        "sketches",
+        "features",
+        "constraints",
+        "execution_order",
+        "rationale"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

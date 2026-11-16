@@ -1,0 +1,192 @@
+{
+  "schema": "cadbridge.geometry-verification.v1",
+  "status": "ok",
+  "input_sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+  "candidate_sha256": "c3da068d8bd7bcf8b65be87c6c61376ec7d7b70350761966297732dc7475a5db",
+  "reference": {
+    "kind": "original_input_step",
+    "source_sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+    "compared_to_original_input_geometry": true
+  },
+  "input_internal_tolerances": {
+    "maximum_mm": 1e-07,
+    "by_topology": {
+      "faces": {
+        "count": 15,
+        "max_mm": 1e-07
+      },
+      "edges": {
+        "count": 36,
+        "max_mm": 1e-07
+      },
+      "vertices": {
+        "count": 24,
+        "max_mm": 1e-07
+      }
+    },
+    "threshold_mm": 0.002,
+    "comparison": "strictly_less_than",
+    "passed": true,
+    "scope": "Stored OCCT BRep face/edge/vertex tolerance after STEP transfer, not a certificate of source manufacturing tolerance."
+  },
+  "candidate_internal_tolerances_diagnostic": {
+    "maximum_mm": 1e-07,
+    "by_topology": {
+      "faces": {
+        "count": 15,
+        "max_mm": 1e-07
+      },
+      "edges": {
+        "count": 36,
+        "max_mm": 1e-07
+      },
+      "vertices": {
+        "count": 24,
+        "max_mm": 1e-07
+      }
+    },
+    "threshold_mm": 0.002,
+    "comparison": "strictly_less_than",
+    "passed": true,
+    "scope": "Stored OCCT BRep face/edge/vertex tolerance after STEP transfer, not a certificate of source manufacturing tolerance."
+  },
+  "dimensions": {
+    "maximum_mm": 0.0,
+    "measurements": [
+      {
+        "field": "base.cx",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "base.cy",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "base.z",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "base.length",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "base.width",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "base.thickness",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "pockets.0.cx",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "pockets.0.cy",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "pockets.0.length",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "pockets.0.width",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "pockets.0.depth",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "holes.0.cx",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "holes.0.cy",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "holes.0.diameter",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "holes.1.cx",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "holes.1.cy",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "holes.1.diameter",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "holes.2.cx",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "holes.2.cy",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "holes.2.diameter",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "holes.3.cx",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "holes.3.cy",
+        "delta_mm": 0.0
+      },
+      {
+        "field": "holes.3.diameter",
+        "delta_mm": 0.0
+      }
+    ],
+    "feature_matching": "Tolerance-bounded geometric bipartite matching; STEP face IDs are not persistent feature identifiers.",
+    "threshold_mm": 0.01,
+    "passed": true
+  },
+  "comparison": {
+    "status": "PASS",
+    "tolerance_mm": 0.01,
+    "validity": {
+      "reference": true,
+      "candidate": true
+    },
+    "errors": [],
+    "boundary_sampling_note": "Finite samples; not a certified Hausdorff bound.",
+    "solid_counts": {
+      "reference": 1,
+      "candidate": 1
+    },
+    "reference_volume_mm3": 74989.38070170244,
+    "candidate_volume_mm3": 74989.38070170252,
+    "symdiff_volume_mm3": 0.0,
+    "symdiff_relative": 0.0,
+    "symdiff_relative_limit": 1e-06,
+    "bbox_max_delta_mm": 0.0,
+    "boundary_reference_to_candidate_mm": 1.6555645743210334e-12,
+    "boundary_candidate_to_reference_mm": 7.105427357601002e-15,
+    "boundary_sample_max_mm": 1.6555645743210334e-12,
+    "boundary_sample_counts": {
+      "reference": 1646,
+      "candidate": 1646
+    }
+  },
+  "acceptance": {
+    "input_internal_tolerance_strict_max_mm": 0.002,
+    "dimension_position_and_sample_distance_max_mm": 0.01,
+    "volume_difference": "diagnostic_only",
+    "legacy_comparison_status_used_for_acceptance": false
+  },
+  "limits": [
+    "Distances are measured on finite bidirectional boundary samples, not a certified continuous Hausdorff distance.",
+    "Relative symmetric-difference volume is diagnostic only; the M3 comparison status includes its older 1e-6 rule and is not reused for product acceptance.",
+    "Both geometries are checked using the same OCCT kernel; this is not independent cross-kernel verification.",
+    "This report verifies saved geometry only; native lifecycle, native constraints and semantic edit behavior need separate tests."
+  ]
+}

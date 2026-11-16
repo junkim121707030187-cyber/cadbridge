@@ -1,0 +1,8 @@
+{
+  "provenance": "explicit_user_requirement",
+  "preserve_pocket_depth": true,
+  "preserve_holes_through": true,
+  "shared_hole_diameter": true,
+  "symmetric_hole_pattern": true,
+  "scope": "all_holes"
+}

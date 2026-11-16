@@ -1,0 +1,809 @@
+{
+  "id": "3e021549-36ac-45b6-87d2-2df611ec475b",
+  "name": "CB-P01 · Terra 자동 연결.step",
+  "created_at": "2026-11-16T05:30:19.238069+00:00",
+  "updated_at": "2026-11-16T05:50:28.127449+00:00",
+  "status": "ready",
+  "origin": "synthetic_demo_fixture",
+  "constraints": "홀 네 개는 같은 지름을 유지하고 중심 대칭을 유지한다. 두께를 바꿔도 홀은 관통하며 포켓은 윗면 기준 깊이를 유지한다.",
+  "source_sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+  "versions": [
+    {
+      "name": "v001",
+      "version_id": "40942541-f6f6-4014-95aa-67611a397538",
+      "plan": {
+        "schema": "cadbridge.plan.v1",
+        "units": "mm",
+        "plate": {
+          "width": 100.0,
+          "height": 80.0,
+          "thickness": 10.0
+        },
+        "pocket": {
+          "width": 30.0,
+          "height": 20.0,
+          "depth": 5.0
+        },
+        "holes": [
+          {
+            "x": -30.0,
+            "y": -20.0,
+            "diameter": 8.0
+          },
+          {
+            "x": 30.0,
+            "y": -20.0,
+            "diameter": 8.0
+          },
+          {
+            "x": -30.0,
+            "y": 20.0,
+            "diameter": 8.0
+          },
+          {
+            "x": 30.0,
+            "y": 20.0,
+            "diameter": 8.0
+          }
+        ],
+        "hole_relation": "equal_diameter"
+      },
+      "created_at": "2026-11-16T05:48:41.138010+00:00",
+      "validation": {
+        "schema": "cadbridge.geometry-verification.v1",
+        "status": "ok",
+        "input_sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+        "candidate_sha256": "c3da068d8bd7bcf8b65be87c6c61376ec7d7b70350761966297732dc7475a5db",
+        "reference": {
+          "kind": "original_input_step",
+          "source_sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+          "compared_to_original_input_geometry": true
+        },
+        "input_internal_tolerances": {
+          "maximum_mm": 1e-07,
+          "by_topology": {
+            "faces": {
+              "count": 15,
+              "max_mm": 1e-07
+            },
+            "edges": {
+              "count": 36,
+              "max_mm": 1e-07
+            },
+            "vertices": {
+              "count": 24,
+              "max_mm": 1e-07
+            }
+          },
+          "threshold_mm": 0.002,
+          "comparison": "strictly_less_than",
+          "passed": true,
+          "scope": "Stored OCCT BRep face/edge/vertex tolerance after STEP transfer, not a certificate of source manufacturing tolerance."
+        },
+        "candidate_internal_tolerances_diagnostic": {
+          "maximum_mm": 1e-07,
+          "by_topology": {
+            "faces": {
+              "count": 15,
+              "max_mm": 1e-07
+            },
+            "edges": {
+              "count": 36,
+              "max_mm": 1e-07
+            },
+            "vertices": {
+              "count": 24,
+              "max_mm": 1e-07
+            }
+          },
+          "threshold_mm": 0.002,
+          "comparison": "strictly_less_than",
+          "passed": true,
+          "scope": "Stored OCCT BRep face/edge/vertex tolerance after STEP transfer, not a certificate of source manufacturing tolerance."
+        },
+        "dimensions": {
+          "maximum_mm": 0.0,
+          "measurements": [
+            {
+              "field": "base.cx",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "base.cy",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "base.z",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "base.length",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "base.width",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "base.thickness",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "pockets.0.cx",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "pockets.0.cy",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "pockets.0.length",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "pockets.0.width",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "pockets.0.depth",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "holes.0.cx",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "holes.0.cy",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "holes.0.diameter",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "holes.1.cx",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "holes.1.cy",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "holes.1.diameter",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "holes.2.cx",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "holes.2.cy",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "holes.2.diameter",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "holes.3.cx",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "holes.3.cy",
+              "delta_mm": 0.0
+            },
+            {
+              "field": "holes.3.diameter",
+              "delta_mm": 0.0
+            }
+          ],
+          "feature_matching": "Tolerance-bounded geometric bipartite matching; STEP face IDs are not persistent feature identifiers.",
+          "threshold_mm": 0.01,
+          "passed": true
+        },
+        "comparison": {
+          "status": "PASS",
+          "tolerance_mm": 0.01,
+          "validity": {
+            "reference": true,
+            "candidate": true
+          },
+          "errors": [],
+          "boundary_sampling_note": "Finite samples; not a certified Hausdorff bound.",
+          "solid_counts": {
+            "reference": 1,
+            "candidate": 1
+          },
+          "reference_volume_mm3": 74989.38070170244,
+          "candidate_volume_mm3": 74989.38070170252,
+          "symdiff_volume_mm3": 0.0,
+          "symdiff_relative": 0.0,
+          "symdiff_relative_limit": 1e-06,
+          "bbox_max_delta_mm": 0.0,
+          "boundary_reference_to_candidate_mm": 1.6555645743210334e-12,
+          "boundary_candidate_to_reference_mm": 7.105427357601002e-15,
+          "boundary_sample_max_mm": 1.6555645743210334e-12,
+          "boundary_sample_counts": {
+            "reference": 1646,
+            "candidate": 1646
+          }
+        },
+        "acceptance": {
+          "input_internal_tolerance_strict_max_mm": 0.002,
+          "dimension_position_and_sample_distance_max_mm": 0.01,
+          "volume_difference": "diagnostic_only",
+          "legacy_comparison_status_used_for_acceptance": false
+        },
+        "limits": [
+          "Distances are measured on finite bidirectional boundary samples, not a certified continuous Hausdorff distance.",
+          "Relative symmetric-difference volume is diagnostic only; the M3 comparison status includes its older 1e-6 rule and is not reused for product acceptance.",
+          "Both geometries are checked using the same OCCT kernel; this is not independent cross-kernel verification.",
+          "This report verifies saved geometry only; native lifecycle, native constraints and semantic edit behavior need separate tests."
+        ]
+      },
+      "native_semantics": {
+        "driver_parameters_mm": {
+          "HoleDiameter": 8.0,
+          "PitchX": 60.0,
+          "PitchY": 40.0,
+          "PlateHeight": 80.0,
+          "PlateWidth": 100.0,
+          "PocketDepth": 5.0,
+          "PocketHeight": 20.0,
+          "PocketWidth": 30.0,
+          "Thickness": 10.0
+        },
+        "equal_hole_diameter": true,
+        "parameter_driven": true,
+        "parameter_object": "Parameters",
+        "pocket_depth_independent_of_thickness": true,
+        "symmetric_four_hole_pattern": true,
+        "through_all_holes": true
+      }
+    },
+    {
+      "name": "v002",
+      "version_id": "a7867e68-7803-4f5a-b94d-d06e5cba821c",
+      "plan": {
+        "schema": "cadbridge.plan.v1",
+        "units": "mm",
+        "plate": {
+          "width": 100.0,
+          "height": 80.0,
+          "thickness": 15.0
+        },
+        "pocket": {
+          "width": 30.0,
+          "height": 20.0,
+          "depth": 5.0
+        },
+        "holes": [
+          {
+            "x": -35.0,
+            "y": -20.0,
+            "diameter": 10.0
+          },
+          {
+            "x": 35.0,
+            "y": -20.0,
+            "diameter": 10.0
+          },
+          {
+            "x": -35.0,
+            "y": 20.0,
+            "diameter": 10.0
+          },
+          {
+            "x": 35.0,
+            "y": 20.0,
+            "diameter": 10.0
+          }
+        ],
+        "hole_relation": "equal_diameter"
+      },
+      "created_at": "2026-11-16T05:50:28.125436+00:00",
+      "changes": {
+        "thickness": 15,
+        "diameter": 10,
+        "pitch_x": 70
+      }
+    }
+  ],
+  "agent": {
+    "model": "gpt-6.1-terra",
+    "requested_model": "gpt-6.1-terra",
+    "execution_verified": true,
+    "transport": "codex_cli",
+    "name": "Terra CLI",
+    "completed_at": "2026-11-16T05:31:13.812542+00:00",
+    "request_sha256": "4f13f6a0e90d7ecf0b86790de602f145eb0834b51cf10a691f336f3edf96f40f",
+    "response_sha256": "a4c66154b9a7f33e349f97eb11c2b901092c6201c8d1f3dbf984db5d4c87d615",
+    "candidate_id": "f7def17d-507b-4e12-9af4-2f56c73af61d",
+    "request_document": "executed-agent-request.txt",
+    "response_document": "executed-agent-response.json"
+  },
+  "selected": true,
+  "scope": "중앙 사각 포켓과 Z 방향 관통 홀이 있는 원점 중심의 사각 판재",
+  "observation": {
+    "schema_version": "cadbridge.observation/1",
+    "units": "mm",
+    "frame": {
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "x_axis": [
+        1,
+        0,
+        0
+      ],
+      "y_axis": [
+        0,
+        1,
+        0
+      ],
+      "z_axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    "source": {
+      "kind": "step",
+      "sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18"
+    },
+    "geometry": {
+      "base": {
+        "id": "base",
+        "cx": 0.0,
+        "cy": 0.0,
+        "z": 0.0,
+        "length": 100.0,
+        "width": 80.0,
+        "thickness": 10.0
+      },
+      "pockets": [
+        {
+          "id": "pocket_1",
+          "cx": 0.0,
+          "cy": 0.0,
+          "length": 30.0,
+          "width": 20.0,
+          "depth": 5.0
+        }
+      ],
+      "holes": [
+        {
+          "id": "hole_1",
+          "cx": -30.0,
+          "cy": -20.0,
+          "diameter": 8.0
+        },
+        {
+          "id": "hole_2",
+          "cx": 30.0,
+          "cy": -20.0,
+          "diameter": 8.0
+        },
+        {
+          "id": "hole_3",
+          "cx": -30.0,
+          "cy": 20.0,
+          "diameter": 8.0
+        },
+        {
+          "id": "hole_4",
+          "cx": 30.0,
+          "cy": 20.0,
+          "diameter": 8.0
+        }
+      ]
+    },
+    "measurements": {
+      "base.cx": {
+        "value": 0.0,
+        "unit": "mm",
+        "evidence": [
+          "face_1",
+          "face_2",
+          "face_3",
+          "face_4",
+          "face_5",
+          "face_6",
+          "face_7",
+          "face_8",
+          "face_9",
+          "face_10",
+          "face_11",
+          "face_12",
+          "face_13",
+          "face_14",
+          "face_15"
+        ],
+        "method": "axis-aligned solid bounding box"
+      },
+      "base.cy": {
+        "value": 0.0,
+        "unit": "mm",
+        "evidence": [
+          "face_1",
+          "face_2",
+          "face_3",
+          "face_4",
+          "face_5",
+          "face_6",
+          "face_7",
+          "face_8",
+          "face_9",
+          "face_10",
+          "face_11",
+          "face_12",
+          "face_13",
+          "face_14",
+          "face_15"
+        ],
+        "method": "axis-aligned solid bounding box"
+      },
+      "base.z": {
+        "value": 0.0,
+        "unit": "mm",
+        "evidence": [
+          "face_1",
+          "face_2",
+          "face_3",
+          "face_4",
+          "face_5",
+          "face_6",
+          "face_7",
+          "face_8",
+          "face_9",
+          "face_10",
+          "face_11",
+          "face_12",
+          "face_13",
+          "face_14",
+          "face_15"
+        ],
+        "method": "axis-aligned solid bounding box"
+      },
+      "base.length": {
+        "value": 100.0,
+        "unit": "mm",
+        "evidence": [
+          "face_1",
+          "face_2",
+          "face_3",
+          "face_4",
+          "face_5",
+          "face_6",
+          "face_7",
+          "face_8",
+          "face_9",
+          "face_10",
+          "face_11",
+          "face_12",
+          "face_13",
+          "face_14",
+          "face_15"
+        ],
+        "method": "axis-aligned solid bounding box"
+      },
+      "base.width": {
+        "value": 80.0,
+        "unit": "mm",
+        "evidence": [
+          "face_1",
+          "face_2",
+          "face_3",
+          "face_4",
+          "face_5",
+          "face_6",
+          "face_7",
+          "face_8",
+          "face_9",
+          "face_10",
+          "face_11",
+          "face_12",
+          "face_13",
+          "face_14",
+          "face_15"
+        ],
+        "method": "axis-aligned solid bounding box"
+      },
+      "base.thickness": {
+        "value": 10.0,
+        "unit": "mm",
+        "evidence": [
+          "face_1",
+          "face_2",
+          "face_3",
+          "face_4",
+          "face_5",
+          "face_6",
+          "face_7",
+          "face_8",
+          "face_9",
+          "face_10",
+          "face_11",
+          "face_12",
+          "face_13",
+          "face_14",
+          "face_15"
+        ],
+        "method": "axis-aligned solid bounding box"
+      },
+      "pocket_1.cx": {
+        "value": 0.0,
+        "unit": "mm",
+        "evidence": [
+          "face_15"
+        ],
+        "method": "rectangular floor boundary and base top elevation"
+      },
+      "pocket_1.cy": {
+        "value": 0.0,
+        "unit": "mm",
+        "evidence": [
+          "face_15"
+        ],
+        "method": "rectangular floor boundary and base top elevation"
+      },
+      "pocket_1.length": {
+        "value": 30.0,
+        "unit": "mm",
+        "evidence": [
+          "face_15"
+        ],
+        "method": "rectangular floor boundary and base top elevation"
+      },
+      "pocket_1.width": {
+        "value": 20.0,
+        "unit": "mm",
+        "evidence": [
+          "face_15"
+        ],
+        "method": "rectangular floor boundary and base top elevation"
+      },
+      "pocket_1.depth": {
+        "value": 5.0,
+        "unit": "mm",
+        "evidence": [
+          "face_15"
+        ],
+        "method": "rectangular floor boundary and base top elevation"
+      },
+      "hole_1.cx": {
+        "value": -30.0,
+        "unit": "mm",
+        "evidence": [
+          "face_7"
+        ],
+        "method": "analytic cylinder axis and radius"
+      },
+      "hole_1.cy": {
+        "value": -20.0,
+        "unit": "mm",
+        "evidence": [
+          "face_7"
+        ],
+        "method": "analytic cylinder axis and radius"
+      },
+      "hole_1.diameter": {
+        "value": 8.0,
+        "unit": "mm",
+        "evidence": [
+          "face_7"
+        ],
+        "method": "analytic cylinder axis and radius"
+      },
+      "hole_2.cx": {
+        "value": 30.0,
+        "unit": "mm",
+        "evidence": [
+          "face_8"
+        ],
+        "method": "analytic cylinder axis and radius"
+      },
+      "hole_2.cy": {
+        "value": -20.0,
+        "unit": "mm",
+        "evidence": [
+          "face_8"
+        ],
+        "method": "analytic cylinder axis and radius"
+      },
+      "hole_2.diameter": {
+        "value": 8.0,
+        "unit": "mm",
+        "evidence": [
+          "face_8"
+        ],
+        "method": "analytic cylinder axis and radius"
+      },
+      "hole_3.cx": {
+        "value": -30.0,
+        "unit": "mm",
+        "evidence": [
+          "face_9"
+        ],
+        "method": "analytic cylinder axis and radius"
+      },
+      "hole_3.cy": {
+        "value": 20.0,
+        "unit": "mm",
+        "evidence": [
+          "face_9"
+        ],
+        "method": "analytic cylinder axis and radius"
+      },
+      "hole_3.diameter": {
+        "value": 8.0,
+        "unit": "mm",
+        "evidence": [
+          "face_9"
+        ],
+        "method": "analytic cylinder axis and radius"
+      },
+      "hole_4.cx": {
+        "value": 30.0,
+        "unit": "mm",
+        "evidence": [
+          "face_14"
+        ],
+        "method": "analytic cylinder axis and radius"
+      },
+      "hole_4.cy": {
+        "value": 20.0,
+        "unit": "mm",
+        "evidence": [
+          "face_14"
+        ],
+        "method": "analytic cylinder axis and radius"
+      },
+      "hole_4.diameter": {
+        "value": 8.0,
+        "unit": "mm",
+        "evidence": [
+          "face_14"
+        ],
+        "method": "analytic cylinder axis and radius"
+      }
+    },
+    "faces": [
+      {
+        "id": "face_1",
+        "surface_type": "PLANE",
+        "area_mm2": 799.9999999999999
+      },
+      {
+        "id": "face_2",
+        "surface_type": "PLANE",
+        "area_mm2": 999.9999999999998
+      },
+      {
+        "id": "face_3",
+        "surface_type": "PLANE",
+        "area_mm2": 7198.938070170254
+      },
+      {
+        "id": "face_4",
+        "surface_type": "PLANE",
+        "area_mm2": 999.9999999999998
+      },
+      {
+        "id": "face_5",
+        "surface_type": "PLANE",
+        "area_mm2": 7798.938070170254
+      },
+      {
+        "id": "face_6",
+        "surface_type": "PLANE",
+        "area_mm2": 799.9999999999999
+      },
+      {
+        "id": "face_7",
+        "surface_type": "CYLINDER",
+        "area_mm2": 251.3274122872
+      },
+      {
+        "id": "face_8",
+        "surface_type": "CYLINDER",
+        "area_mm2": 251.3274122872
+      },
+      {
+        "id": "face_9",
+        "surface_type": "CYLINDER",
+        "area_mm2": 251.3274122872
+      },
+      {
+        "id": "face_10",
+        "surface_type": "PLANE",
+        "area_mm2": 149.99999999999997
+      },
+      {
+        "id": "face_11",
+        "surface_type": "PLANE",
+        "area_mm2": 99.99999999999999
+      },
+      {
+        "id": "face_12",
+        "surface_type": "PLANE",
+        "area_mm2": 99.99999999999999
+      },
+      {
+        "id": "face_13",
+        "surface_type": "PLANE",
+        "area_mm2": 149.99999999999997
+      },
+      {
+        "id": "face_14",
+        "surface_type": "CYLINDER",
+        "area_mm2": 251.3274122872
+      },
+      {
+        "id": "face_15",
+        "surface_type": "PLANE",
+        "area_mm2": 600.0
+      }
+    ],
+    "sha256": "ea9238f766f8c99c2aab53e835d3b76f8b7a8be326dfa676be728454417a6cb4"
+  },
+  "error": null,
+  "candidate": {
+    "schema": "cadbridge.plan.v1",
+    "units": "mm",
+    "plate": {
+      "width": 100.0,
+      "height": 80.0,
+      "thickness": 10.0
+    },
+    "pocket": {
+      "width": 30.0,
+      "height": 20.0,
+      "depth": 5.0
+    },
+    "holes": [
+      {
+        "x": -30.0,
+        "y": -20.0,
+        "diameter": 8.0
+      },
+      {
+        "x": 30.0,
+        "y": -20.0,
+        "diameter": 8.0
+      },
+      {
+        "x": -30.0,
+        "y": 20.0,
+        "diameter": 8.0
+      },
+      {
+        "x": 30.0,
+        "y": 20.0,
+        "diameter": 8.0
+      }
+    ],
+    "hole_relation": "equal_diameter"
+  },
+  "candidate_id": "f7def17d-507b-4e12-9af4-2f56c73af61d",
+  "summary": "관측 치수와 사용자 조건을 반영한 편집 가능한 CAD 구성안입니다.",
+  "assumptions": [
+    "포켓 중심은 판 중심과 일치하도록 구속했습니다.",
+    "홀은 판 중심을 기준으로 대칭이며 지름을 공유합니다."
+  ],
+  "warnings": [
+    "이 구성안은 원래 설계 이력을 복원한 결과가 아닌 미승인 가설입니다.",
+    "네이티브 CAD 변환은 구현 및 검증되지 않았습니다.",
+    "두께 변경 시 포켓이 유효한 블라인드 포켓으로 남으려면 두께가 포켓 깊이보다 커야 합니다."
+  ],
+  "bridge_limits": [
+    "This boundary validates a reconstruction hypothesis, not original authoring history.",
+    "Only a plate centered at global XY with base Z=0 and one centered pocket are representable; offsets are rejected.",
+    "The generic native v1 plan carries explicit all-hole equal diameter or independent diameter. The integrated adapter additionally requires the recorded explicit IR 2x2 symmetry proof before creating its Parameters-driven symmetric pattern.",
+    "Other cross-feature relations remain in the IR evidence and are not generically implemented in native CAD. The integrated app rejects unsupported patterns instead of claiming full relation transfer.",
+    "Native creation, geometry comparison and separate-process reopen/edit must still be checked by the native worker."
+  ],
+  "active_version": "v002"
+}

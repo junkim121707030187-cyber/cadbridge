@@ -1,0 +1,282 @@
+{
+  "source": "https://github.com/junkim121707030187-cyber/cadbridge/pull/2",
+  "revision": "02bd3e8dea5665be2b3e8151c2b9298dae7469df",
+  "excluded": "evidence/ binary and repeated execution artifacts",
+  "files": [
+    {
+      "path": ".editorconfig",
+      "bytes": 139,
+      "git_blob_sha1": "de99aa097bbcd27d885232d5547a4bb117051cf2"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 289,
+      "git_blob_sha1": "efa63a38c1377bee0d18eae43c2b894732f88bb0"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 254,
+      "git_blob_sha1": "23b0255a777453f17997d52168d60f2a228f437f"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/task.md",
+      "bytes": 321,
+      "git_blob_sha1": "e98fb4a37ac442890f275e4e37ea0f5bf52597c1"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 561,
+      "git_blob_sha1": "8cad3fb1526cc7f4b70ada7bda50529ba639df51"
+    },
+    {
+      "path": ".github/workflows/docs-check.yml",
+      "bytes": 740,
+      "git_blob_sha1": "3e3822d6470a648fb19fb380cec2ce8d37357a81"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 610,
+      "git_blob_sha1": "a1000222251b4e34a9f1845df5ca4914d9a1bbe2"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 3551,
+      "git_blob_sha1": "271964cdb3a6cf4ec0fb7ab9db1d8c7598705d1c"
+    },
+    {
+      "path": "BUNDLE_MANIFEST.json",
+      "bytes": 13289,
+      "git_blob_sha1": "e460b37a2215a127b000f372d9632b0cd4fc2ae5"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 3798,
+      "git_blob_sha1": "2900a32f2a5ee1fa401c63ce827f302993b667d9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4424,
+      "git_blob_sha1": "6af92e2a6ec25492cb7789939d4f4e2134c2008f"
+    },
+    {
+      "path": "cadbridge/__init__.py",
+      "bytes": 86,
+      "git_blob_sha1": "6ce6b95b5a0602b821712d4ec05f1ee5444fd8f0"
+    },
+    {
+      "path": "cadbridge/__main__.py",
+      "bytes": 48,
+      "git_blob_sha1": "eb53e2f31b2f703ad32ef64b8a41faa3e7d18e08"
+    },
+    {
+      "path": "cadbridge/cli.py",
+      "bytes": 2473,
+      "git_blob_sha1": "b5195d102a12cbca79e85fa479bb1d74a9449f46"
+    },
+    {
+      "path": "cadbridge/freecad_worker.py",
+      "bytes": 24960,
+      "git_blob_sha1": "b2bc6d11ff065756b61bdd649816f732dcc23e4e"
+    },
+    {
+      "path": "cadbridge/model.py",
+      "bytes": 8744,
+      "git_blob_sha1": "25db31bd46a137d9ace475206439e5d218a96853"
+    },
+    {
+      "path": "cadbridge/policy.py",
+      "bytes": 776,
+      "git_blob_sha1": "8394b1256bb0e791747b040200e4e78663ab1806"
+    },
+    {
+      "path": "cadbridge/workflow.py",
+      "bytes": 15731,
+      "git_blob_sha1": "6f6a715589aad215a5b95711dbd504db03fd2ed3"
+    },
+    {
+      "path": "docs/AGENT_WORKFLOW.md",
+      "bytes": 3168,
+      "git_blob_sha1": "52ae9dbe926a7c4e111fecb531568b4a89015b40"
+    },
+    {
+      "path": "docs/AI_POLICY.md",
+      "bytes": 2012,
+      "git_blob_sha1": "f258deb3babcc18361378da7d3fa27f9c4b8a954"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 2800,
+      "git_blob_sha1": "1eb8c0b6b7d1c0732a165aa6faa2b7f343d84d35"
+    },
+    {
+      "path": "docs/DATA_AND_CONTEXT.md",
+      "bytes": 2286,
+      "git_blob_sha1": "a59f324cf78e3922d62e39b4926081f310b4b788"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "bytes": 5465,
+      "git_blob_sha1": "00fa34998d893de56957e40ab59e9de4347304ec"
+    },
+    {
+      "path": "docs/DEVELOPMENT_WORKFLOW.md",
+      "bytes": 2248,
+      "git_blob_sha1": "678e73d3e5b56bbc79657bf9d33cab7910f0ba86"
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "bytes": 3676,
+      "git_blob_sha1": "9ea12d82a09a4fe34dad8fa0a187a75ca7ba9ec2"
+    },
+    {
+      "path": "docs/INTERFACES.md",
+      "bytes": 1398,
+      "git_blob_sha1": "9208237bccc3a0faeb8b700378a7b2be932f13fe"
+    },
+    {
+      "path": "docs/MVP_AGENT_PLAN.md",
+      "bytes": 3001,
+      "git_blob_sha1": "8f493a21f991ce9770494eba6234db5a009cbd66"
+    },
+    {
+      "path": "docs/MVP_CONTEXT.json",
+      "bytes": 2630,
+      "git_blob_sha1": "2c7bcdada6547a8359783f2d15ffbcbd55bb479a"
+    },
+    {
+      "path": "docs/MVP_EXECUTION_CONTRACT.md",
+      "bytes": 5524,
+      "git_blob_sha1": "fcd5cfc2f3565eacd049415d6c5a403ab3b999b6"
+    },
+    {
+      "path": "docs/MVP_PLAN.md",
+      "bytes": 4612,
+      "git_blob_sha1": "da74f89913cbfdf2e4ce3d132f026637035739e9"
+    },
+    {
+      "path": "docs/MVP_QUICKSTART.md",
+      "bytes": 2972,
+      "git_blob_sha1": "9e9f373b8cc86faed3d6318329c96fe598aa0b28"
+    },
+    {
+      "path": "docs/MVP_REVIEW.md",
+      "bytes": 1467,
+      "git_blob_sha1": "f6cce08153a616ec8919fbd65f56ae043f961c1b"
+    },
+    {
+      "path": "docs/MVP_SOURCES.md",
+      "bytes": 3003,
+      "git_blob_sha1": "662051a1f3b06884d148b9c95a336608d96b6548"
+    },
+    {
+      "path": "docs/PRODUCT_CONCEPT.md",
+      "bytes": 10281,
+      "git_blob_sha1": "6c94b5f69e789b1396a35b2045abc7c84f930f5b"
+    },
+    {
+      "path": "docs/PROJECT_BRIEF.md",
+      "bytes": 2340,
+      "git_blob_sha1": "e0182de54decbf465cc978167b03da9c83e2d8fd"
+    },
+    {
+      "path": "docs/REFERENCE_REVIEW.md",
+      "bytes": 1746,
+      "git_blob_sha1": "bd4b8c8807520ccb11b948dc233a4b92d05a3062"
+    },
+    {
+      "path": "docs/REQUIREMENTS.md",
+      "bytes": 4015,
+      "git_blob_sha1": "bb8df066e6b43720dbf2ce9567410300fcfa8999"
+    },
+    {
+      "path": "docs/START_HERE_NEXT_CHAT.md",
+      "bytes": 4881,
+      "git_blob_sha1": "77d5564669fa4c649ae8697095cdf4e3c3e7f016"
+    },
+    {
+      "path": "docs/STATUS_AND_EVIDENCE.md",
+      "bytes": 9444,
+      "git_blob_sha1": "05f6bc67552f0fda4f9e70d63b07711f6c1342a6"
+    },
+    {
+      "path": "docs/TASK_BOARD.md",
+      "bytes": 3432,
+      "git_blob_sha1": "7d6c6c8a93a6b4b6010cdb17a1d3c359d36eadb7"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 3906,
+      "git_blob_sha1": "294c8c235fc48dccecdece3d0bc5e790be382131"
+    },
+    {
+      "path": "docs/WORKSPACE_REVIEW.md",
+      "bytes": 3962,
+      "git_blob_sha1": "73927f6d74e8fa8a0f622affd0a1f3a764e94461"
+    },
+    {
+      "path": "docs/tasks/CB-001.md",
+      "bytes": 1224,
+      "git_blob_sha1": "245a8d1b0c71452e78c2e6fb67a525bbc585620e"
+    },
+    {
+      "path": "docs/tasks/README.md",
+      "bytes": 441,
+      "git_blob_sha1": "f6204b6dc39689898e26e2a0a9b75d2b58bed552"
+    },
+    {
+      "path": "docs/templates/HANDOFF.md",
+      "bytes": 627,
+      "git_blob_sha1": "3abeb176570157efe4431d320cf9742c4ade9aca"
+    },
+    {
+      "path": "docs/templates/REVIEW.md",
+      "bytes": 571,
+      "git_blob_sha1": "d09ec70896bf2aebeaa5bf02fd70b7879fa70112"
+    },
+    {
+      "path": "docs/templates/TASK.md",
+      "bytes": 611,
+      "git_blob_sha1": "4c6ce88cb1763d0396907c674e11f2deb81ab2aa"
+    },
+    {
+      "path": "examples/plate-pocket-holes.plan.json",
+      "bytes": 378,
+      "git_blob_sha1": "4e3925a0fe21514c2a15dc8d422a6ac315a3acb7"
+    },
+    {
+      "path": "examples/thickness-and-holes.edit.json",
+      "bytes": 54,
+      "git_blob_sha1": "88cb73b303e2dc65f0a0e3d2ef4db31a0a403705"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 373,
+      "git_blob_sha1": "55ea8a7a3880ed145a0d004f6ff7f6b15bc5e7fb"
+    },
+    {
+      "path": "scripts/check_workspace.py",
+      "bytes": 12154,
+      "git_blob_sha1": "c4fcddff90ba025de38dcc9dd3484107393689be"
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 72,
+      "git_blob_sha1": "ba8d3029117b65b3fa17ba9be5a48cfb366abcd3"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 14860,
+      "git_blob_sha1": "09cc0e4d69d850a34dbfde1fb141f8301fd89445"
+    },
+    {
+      "path": "tests/test_native.py",
+      "bytes": 12963,
+      "git_blob_sha1": "5a80dbdb66d6178cabecb05604ae74d2edf9518a"
+    },
+    {
+      "path": "tests/test_workflow.py",
+      "bytes": 9240,
+      "git_blob_sha1": "52556604072a19176a88e0dc8238a4df789183a4"
+    }
+  ]
+}

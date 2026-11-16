@@ -1,0 +1,145 @@
+{
+  "schema": "cadbridge.session.v1",
+  "project_id": "ae918120-ca3c-4a4c-b478-0449be521ebb",
+  "version_id": "40942541-f6f6-4014-95aa-67611a397538",
+  "parent_version_id": null,
+  "plan": {
+    "schema": "cadbridge.plan.v1",
+    "units": "mm",
+    "plate": {
+      "width": 100.0,
+      "height": 80.0,
+      "thickness": 10.0
+    },
+    "pocket": {
+      "width": 30.0,
+      "height": 20.0,
+      "depth": 5.0
+    },
+    "holes": [
+      {
+        "x": -30.0,
+        "y": -20.0,
+        "diameter": 8.0
+      },
+      {
+        "x": 30.0,
+        "y": -20.0,
+        "diameter": 8.0
+      },
+      {
+        "x": -30.0,
+        "y": 20.0,
+        "diameter": 8.0
+      },
+      {
+        "x": 30.0,
+        "y": 20.0,
+        "diameter": 8.0
+      }
+    ],
+    "hole_relation": "equal_diameter"
+  },
+  "plan_sha256": "c43b689366d3487b26ab2525f781a4c654c4779508e8add16b9e2e5c12760713",
+  "protected_fields": [],
+  "selection": {
+    "mode": "explicit_plan_version",
+    "plan_sha256": "c43b689366d3487b26ab2525f781a4c654c4779508e8add16b9e2e5c12760713",
+    "identity_authenticated": false
+  },
+  "input_information_group": "step_observed_agent_plan",
+  "product_acceptance": "not_assessed",
+  "validation_profile": {
+    "kind": "engineering_exploration",
+    "volume_tolerance_mm3": 1e-05
+  },
+  "source": {
+    "filename": "source.step",
+    "sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18"
+  },
+  "history": [
+    {
+      "operation": "reconstruct",
+      "plan_sha256": "c43b689366d3487b26ab2525f781a4c654c4779508e8add16b9e2e5c12760713",
+      "changes": {},
+      "at": "2026-11-16T05:48:34.211624+00:00"
+    }
+  ],
+  "context": {
+    "origin": "measured STEP observations and session-agent proposed plan",
+    "external_llm_calls": 0,
+    "assumptions": [
+      "포켓 중심은 판 중심과 일치하도록 구속했습니다.",
+      "홀은 판 중심을 기준으로 대칭이며 지름을 공유합니다."
+    ],
+    "constraints": [],
+    "separate_process_reopen": true,
+    "provenance": {
+      "input_information_group": "step_observed_agent_plan",
+      "source_step_sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+      "observation_sha256": "ea9238f766f8c99c2aab53e835d3b76f8b7a8be326dfa676be728454417a6cb4",
+      "request_sha256": "4f13f6a0e90d7ecf0b86790de602f145eb0834b51cf10a691f336f3edf96f40f",
+      "response_sha256": "a4c66154b9a7f33e349f97eb11c2b901092c6201c8d1f3dbf984db5d4c87d615",
+      "agent": {
+        "name": "Terra CLI",
+        "model": "gpt-6.1-terra"
+      },
+      "evidence": [
+        "관측 치수와 사용자 조건을 반영한 편집 가능한 CAD 구성안입니다."
+      ],
+      "assumptions": [
+        "포켓 중심은 판 중심과 일치하도록 구속했습니다.",
+        "홀은 판 중심을 기준으로 대칭이며 지름을 공유합니다."
+      ],
+      "user_constraints": [
+        "홀 네 개는 같은 지름을 유지하고 중심 대칭을 유지한다. 두께를 바꿔도 홀은 관통하며 포켓은 윗면 기준 깊이를 유지한다."
+      ],
+      "session_agent_calls": 1,
+      "external_llm_calls": 0
+    },
+    "user_constraints": [
+      "홀 네 개는 같은 지름을 유지하고 중심 대칭을 유지한다. 두께를 바꿔도 홀은 관통하며 포켓은 윗면 기준 깊이를 유지한다."
+    ],
+    "session_agent_calls": 1
+  },
+  "assets": {
+    "agent-request.json": "dad1c6cb258c49d4403274a9bc1e5c49060d75597e7e27b7f351003f80452bdd",
+    "agent-response.json": "612ef70aec8b9b5d0cd57f695ac801e7691998c452881f4270b46b35ce0c98ea",
+    "build-report.json": "031111cedfa46c55c8052ce279b812ec2d41c38ca6a9dc0870c8032d0279f77e",
+    "candidate.ir.json": "6c7350fb1c4024e5119c1105157ad8f5a5d9c7067a30cd3228f0824c8f6c28d1",
+    "executed-agent-request.txt": "4f13f6a0e90d7ecf0b86790de602f145eb0834b51cf10a691f336f3edf96f40f",
+    "executed-agent-response.json": "a4c66154b9a7f33e349f97eb11c2b901092c6201c8d1f3dbf984db5d4c87d615",
+    "geometry-check.json": "4da762a833bb8b2c7452af41314b59d19bcccfddcbdd7c14e48858da12b3e402",
+    "inspect-report.json": "db64f537fa7f437998057bcfe907053b4722619a045ca97873eab9c9a433d233",
+    "model.FCStd": "e347133c3101506737f47df559fbe13155a31d9c9c097791fbf0e45e2f4bf8f4",
+    "native-plan.bridge.json": "29411d0dc0db56c9b53eef0366aa87e9abf5f4905760ef8e5a598db1f57b2834",
+    "observation-request.json": "cd8fe9d18a5b21750cf9f87c35b4b58a2e21fbfe7e4676a4d6aecafd35f26fb6",
+    "preview.stl": "8b20c3160a560b3c2d59eebf66373acf642a63fe06bf2d767059c872b85c0b9e",
+    "result.step": "c3da068d8bd7bcf8b65be87c6c61376ec7d7b70350761966297732dc7475a5db",
+    "source.step": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18"
+  },
+  "provenance": {
+    "input_information_group": "step_observed_agent_plan",
+    "source_step_sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+    "observation_sha256": "ea9238f766f8c99c2aab53e835d3b76f8b7a8be326dfa676be728454417a6cb4",
+    "request_sha256": "4f13f6a0e90d7ecf0b86790de602f145eb0834b51cf10a691f336f3edf96f40f",
+    "response_sha256": "a4c66154b9a7f33e349f97eb11c2b901092c6201c8d1f3dbf984db5d4c87d615",
+    "agent": {
+      "name": "Terra CLI",
+      "model": "gpt-6.1-terra"
+    },
+    "evidence": [
+      "관측 치수와 사용자 조건을 반영한 편집 가능한 CAD 구성안입니다."
+    ],
+    "assumptions": [
+      "포켓 중심은 판 중심과 일치하도록 구속했습니다.",
+      "홀은 판 중심을 기준으로 대칭이며 지름을 공유합니다."
+    ],
+    "user_constraints": [
+      "홀 네 개는 같은 지름을 유지하고 중심 대칭을 유지한다. 두께를 바꿔도 홀은 관통하며 포켓은 윗면 기준 깊이를 유지한다."
+    ],
+    "session_agent_calls": 1,
+    "external_llm_calls": 0
+  },
+  "provenance_sha256": "f4a72d1b392226572efb5b5209120a5bd7283651e399dc808e9b128c96ed44a8"
+}

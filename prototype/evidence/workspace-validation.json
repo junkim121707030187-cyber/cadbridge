@@ -1,0 +1,41 @@
+{
+  "schema": "cadbridge.workspace-validation.v1",
+  "verified_at": "2026-11-16T07:10:22.507981+00:00",
+  "status": "passed",
+  "scope": "local_single_user",
+  "entry": "http://127.0.0.1:8787/workspace",
+  "tests": {
+    "total_test_functions": 65,
+    "pytest_reported_subtests": 194,
+    "workspace_test_functions": 17,
+    "python_syntax_files": 57,
+    "javascript_syntax_pages": 2,
+    "actual_http_integration": "passed",
+    "note": "Test counts are software checks, not a count of native CAD executions. Native CAD evidence remains in validation.json."
+  },
+  "browser_verified": [
+    "Version selection changes stored preview, dimensions and related files.",
+    "Pocket comment and threaded reply persist across server restart and browser reload.",
+    "Channel creation, actual file chooser upload, logical shape creation and attachment version registration.",
+    "Attachment versions show CAD-unverified status and no fabricated preview.",
+    "Version change clears the previous feature selection.",
+    "Desktop layout at 1366x900 and narrow layout at 390x844, including channel drawer and detail close."
+  ],
+  "current_demo": {
+    "revision": 7,
+    "channels": 4,
+    "files": 11,
+    "shapes": 2,
+    "messages_including_replies": 6,
+    "native_cad_examples": "One synthetic CB-P01 part with two previously executed and verified versions.",
+    "additional_shape": "One manually created logical grouping with a text note attachment; CAD unverified."
+  },
+  "limits": [
+    "No remote multi-user server, identity authentication, shared access control or live synchronization.",
+    "Permalinks resolve on the current device. ZIP export transfers registered files and records.",
+    "New uploads are not automatically segmented into CAD parts or features.",
+    "Review status is independent from native CAD verification.",
+    "Portable source archive excludes runtime; installation and another PC are not verified."
+  ],
+  "screenshot": "워크스페이스_실행화면.png"
+}
