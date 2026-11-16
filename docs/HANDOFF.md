@@ -18,4 +18,4 @@
 [CONTRIBUTING](../CONTRIBUTING.md), [에이전트 절차](AGENT_WORKFLOW.md), [작업 카드](tasks/README.md)를 읽는다. 배정 시 기준 commit·수정 경로를 고정한다. 문서 검사는 `python scripts/check_workspace.py`로 수행한다. 실제 GitHub 저장소·CI 결과는 STATUS_AND_EVIDENCE와 WORKSPACE_REVIEW를 기준으로 확인한다.
 
 ## 최신 전달 범위
-사용자가 이전 중단 이후 업로드를 다시 지시하고 대상 URL을 지정했다. 비공개 cadbridge 저장소의 main에 문서·제품 개념도·협업 파일을 업로드하도록 준비하며, 실제 반영·commit·CI 결과는 [상태·근거](STATUS_AND_EVIDENCE.md)와 [검토 기록](WORKSPACE_REVIEW.md)을 따른다. 이 문구만으로 업로드 완료나 CI 성공을 주장하지 않는다. 이전 직접 업로드용 ZIP과 복원 JSON은 체크포인트로 보존한다. 제품 개념도의 합의·제안·미정 구분과 CAD/API 미검증 범위를 유지한다. GitHub의 개념도 렌더링과 CI 원격 실행은 실제 확인 전까지 미확인이다.
+사용자가 대상 URL을 지정해 재요청한 비공개 cadbridge의 main에 문서·제품 개념도·협업 파일 33개를 반영하고 원격 blob 해시를 원본과 대조했다. 해당 commit·CI 결과는 [상태·근거](STATUS_AND_EVIDENCE.md)와 [검토 기록](WORKSPACE_REVIEW.md)을 따른다. 이전 직접 업로드용 1.2.0 ZIP과 복원 JSON은 체크포인트로 보존한다. 제품 개념도의 합의·제안·미정 구분과 CAD/API 미검증 범위를 유지한다. GitHub 개념도 내용은 다시 읽어 원본과 대조했으며 브라우저에서 그림을 시각 검토하지는 않았다.

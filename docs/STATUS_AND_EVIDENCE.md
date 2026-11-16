@@ -42,6 +42,8 @@ U: 이번 사용자 메시지의 최신 합의와 문서 작성 범위. H: 같�
 GitHub 도구 확인: 2026-11-16 계정 조회 성공, 접근 가능한 설치 저장소의 cadbridge 검색 결과 0개. 도구 목록에서 파일·커밋·브랜치·PR 기능과 저장소 생성 기능 부재를 확인했다. 저장소 전체가 없다고 단정하지 않으며 파일 쓰기·커밋·브랜치·PR 생성은 실행하지 않았다. 이 확인은 CADBridge 제품의 외부 API 시험이 아니다.
 
 ## 1.2.1 지정 GitHub 저장소에 초기 반영
-사용자가 [cadbridge](https://github.com/junkim121707030187-cyber/cadbridge)를 직접 지정하고 업로드를 재요청했다. GitHub 도구로 비공개 저장소·main·쓰기 권한과 초기 README 한 줄을 확인했다. 기준 커밋은 `5cc1f40aac88795ae5cb57abe3471e1b8c030e3c`다. 해당 이력을 보존하며 문서·개념도·협업 설정·검사 도구 33개를 루트에 반영한다. 현재는 초기 반영 준비이며 원격 반영·파일 일치·CI 결과는 확인 후 기록한다.
+사용자가 [cadbridge](https://github.com/junkim121707030187-cyber/cadbridge)를 직접 지정하고 업로드를 재요청했다. GitHub 도구로 비공개 저장소·main·쓰기 권한과 초기 README 한 줄을 확인했다. 기준 커밋 `5cc1f40aac88795ae5cb57abe3471e1b8c030e3c`를 부모로 보존한 [초기 반영 커밋 b5ccbe0](https://github.com/junkim121707030187-cyber/cadbridge/commit/b5ccbe09dfc3cf4545f86cbe7f4aeef23551836b)에 문서·개념도·협업 설정·검사 도구 33개를 루트에 올렸다. main ref를 재조회해 반영을 확인했고 원격 트리 33개 blob 해시를 로컬 바이트와 모두 대조했다. 제품 개념도는 같은 커밋에서 다시 읽어 내용 일치를 확인했다.
+
+로컬 검사: 정적 문서 검사와 manifest 32개 파일의 SHA256·크기 대조 통과. 이 기록 갱신도 같은 검사 후 별도 문서 커밋으로 반영한다. 초기 반영 커밋의 [GitHub 문서 검사 실행 43802258010](https://github.com/junkim121707030187-cyber/cadbridge/actions/runs/43802258010)은 completed/success로 확인했다. 이 결과는 해당 초기 커밋의 문서 CI 결과이며 CAD/API 제품 검증이 아니다. 후속 커밋은 Actions에서 해당 SHA의 결과를 확인한다. Mermaid 원문은 반영했으며 브라우저에서 그림을 시각 검토하지는 않았다.
 
 기존 1.2.0 ZIP과 체크포인트는 보존한다. 원격에 전달하는 것은 개발 준비 정본이며 M3 실행 소스나 CAD 구현은 포함하지 않는다. 원격 GitHub 쓰기 재개는 이 저장소의 준비 파일 업로드에 한정하며 브라우저 로그인은 재개하지 않는다.

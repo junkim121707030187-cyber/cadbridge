@@ -3,7 +3,7 @@
 
 서로 다른 CAD 프로그램·버전을 사용하는 기업체와 팀이 설계와 변경 이력을 공유하고 이어서 편집하는 협업 워크스페이스를 목표로 한다. 첫 단계는 STEP에서 편집 가능한 오픈소스 CAD native 부품을 재구성하는 것이다. 이후 서로 다른 오픈소스 CAD 프로그램 사이로 설계 맥락과 제약을 이전한다.
 
-현재는 문서·제품 개념도 및 협업 작업 환경의 파일을 준비했다. 프로그램 선정·구현·설치·CAD 실행·제품 외부 API 시험을 이번에 수행하지 않았다. M3 소스를 회수하거나 옮긴 패키지가 아니다. 사용자가 지정한 비공개 [cadbridge 저장소](https://github.com/junkim121707030187-cyber/cadbridge)의 main 업로드를 준비한다. 이전 중단 이후 사용자가 업로드를 다시 지시한 상태이며, 실제 반영 결과·commit·CI 상태는 [상태·근거](docs/STATUS_AND_EVIDENCE.md)를 따른다. LICENSE는 소유자 결정 전 만들지 않는다.
+문서·제품 개념도와 협업 작업 환경 파일 33개를 사용자 지정 비공개 [cadbridge 저장소](https://github.com/junkim121707030187-cyber/cadbridge)의 main에 반영했다. 원격 파일 해시를 로컬 원본과 대조했다. 실제 commit·문서 검사·CI 상태는 [상태·근거](docs/STATUS_AND_EVIDENCE.md)를 따른다. 프로그램 선정·구현·설치·CAD 실행·제품 외부 API 시험은 수행하지 않았으며 M3 소스를 회수하거나 옮긴 패키지가 아니다. LICENSE는 소유자 결정 전 만들지 않는다.
 
 ## 읽는 순서
 1. [제품 개념도와 미정 사항](docs/PRODUCT_CONCEPT.md), [제품 개요](docs/PROJECT_BRIEF.md)와 [요구사항](docs/REQUIREMENTS.md)

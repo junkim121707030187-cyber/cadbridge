@@ -60,13 +60,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "39325322a0b13536dc8668d4b5c0934266d3239adc3a66a066ac6b31e7c18ddd",
-      "size_bytes": 3485
+      "sha256": "808a1cd86e3b72cc438beb541f5d8c036ef93f26a35dba4294e8b93158ebf750",
+      "size_bytes": 3416
     },
     {
       "path": "docs/AGENT_WORKFLOW.md",
-      "sha256": "7d7bb401bba5fb23a5bccfba153e8dd24517f100da660236ddf66751877b4bff",
-      "size_bytes": 3386
+      "sha256": "1183a8943b0489b16d942b36709939713205e0b7dbb3e3eeaf24253eee013cd6",
+      "size_bytes": 3329
     },
     {
       "path": "docs/AI_POLICY.md",
@@ -85,18 +85,18 @@
     },
     {
       "path": "docs/DECISIONS.md",
-      "sha256": "5509b5bc5599b4b10a8a77ad8207c43e0e836ec271fb4d4497e59b9bd94eb84a",
-      "size_bytes": 4360
+      "sha256": "4ce0301d1ca511a8fc9dfd92db25cc44273a1ef64474f0ab0d0d304b9abdda59",
+      "size_bytes": 4380
     },
     {
       "path": "docs/DEVELOPMENT_WORKFLOW.md",
-      "sha256": "1e517b941e5fa32d67106fda3ad1bcd716ace70945a51e2c7304c6316612e7b7",
-      "size_bytes": 2317
+      "sha256": "8e6ab2f1cf3027d31375118cf5456f74f4519400988e62ac390c861a02c457b4",
+      "size_bytes": 2248
     },
     {
       "path": "docs/HANDOFF.md",
-      "sha256": "bf3c328978f819d8761a63fbbc302e69b87a078d22783b51df1a6f3e710ff4d1",
-      "size_bytes": 3433
+      "sha256": "8b44f6c96f4af9fe36621e3b44c9e79b77714ee8653629569da366632a13517e",
+      "size_bytes": 3367
     },
     {
       "path": "docs/INTERFACES.md",
@@ -125,13 +125,13 @@
     },
     {
       "path": "docs/STATUS_AND_EVIDENCE.md",
-      "sha256": "954c3d2cde22a067727e1eb3f3b6778690cc3cde82bd89bc4d04afc6fc97d09a",
-      "size_bytes": 6041
+      "sha256": "d5ccf1a1fb2b40ffd586e29ba2c04e2f70718331631e179021cb0d4be64aab2e",
+      "size_bytes": 6887
     },
     {
       "path": "docs/TASK_BOARD.md",
-      "sha256": "c39f3997c00cc44b54b8aba18fba7f363bc220657c9b7578e94344415e395f85",
-      "size_bytes": 2127
+      "sha256": "d0cd5d397103f895dd8ff0582a8ff6f41da843ad2d494682226758069e38e928",
+      "size_bytes": 2120
     },
     {
       "path": "docs/VALIDATION.md",
@@ -140,8 +140,8 @@
     },
     {
       "path": "docs/WORKSPACE_REVIEW.md",
-      "sha256": "741254f136c5af8ece26a369c722b64c2d4d4d37a4c54c9878ac7cd8b1a6be20",
-      "size_bytes": 3597
+      "sha256": "a30da91b6ebcbabf8ac9ef5b97f0312dad9d4a72a64fb4f2c6b2f2f5c045be82",
+      "size_bytes": 3754
     },
     {
       "path": "docs/tasks/CB-001.md",
@@ -189,23 +189,35 @@
       "errors": []
     },
     "json_roundtrip": "pass",
-    "recovery_size_bytes": 87782,
-    "manual_review": "사용자 URL 지정 업로드 재개·과거 중단 이력·제품 범위와 미정 11개·정본 루트 구조·기준 README/커밋 보존 검토",
+    "recovery_size_bytes": 88539,
+    "manual_review": "제품 범위·미정 11개·사용자 지정 저장소·초기 원격 33개 해시·문서 CI 성공의 대상 commit 구분 검토",
     "peer_review": "delegated document update reviewed by main agent; concept author previously checked other changed documents",
     "cad_api_tests": "not performed",
-    "github_status": "target private repository and push permission verified; initial import prepared; read remote STATUS for later verification",
+    "github_status": "initial import verified on main; this follow-up records evidence and refreshed local hashes",
     "github_repository": "junkim121707030187-cyber/cadbridge",
     "github_branch": "main",
     "github_baseline_commit": "5cc1f40aac88795ae5cb57abe3471e1b8c030e3c",
-    "github_remote_hash_check": "pending",
-    "github_actions": "pending",
+    "github_remote_hash_check": {
+      "status": "pass",
+      "commit": "b5ccbe09dfc3cf4545f86cbe7f4aeef23551836b",
+      "files": 33,
+      "method": "Git blob hashes compared to all local UTF-8 bytes; concept fetched again"
+    },
+    "github_actions": {
+      "run_id": 43802258010,
+      "head_sha": "b5ccbe09dfc3cf4545f86cbe7f4aeef23551836b",
+      "status": "completed",
+      "conclusion": "success",
+      "scope": "workspace documents only; later commits have separate runs"
+    },
     "mermaid_github_rendering": "not visually verified",
-    "repository_only_manifest_check": "manifest file entries do not require sibling recovery JSON"
+    "repository_only_manifest_check": "manifest file entries do not require sibling recovery JSON",
+    "github_import_commit": "b5ccbe09dfc3cf4545f86cbe7f4aeef23551836b"
   },
   "recovery": {
     "path": "../seed-docs.json",
-    "sha256": "337ad12fd16d93f095d2e239866a4d66bf2be8c22a87bb4187e61427aac6df4c",
-    "size_bytes": 87782,
+    "sha256": "c87494c5f6776cfc9501ae2b9c73b5c5cc70d0030c37f2df4ac551c218a7add7",
+    "size_bytes": 88539,
     "required_for_repository_check": false
   }
 }

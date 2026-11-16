@@ -1,7 +1,7 @@
 # 개발 절차 제안
 관련: [AGENTS](../AGENTS.md), [작업 보드](TASK_BOARD.md), [검증](VALIDATION.md)
 
-최신 요청은 사용자가 URL을 지정한 비공개 [cadbridge 저장소](https://github.com/junkim121707030187-cyber/cadbridge)의 main에 준비한 파일을 업로드하는 것이다. 이전 중단 이후 사용자 재지시로 업로드 준비를 재개했다. 실제 반영·검사 결과는 [상태·근거](STATUS_AND_EVIDENCE.md)를 따른다. 협업 승인 정책은 미정이다. 확인한 대상과 기존 규칙을 우선하며 아래 기준을 검토해 적용한다.
+사용자가 URL을 지정한 비공개 [cadbridge 저장소](https://github.com/junkim121707030187-cyber/cadbridge)의 main에 준비한 정본을 반영했다. 실제 commit·파일 대조·문서 검사 결과는 [상태·근거](STATUS_AND_EVIDENCE.md)를 따른다. 후속 변경의 협업 승인 정책은 미정이다. 확인한 대상과 기존 규칙을 우선하며 아래 기준을 검토해 적용한다.
 
 1. 작업 시작: 요구 ID와 작업 완료 조건, 변경 대상, 입력 출처·권리, 기준 버전, 미커밋 변경을 확인한다.
 2. 작은 작업: 한 관문 또는 한 실패 경로를 다루는 변경으로 나누고 입력/출력 계약과 실패 처리를 먼저 적는다.
