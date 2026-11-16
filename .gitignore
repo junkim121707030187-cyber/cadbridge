@@ -1,0 +1,30 @@
+# Secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+local-settings/
+.vscode/
+.idea/
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+# Generated runtime output only; curated evidence stays tracked
+runtime-logs/
+.tmp/
+.DS_Store
+Thumbs.db
+# Do not blanket-ignore benchmark originals, design context, STEP/native files,
+# archives or curated validation evidence. Review their rights and size first.
+
+# Per-agent local state (tracked AGENTS and task records stay visible)
+.agent-local/
+.claude/settings.local.json
+.worktrees/
+__local__/

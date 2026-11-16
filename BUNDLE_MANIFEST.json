@@ -1,0 +1,211 @@
+{
+  "format": "cadbridge-bundle-manifest-v1",
+  "document_version": "1.2.1",
+  "authored_date": "2026-11-16",
+  "timezone": "Asia/Seoul",
+  "scope": "개발 준비 문서·제품 개념도·협업 설정을 사용자 지정 비공개 GitHub cadbridge/main에 업로드; CAD 구현·설치·제품 CAD/API 시험 없음",
+  "source_basis": "사용자 합의·M3 과거 조사 요약, void_hackathon 지정 문서 직접 열람; 원 M3 소스 회수 없음",
+  "reference_commit": "d3c8935ebdf1ea980a4dfad942d9b8b2ed78c7fa",
+  "hash_algorithm": "SHA256",
+  "path_base": "repository root (local source cadbridge-seed/)",
+  "excluded_from_hashes": [
+    "BUNDLE_MANIFEST.json",
+    "archive checkpoints"
+  ],
+  "files": [
+    {
+      "path": ".editorconfig",
+      "sha256": "0236baaa876eef2fbe3d4a9b01aac87d148b925fac3f58e1bc0cc9819ed88dab",
+      "size_bytes": 139
+    },
+    {
+      "path": ".env.example",
+      "sha256": "0dd56b031eadf6eab08cd22f212bec8ea37e838e7016aba18abff8470468ab58",
+      "size_bytes": 289
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "be2c26e15ad7dc66169cd2a1cc95fc588a0e8a7f1d237e99863b09343579bdd8",
+      "size_bytes": 254
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/task.md",
+      "sha256": "be3a071aa3714bb25deb5c7a656dd86077803acd033d23d5c9195039689f15fb",
+      "size_bytes": 321
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "4b7cc311f88757e62a1334eb9d71caecf626badf551a5303a0cfade1694927e9",
+      "size_bytes": 561
+    },
+    {
+      "path": ".github/workflows/docs-check.yml",
+      "sha256": "80b4f9ec2a7a695145e31aacbda10a38dd26df3d0778c920ddc44bfbb2542a74",
+      "size_bytes": 501
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a56032c69d323f046a5b6b2db1e54966adda6b9b9fd611af595367b813d7e7eb",
+      "size_bytes": 610
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "691ef751879fc6fabca6bd8c84100484e5c9062dac3d3db78f67f8f1c3112744",
+      "size_bytes": 3715
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "2f97a8a816ae8a69a275fde5f477b82188cfd9ce286c2e5c2ababd48e295bc5e",
+      "size_bytes": 3455
+    },
+    {
+      "path": "README.md",
+      "sha256": "39325322a0b13536dc8668d4b5c0934266d3239adc3a66a066ac6b31e7c18ddd",
+      "size_bytes": 3485
+    },
+    {
+      "path": "docs/AGENT_WORKFLOW.md",
+      "sha256": "7d7bb401bba5fb23a5bccfba153e8dd24517f100da660236ddf66751877b4bff",
+      "size_bytes": 3386
+    },
+    {
+      "path": "docs/AI_POLICY.md",
+      "sha256": "d06683a2f5265003ad9abf47301bb187afccec5eb27454c79f0dc3b830129a8b",
+      "size_bytes": 2012
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "a1b0ea249223f46fa61c7a77cba1e826fd1ca93ecdbd02d1dc066f1e078c6bd8",
+      "size_bytes": 2562
+    },
+    {
+      "path": "docs/DATA_AND_CONTEXT.md",
+      "sha256": "5038d45aa7694738c8d4c0c965b3ab875e4cc74973d71350ede2f506b3cea3ab",
+      "size_bytes": 2286
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "sha256": "5509b5bc5599b4b10a8a77ad8207c43e0e836ec271fb4d4497e59b9bd94eb84a",
+      "size_bytes": 4360
+    },
+    {
+      "path": "docs/DEVELOPMENT_WORKFLOW.md",
+      "sha256": "1e517b941e5fa32d67106fda3ad1bcd716ace70945a51e2c7304c6316612e7b7",
+      "size_bytes": 2317
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "sha256": "bf3c328978f819d8761a63fbbc302e69b87a078d22783b51df1a6f3e710ff4d1",
+      "size_bytes": 3433
+    },
+    {
+      "path": "docs/INTERFACES.md",
+      "sha256": "fb11c06d700c54147df45ddd9261aa956a22770731231290b844a45806b730d2",
+      "size_bytes": 1140
+    },
+    {
+      "path": "docs/PRODUCT_CONCEPT.md",
+      "sha256": "8c78dd0e371eb0fa0e4963559a44f8c6afeaa4307e587e78743ed9a28590a81d",
+      "size_bytes": 10281
+    },
+    {
+      "path": "docs/PROJECT_BRIEF.md",
+      "sha256": "edfc9bd3ea43520dae8aca921f37e692a4e4d28cf89bb67e7241ead84228f72a",
+      "size_bytes": 2128
+    },
+    {
+      "path": "docs/REFERENCE_REVIEW.md",
+      "sha256": "7e5d7ca08e628b048a0d160544d7d6ae1acdb20e822a1916105efd349e5ea6ed",
+      "size_bytes": 1746
+    },
+    {
+      "path": "docs/REQUIREMENTS.md",
+      "sha256": "97deda883b4ec76c8f43861b802010000815a20a48295de51f2de48be42e5236",
+      "size_bytes": 4015
+    },
+    {
+      "path": "docs/STATUS_AND_EVIDENCE.md",
+      "sha256": "954c3d2cde22a067727e1eb3f3b6778690cc3cde82bd89bc4d04afc6fc97d09a",
+      "size_bytes": 6041
+    },
+    {
+      "path": "docs/TASK_BOARD.md",
+      "sha256": "c39f3997c00cc44b54b8aba18fba7f363bc220657c9b7578e94344415e395f85",
+      "size_bytes": 2127
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "fe5ea8dda506ee6c66a49268fbf97cc4ce58262b0b264f817f55784befb09066",
+      "size_bytes": 3600
+    },
+    {
+      "path": "docs/WORKSPACE_REVIEW.md",
+      "sha256": "741254f136c5af8ece26a369c722b64c2d4d4d37a4c54c9878ac7cd8b1a6be20",
+      "size_bytes": 3597
+    },
+    {
+      "path": "docs/tasks/CB-001.md",
+      "sha256": "7347ca05ac5a58bfd5da7351456efe7b9f0772c72558c9d882e6702b46f6bebc",
+      "size_bytes": 1224
+    },
+    {
+      "path": "docs/tasks/README.md",
+      "sha256": "1016e290e93bc61f596b550a0589dd9dc130fd303fcae9e4c6ab5d1c74900c7b",
+      "size_bytes": 441
+    },
+    {
+      "path": "docs/templates/HANDOFF.md",
+      "sha256": "4e043a48ab6470d7d2535724d9708fd1277ec6a28271e91f9aa6230def1ad4eb",
+      "size_bytes": 627
+    },
+    {
+      "path": "docs/templates/REVIEW.md",
+      "sha256": "3ecc0e0f6ee26d508005db0d4d9ae93de6346e2ee7e18d3b3e45ca285624e6b0",
+      "size_bytes": 571
+    },
+    {
+      "path": "docs/templates/TASK.md",
+      "sha256": "7fb3f44794aab60d69f8bdbfd132c590306923acecddfc952c7d3ef280f68bf5",
+      "size_bytes": 611
+    },
+    {
+      "path": "scripts/check_workspace.py",
+      "sha256": "39b349cbd2f1d3ae8683705bf5b1c890ef3ed1cf1fb931c13005d057d3e26e13",
+      "size_bytes": 12154
+    }
+  ],
+  "review": {
+    "payload_files": 32,
+    "static_checks": {
+      "status": "pass",
+      "scope": "workspace static checks only; no CAD/API tests",
+      "manifest_verified": false,
+      "counts": {
+        "files": 33,
+        "text_files": 33,
+        "relative_links": 109,
+        "manifest_entries": 0
+      },
+      "errors": []
+    },
+    "json_roundtrip": "pass",
+    "recovery_size_bytes": 87782,
+    "manual_review": "사용자 URL 지정 업로드 재개·과거 중단 이력·제품 범위와 미정 11개·정본 루트 구조·기준 README/커밋 보존 검토",
+    "peer_review": "delegated document update reviewed by main agent; concept author previously checked other changed documents",
+    "cad_api_tests": "not performed",
+    "github_status": "target private repository and push permission verified; initial import prepared; read remote STATUS for later verification",
+    "github_repository": "junkim121707030187-cyber/cadbridge",
+    "github_branch": "main",
+    "github_baseline_commit": "5cc1f40aac88795ae5cb57abe3471e1b8c030e3c",
+    "github_remote_hash_check": "pending",
+    "github_actions": "pending",
+    "mermaid_github_rendering": "not visually verified",
+    "repository_only_manifest_check": "manifest file entries do not require sibling recovery JSON"
+  },
+  "recovery": {
+    "path": "../seed-docs.json",
+    "sha256": "337ad12fd16d93f095d2e239866a4d66bf2be8c22a87bb4187e61427aac6df4c",
+    "size_bytes": 87782,
+    "required_for_repository_check": false
+  }
+}
