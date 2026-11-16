@@ -1,4 +1,6 @@
 # 작업 환경 검토 기록
+최신 코드 검토와 실패 수정은 [MVP_REVIEW](MVP_REVIEW.md), 실제52시험·native 시연은 [상태](STATUS_AND_EVIDENCE.md)에 있다. 아래 문서1.2.x는 보존된 준비 정본의 검토다.
+
 문서 버전 1.2.1 · 2026-11-16 KST
 
 ## 검토 범위

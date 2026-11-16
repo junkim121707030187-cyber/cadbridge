@@ -1,0 +1,37 @@
+{
+  "hole_relation": "equal_diameter",
+  "holes": [
+    {
+      "diameter": 8.0,
+      "x": -30.0,
+      "y": -20.0
+    },
+    {
+      "diameter": 8.0,
+      "x": 30.0,
+      "y": -20.0
+    },
+    {
+      "diameter": 8.0,
+      "x": 30.0,
+      "y": 20.0
+    },
+    {
+      "diameter": 8.0,
+      "x": -30.0,
+      "y": 20.0
+    }
+  ],
+  "plate": {
+    "height": 80.0,
+    "thickness": 10.0,
+    "width": 100.0
+  },
+  "pocket": {
+    "depth": 5.0,
+    "height": 20.0,
+    "width": 30.0
+  },
+  "schema": "cadbridge.plan.v1",
+  "units": "mm"
+}

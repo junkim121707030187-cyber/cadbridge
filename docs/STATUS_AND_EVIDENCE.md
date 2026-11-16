@@ -1,4 +1,21 @@
 # 상태와 근거
+## 현재: MVP 0.1 첫 코드와 실제 기술실험
+2026-11-16 KST, 문서2.0.0. 최신 사용자는 자료 대조·작업/에이전트 계획·다른 맥락 인계 후 코딩을 요청했다. 기존 main 준비 정본 fe42a66e8bcbb88566f2ff482cbaecb9bea4d784를 보존하고 feat/cb-002-native-foundation에 새 코드를 작성했다. GitHub 기능 branch·draft PR로 인계하며 main을 자동 병합하지 않는다. 아래 1.x 기록은 과거 준비 단계다.
+
+실제 완료: 채팅·Obsidian 인계 두 문서·현재 Git 대조, [MVP 계획](MVP_PLAN.md)·[에이전트 계획](MVP_AGENT_PLAN.md)·[출처](MVP_SOURCES.md)·[다음 채팅 인계](START_HERE_NEXT_CHAT.md), 새 맥락 에이전트2명의 복구 요약 및 코딩, 독립 실패 검토·수정·재검증.
+
+실제 코드: strict plan v1·보호 편집/동일직경 전파·선택 계획 버전 결속, FreeCAD worker, CLI, 불변 프로젝트 버전/입출력 해시/맥락, 실패 staging과 원본 보존, 별도 프로세스 native 재열기. 스케치/PartDesign 피처를 실제 생성·편집한다.
+
+| 실제 실행 | 결과·범위 |
+|---|---|
+| `python -B -m unittest discover -s tests -q` | 52/52 pass, skip0, 6.767s. core25/native13/workflow14. 과거 M3 시험과 합산 금지 |
+| `python -B -m cadbridge demo --output 새경로` | FreeCAD1.0.0, 알려진 계획 fixture STEP→native→새 프로세스 재열기→기존 치수 편집→재저장·새 프로세스 재열기 |
+| native 관측 | 실제 Sketcher3개 각12제약·완전구속, PartDesign Pad/Pocket. 두께10→15mm, 네 홀Ø8→Ø10. 판·홀 중심·포켓 보호/보존 |
+| 독립 Part 형상 대조 | 기준·편집 후 대칭차 부피0mm³. 기준74989.38070170252mm³, 편집112287.61101961532mm³ |
+| 로컬 실패 거부 | 잘못된 계획/단위/선택/보호/버전/해시, 손상 STEP·다중solid·불일치 형상·기존 출력·손상 session·비유한 JSON 거부 |
+
+[보존 시연 파일](../evidence/native-gate/README.md)과 [독립 검토](MVP_REVIEW.md)를 참조한다. 과거 M3 소스는 미회수이며 신규 코드다. STEP-only 의도 추론·외부 LLM 실호출·서로 다른 CAD A→B·다인 인증·최종 제품 공차는 미구현/미검증이고 product_acceptance=not_assessed다. 이는 알려진 계획군의 native 기술실험이며 제품 G0/G1/G2 최종 완료 선언이 아니다. Windows 실행과 GUI 시각 검토도 수행하지 않았다. CI가 FreeCAD 부재로 native를 skip하면 해당 runner의 결과와 위 로컬 실측을 분리한다.
+
 문서 버전 1.2.1 · 2026-11-16 KST
 
 ## 근거 범위

@@ -1,0 +1,9 @@
+{
+  "scope": "new local known-plan prototype only",
+  "test_counts": {"core": 25, "native": 13, "workflow": 14, "total": 52, "skipped": 0, "result": "pass"},
+  "commands": ["python -B -m unittest discover -s tests -q", "python -B -m cadbridge demo --output new-directory"],
+  "independent_review": "workflow14 and original failing cases retested; native/core reviewer fixes retested in main suite",
+  "fixed_issues": ["subnormal geometry contact", "worker report hardlink alias", "malformed session envelope", "conflicting scope/selection/protection", "nonfinite JSON", "demo completion marker publication"],
+  "native_product_acceptance": "not_assessed",
+  "external_llm_calls": 0
+}

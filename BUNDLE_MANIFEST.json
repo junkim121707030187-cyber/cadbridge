@@ -1,16 +1,15 @@
 {
   "format": "cadbridge-bundle-manifest-v1",
-  "document_version": "1.2.1",
+  "document_version": "2.0.0",
+  "code_version": "0.1.0",
   "authored_date": "2026-11-16",
   "timezone": "Asia/Seoul",
-  "scope": "개발 준비 문서·제품 개념도·협업 설정을 사용자 지정 비공개 GitHub cadbridge/main에 업로드; CAD 구현·설치·제품 CAD/API 시험 없음",
-  "source_basis": "사용자 합의·M3 과거 조사 요약, void_hackathon 지정 문서 직접 열람; 원 M3 소스 회수 없음",
-  "reference_commit": "d3c8935ebdf1ea980a4dfad942d9b8b2ed78c7fa",
+  "scope": "MVP first code: known-plan FreeCAD native foundation; no final product acceptance",
+  "source_basis": "latest user request; verified main snapshot; Obsidian source hashes; official sources; actual new local tests; M3 not recovered",
   "hash_algorithm": "SHA256",
-  "path_base": "repository root (local source cadbridge-seed/)",
+  "path_base": "repository root",
   "excluded_from_hashes": [
-    "BUNDLE_MANIFEST.json",
-    "archive checkpoints"
+    "BUNDLE_MANIFEST.json"
   ],
   "files": [
     {
@@ -40,8 +39,8 @@
     },
     {
       "path": ".github/workflows/docs-check.yml",
-      "sha256": "80b4f9ec2a7a695145e31aacbda10a38dd26df3d0778c920ddc44bfbb2542a74",
-      "size_bytes": 501
+      "sha256": "298c02a0a60f108fb8b5bf6d1403c6aab1403503929c6d50b7b3317566c52829",
+      "size_bytes": 740
     },
     {
       "path": ".gitignore",
@@ -50,23 +49,58 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "691ef751879fc6fabca6bd8c84100484e5c9062dac3d3db78f67f8f1c3112744",
-      "size_bytes": 3715
+      "sha256": "1d402b70fd327010f2b01a36909331e48f185e33899c77f3e597c95c54db6d46",
+      "size_bytes": 3551
     },
     {
       "path": "CONTRIBUTING.md",
-      "sha256": "2f97a8a816ae8a69a275fde5f477b82188cfd9ce286c2e5c2ababd48e295bc5e",
-      "size_bytes": 3455
+      "sha256": "fa8614ae5c192f291e8c35ceae614b486b5c1b55b7aa4c9b9dac87d443b092e3",
+      "size_bytes": 3798
     },
     {
       "path": "README.md",
-      "sha256": "808a1cd86e3b72cc438beb541f5d8c036ef93f26a35dba4294e8b93158ebf750",
-      "size_bytes": 3416
+      "sha256": "6c416b104d6f12f0af0f36f02bbe4da4864a75c26edd2a3ba49985567d6b7bf7",
+      "size_bytes": 4424
+    },
+    {
+      "path": "cadbridge/__init__.py",
+      "sha256": "dbc34b6a717a107394e292bd4660d70b1598910087dba5ea4d63f26eda804111",
+      "size_bytes": 86
+    },
+    {
+      "path": "cadbridge/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "size_bytes": 48
+    },
+    {
+      "path": "cadbridge/cli.py",
+      "sha256": "9efe73187486c62dac834ed3129e11b69695c27cfbf868af37046729e69ae26a",
+      "size_bytes": 2473
+    },
+    {
+      "path": "cadbridge/freecad_worker.py",
+      "sha256": "4c60668b24d8500f1801fd353fe0a1eddcd685aefe27622b64670da9d08a40a1",
+      "size_bytes": 24960
+    },
+    {
+      "path": "cadbridge/model.py",
+      "sha256": "22781aa11b6c95c84f2c6a69c3b39b94d48f4f04af76a8d10010ca7bd3b0f1f7",
+      "size_bytes": 8744
+    },
+    {
+      "path": "cadbridge/policy.py",
+      "sha256": "503b8bc0ffa250c8536e5ca199ffdac5ba94867df91d1a04db0c309f0cd984e7",
+      "size_bytes": 776
+    },
+    {
+      "path": "cadbridge/workflow.py",
+      "sha256": "d1c2a7b6c054ad1e7cb16a657deb5a464c94a3a28c147af8794f36b35164457e",
+      "size_bytes": 15731
     },
     {
       "path": "docs/AGENT_WORKFLOW.md",
-      "sha256": "1183a8943b0489b16d942b36709939713205e0b7dbb3e3eeaf24253eee013cd6",
-      "size_bytes": 3329
+      "sha256": "212983f6bd03d642a7b4477b69e0969ea35b87d36a35fffc0fc3304659fde5f9",
+      "size_bytes": 3168
     },
     {
       "path": "docs/AI_POLICY.md",
@@ -75,8 +109,8 @@
     },
     {
       "path": "docs/ARCHITECTURE.md",
-      "sha256": "a1b0ea249223f46fa61c7a77cba1e826fd1ca93ecdbd02d1dc066f1e078c6bd8",
-      "size_bytes": 2562
+      "sha256": "e2e68b50a72169589e41a25093fd36f29396b272c770434feddcaee8853d6bc7",
+      "size_bytes": 2800
     },
     {
       "path": "docs/DATA_AND_CONTEXT.md",
@@ -85,8 +119,8 @@
     },
     {
       "path": "docs/DECISIONS.md",
-      "sha256": "4ce0301d1ca511a8fc9dfd92db25cc44273a1ef64474f0ab0d0d304b9abdda59",
-      "size_bytes": 4380
+      "sha256": "44b476cec564d8add23d7cf8a2449c928e34a9d7154d2389abde067520e3323a",
+      "size_bytes": 5465
     },
     {
       "path": "docs/DEVELOPMENT_WORKFLOW.md",
@@ -95,13 +129,48 @@
     },
     {
       "path": "docs/HANDOFF.md",
-      "sha256": "8b44f6c96f4af9fe36621e3b44c9e79b77714ee8653629569da366632a13517e",
-      "size_bytes": 3367
+      "sha256": "1401da22b0804646e768d58b7d8c602d848e5c5678bdf4438688ae7461f24a94",
+      "size_bytes": 3676
     },
     {
       "path": "docs/INTERFACES.md",
-      "sha256": "fb11c06d700c54147df45ddd9261aa956a22770731231290b844a45806b730d2",
-      "size_bytes": 1140
+      "sha256": "bc62b29a109fb30d16d49f53c47facbc774109828eecce8ddfb3f4e2e6e4418f",
+      "size_bytes": 1398
+    },
+    {
+      "path": "docs/MVP_AGENT_PLAN.md",
+      "sha256": "1dfd063c9b41ad079106b93e150358a6d02dce53c3a766d905f502921720d929",
+      "size_bytes": 3001
+    },
+    {
+      "path": "docs/MVP_CONTEXT.json",
+      "sha256": "72e306e59a3e8bb3e5778fcec20cd048cfe5b1e9bdb8131991659d5fcf4ce118",
+      "size_bytes": 2630
+    },
+    {
+      "path": "docs/MVP_EXECUTION_CONTRACT.md",
+      "sha256": "6309809f81d758eb179c68f5df5477fde54729c48498ad0966bce1605b91bc15",
+      "size_bytes": 5524
+    },
+    {
+      "path": "docs/MVP_PLAN.md",
+      "sha256": "c299f2e0d4777cb3132c9d9c0d13b053ed42e237dba9e6069eb88aeaf42d4bc7",
+      "size_bytes": 4612
+    },
+    {
+      "path": "docs/MVP_QUICKSTART.md",
+      "sha256": "a8db54c10e617d1fa13a7b6b1e75decfeb6ca84ce82980c6acb581964201a624",
+      "size_bytes": 2972
+    },
+    {
+      "path": "docs/MVP_REVIEW.md",
+      "sha256": "462484e4a6c7208ca7e6d4a3d5dced7d6e58232b8716587189b27084a8fea35d",
+      "size_bytes": 1467
+    },
+    {
+      "path": "docs/MVP_SOURCES.md",
+      "sha256": "3bd499e21f350799b19028acbd28e0678b7b07baaa15277fccbcd11169dc2c00",
+      "size_bytes": 3003
     },
     {
       "path": "docs/PRODUCT_CONCEPT.md",
@@ -110,8 +179,8 @@
     },
     {
       "path": "docs/PROJECT_BRIEF.md",
-      "sha256": "edfc9bd3ea43520dae8aca921f37e692a4e4d28cf89bb67e7241ead84228f72a",
-      "size_bytes": 2128
+      "sha256": "1ed32fd1c07cd85ac282025cc616d4d8dfd9b1978f66190128ac03f3ef2ca5e6",
+      "size_bytes": 2340
     },
     {
       "path": "docs/REFERENCE_REVIEW.md",
@@ -124,24 +193,29 @@
       "size_bytes": 4015
     },
     {
+      "path": "docs/START_HERE_NEXT_CHAT.md",
+      "sha256": "9af61822bab7e3f8da5fc6a83342a2feaa62c90d4f5d3c0e10051755bbe3ac49",
+      "size_bytes": 4881
+    },
+    {
       "path": "docs/STATUS_AND_EVIDENCE.md",
-      "sha256": "d5ccf1a1fb2b40ffd586e29ba2c04e2f70718331631e179021cb0d4be64aab2e",
-      "size_bytes": 6887
+      "sha256": "5b127abd697f1952abfb043ef94fda2a5e9f2a2c34de5a1768a4b58c5ec1478c",
+      "size_bytes": 9444
     },
     {
       "path": "docs/TASK_BOARD.md",
-      "sha256": "d0cd5d397103f895dd8ff0582a8ff6f41da843ad2d494682226758069e38e928",
-      "size_bytes": 2120
+      "sha256": "69c2da26751db43d7a6f2eb9f4e76a819ebdcc672e337efe969c27000f88418f",
+      "size_bytes": 3432
     },
     {
       "path": "docs/VALIDATION.md",
-      "sha256": "fe5ea8dda506ee6c66a49268fbf97cc4ce58262b0b264f817f55784befb09066",
-      "size_bytes": 3600
+      "sha256": "74b843058a230f64676b1a94253cedaea9cd28434802ea3997a994d523f3a1f3",
+      "size_bytes": 3906
     },
     {
       "path": "docs/WORKSPACE_REVIEW.md",
-      "sha256": "a30da91b6ebcbabf8ac9ef5b97f0312dad9d4a72a64fb4f2c6b2f2f5c045be82",
-      "size_bytes": 3754
+      "sha256": "b5a704fa2d90d6a1fb36bde01537173f542aaddceab1ec47f27a1629ea1d3e27",
+      "size_bytes": 3962
     },
     {
       "path": "docs/tasks/CB-001.md",
@@ -169,55 +243,161 @@
       "size_bytes": 611
     },
     {
+      "path": "evidence/native-gate/README.md",
+      "sha256": "8802920912c8253057072c232da996aca26d42c358726253203cf88edc570fbc",
+      "size_bytes": 1403
+    },
+    {
+      "path": "evidence/native-gate/demo-report.json",
+      "sha256": "c6db7f38065cc0dc5e7337ff4ec0a3ac1d83dd1ef76cd8d14343c8a3ad63fdd3",
+      "size_bytes": 607
+    },
+    {
+      "path": "evidence/native-gate/edited/build-report.json",
+      "sha256": "5d6dc4a48edfcdddd1571ea00773873755ccde391bac1be079da6255bf2d5ded",
+      "size_bytes": 2375
+    },
+    {
+      "path": "evidence/native-gate/edited/inspect-report.json",
+      "sha256": "18b4c3db3b4f0fc9afa2581f81fcd32c5eb9e1acf693c0e27db54e2f978e988f",
+      "size_bytes": 2378
+    },
+    {
+      "path": "evidence/native-gate/edited/model.FCStd",
+      "sha256": "46bec6dac7ee197ff2a64fca3780629e1096b18ad6c59c9b105c17977b47c5a7",
+      "size_bytes": 19449
+    },
+    {
+      "path": "evidence/native-gate/edited/result.step",
+      "sha256": "8e1af108ec46771409203626c9b7e4cde2d28e2907696facded43aeffb59b578",
+      "size_bytes": 17914
+    },
+    {
+      "path": "evidence/native-gate/edited/session.json",
+      "sha256": "edbe86696cba8085ea231bcc1dd570cacd69f28c2603e47907e5bc0eeace9d9b",
+      "size_bytes": 3044
+    },
+    {
+      "path": "evidence/native-gate/edited/source.step",
+      "sha256": "3cec08a25c484badab2d017efa210b017935afb5bfcd4156ff50449f80c36107",
+      "size_bytes": 17912
+    },
+    {
+      "path": "evidence/native-gate/fixture-plan.json",
+      "sha256": "960d566e00b3ed76c84c1c980a15ea06563a2fb099b28f597d4e6791a5cc084e",
+      "size_bytes": 542
+    },
+    {
+      "path": "evidence/native-gate/fixture.step",
+      "sha256": "3cec08a25c484badab2d017efa210b017935afb5bfcd4156ff50449f80c36107",
+      "size_bytes": 17912
+    },
+    {
+      "path": "evidence/native-gate/initial/build-report.json",
+      "sha256": "ba4a5963db4db16dd267232f23ada33f31784acf7e98d864d9b13e55cdf1357d",
+      "size_bytes": 2376
+    },
+    {
+      "path": "evidence/native-gate/initial/inspect-report.json",
+      "sha256": "f6dd25442b51158eb01991f606ae094396cab11ff6d745a19855dec6ce1bb0c7",
+      "size_bytes": 2372
+    },
+    {
+      "path": "evidence/native-gate/initial/model.FCStd",
+      "sha256": "f68a40123fb805232d328815858dea2cbf90c48467276f4d5d79bb2856a96926",
+      "size_bytes": 19323
+    },
+    {
+      "path": "evidence/native-gate/initial/result.step",
+      "sha256": "8b112ff651c660855b03c3890c5f90276144a4f42eb99f8f496647e5f78ec46c",
+      "size_bytes": 17905
+    },
+    {
+      "path": "evidence/native-gate/initial/session.json",
+      "sha256": "a1b4e06065ce8e1292160053bb19cbfadeb6e340ef772135725289233bd8a68b",
+      "size_bytes": 2741
+    },
+    {
+      "path": "evidence/native-gate/initial/source.step",
+      "sha256": "3cec08a25c484badab2d017efa210b017935afb5bfcd4156ff50449f80c36107",
+      "size_bytes": 17912
+    },
+    {
+      "path": "evidence/native-gate/test-summary.json",
+      "sha256": "e9e7a2b880bea2aea909f16c8452d8b98078544f63ae431270ff9db9c96f6206",
+      "size_bytes": 684
+    },
+    {
+      "path": "examples/plate-pocket-holes.plan.json",
+      "sha256": "4649e39893a479df3d52b647991dfbf4ca5150c8c85cc4816b3bb7de4653b100",
+      "size_bytes": 378
+    },
+    {
+      "path": "examples/thickness-and-holes.edit.json",
+      "sha256": "39ab95dddf280472ddc49c1e9a749f8a47e53aa52a5e45e6ca1a9e91c7b5cada",
+      "size_bytes": 54
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "25d586e2d30f3f4a95e029a84cd28f0a71ebb9333e043b28a56d08bf5785faef",
+      "size_bytes": 373
+    },
+    {
       "path": "scripts/check_workspace.py",
       "sha256": "39b349cbd2f1d3ae8683705bf5b1c890ef3ed1cf1fb931c13005d057d3e26e13",
       "size_bytes": 12154
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "655c4d3994f7270435b58baa510229e1be1c21a15a92802559c860512e4cfd1f",
+      "size_bytes": 72
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "37244afa787e35876a12214831c08138728454a7c8fd9ad0242a787c19303f74",
+      "size_bytes": 14860
+    },
+    {
+      "path": "tests/test_native.py",
+      "sha256": "bfbea2f48b0f237d16be47200740e7d6935eb0842b0dc8ab95cceb637f2d06c0",
+      "size_bytes": 12963
+    },
+    {
+      "path": "tests/test_workflow.py",
+      "sha256": "ee08d5c8b63cdfea258e5d2241451491b4ec39775f558ad32571a5b82e212ce6",
+      "size_bytes": 9240
     }
   ],
   "review": {
-    "payload_files": 32,
     "static_checks": {
       "status": "pass",
       "scope": "workspace static checks only; no CAD/API tests",
       "manifest_verified": false,
       "counts": {
-        "files": 33,
-        "text_files": 33,
-        "relative_links": 109,
+        "files": 72,
+        "text_files": 65,
+        "relative_links": 149,
         "manifest_entries": 0
       },
       "errors": []
     },
-    "json_roundtrip": "pass",
-    "recovery_size_bytes": 88539,
-    "manual_review": "제품 범위·미정 11개·사용자 지정 저장소·초기 원격 33개 해시·문서 CI 성공의 대상 commit 구분 검토",
-    "peer_review": "delegated document update reviewed by main agent; concept author previously checked other changed documents",
-    "cad_api_tests": "not performed",
-    "github_status": "initial import verified on main; this follow-up records evidence and refreshed local hashes",
-    "github_repository": "junkim121707030187-cyber/cadbridge",
-    "github_branch": "main",
-    "github_baseline_commit": "5cc1f40aac88795ae5cb57abe3471e1b8c030e3c",
-    "github_remote_hash_check": {
+    "python_ast": "pass",
+    "unit_and_integration_tests": {
+      "total": 52,
+      "core": 25,
+      "native": 13,
+      "workflow": 14,
+      "skip": 0,
       "status": "pass",
-      "commit": "b5ccbe09dfc3cf4545f86cbe7f4aeef23551836b",
-      "files": 33,
-      "method": "Git blob hashes compared to all local UTF-8 bytes; concept fetched again"
+      "freecad_version": "1.0.0"
     },
-    "github_actions": {
-      "run_id": 43802258010,
-      "head_sha": "b5ccbe09dfc3cf4545f86cbe7f4aeef23551836b",
-      "status": "completed",
-      "conclusion": "success",
-      "scope": "workspace documents only; later commits have separate runs"
-    },
-    "mermaid_github_rendering": "not visually verified",
-    "repository_only_manifest_check": "manifest file entries do not require sibling recovery JSON",
-    "github_import_commit": "b5ccbe09dfc3cf4545f86cbe7f4aeef23551836b"
-  },
-  "recovery": {
-    "path": "../seed-docs.json",
-    "sha256": "c87494c5f6776cfc9501ae2b9c73b5c5cc70d0030c37f2df4ac551c218a7add7",
-    "size_bytes": 88539,
-    "required_for_repository_check": false
+    "cli_demo": "pass",
+    "independent_review": "core/native/workflow failures fixed and regression tested; see docs/MVP_REVIEW.md",
+    "product_acceptance": "not_assessed",
+    "github_base_commit": "fe42a66e8bcbb88566f2ff482cbaecb9bea4d784",
+    "github_branch": "feat/cb-002-native-foundation",
+    "remote_ci": "check current PR/Actions; local native run is separate evidence",
+    "m3_source_recovered": false,
+    "external_llm_calls": 0
   }
 }

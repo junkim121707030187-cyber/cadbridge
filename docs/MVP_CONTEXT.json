@@ -1,0 +1,43 @@
+{
+  "schema": "cadbridge.handoff.v1",
+  "date": "2026-11-16",
+  "timezone": "Asia/Seoul",
+  "repository": "https://github.com/junkim121707030187-cyber/cadbridge",
+  "branch": "feat/cb-002-native-foundation",
+  "base_commit": "fe42a66e8bcbb88566f2ff482cbaecb9bea4d784",
+  "user_request": "채팅·Obsidian·Git을 참고해 MVP 작업/에이전트 계획, 다른 맥락 인계 후 실제 코딩 시작",
+  "authorizations": ["isolated feature branch", "local code and FreeCAD execution", "tests", "draft PR"],
+  "excluded_actions": ["automatic main merge", "paid model calls", "public sharing", "reference repository changes"],
+  "product_goal": ["STEP to editable open-source native", "then distinct open-source CAD A to B receiving/editing/saving"],
+  "implemented_slice": "explicit known-plan STEP comparison to constrained FreeCAD native, persistent versions and protected edits",
+  "unimplemented": ["STEP-only intent inference", "external LLM", "two CAD transfer", "multi-user authentication", "final product tolerances"],
+  "sources": {
+    "chat": "latest decisions and scoped prior CADBridge context",
+    "git": "base main commit",
+    "obsidian": ["brain/wiki/index.md", "brain/wiki/maps/projects.md", "CADBridge 팀 인수인계와 구현 결과.md", "3-2/캡스톤_심화실습/받은자료_2026-10-29/CADBridge 팀 인수인계와 구현 결과.md"],
+    "m3_source_recovered": false
+  },
+  "fresh_context_handoff": {
+    "agents": ["core_builder", "native_builder"],
+    "prior_history_passed": false,
+    "comprehension_checked_before_code": true,
+    "new_ChatGPT_conversation_created": false
+  },
+  "execution": {
+    "platform": "Linux",
+    "freecad": "1.0.0",
+    "tests": {"core": 25, "native": 13, "workflow": 14, "total": 52, "skipped": 0, "result": "pass"},
+    "demo": "pass",
+    "thickness_mm": [10, 15],
+    "hole_diameters_mm": [8, 10],
+    "native_sketches": 3,
+    "constraints_per_sketch": 12,
+    "all_sketches_fully_constrained": true,
+    "symmetric_difference_mm3": [0, 0]
+  },
+  "product_acceptance": "not_assessed",
+  "next_card": "CB-007",
+  "read_order": ["AGENTS.md", "docs/START_HERE_NEXT_CHAT.md", "docs/MVP_PLAN.md", "docs/MVP_AGENT_PLAN.md", "docs/MVP_EXECUTION_CONTRACT.md", "docs/TASK_BOARD.md", "docs/STATUS_AND_EVIDENCE.md", "docs/MVP_QUICKSTART.md"],
+  "commands": ["python -B -m unittest discover -s tests -v", "python -B scripts/check_workspace.py --verify-manifest", "python -B -m cadbridge demo --output ../new-output-directory"],
+  "integrity_note": "Hashes bind versions and detect accidental changes, not user identity. Verify branch HEAD and changes before continuing."
+}

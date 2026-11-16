@@ -1,4 +1,6 @@
 # 제품 개요
+현재 첫 구현 범위·실측은 [MVP 계획](MVP_PLAN.md)과 [상태](STATUS_AND_EVIDENCE.md)를 따른다. 아래 준비 단계 설명은 당시 산출물이며 전체 제품 완료를 뜻하지 않는다.
+
 기준: [요구사항](REQUIREMENTS.md) · [결정 로그](DECISIONS.md)
 
 ## 대상과 문제

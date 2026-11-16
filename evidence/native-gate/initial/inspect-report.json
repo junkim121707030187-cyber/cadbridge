@@ -1,0 +1,125 @@
+{
+  "action": "inspect",
+  "freecad_version": "1.0.0",
+  "input_information_group": "known_plan_fixture",
+  "native_features": [
+    {
+      "name": "Body",
+      "type": "PartDesign::Body"
+    },
+    {
+      "name": "PlateSketch",
+      "type": "Sketcher::SketchObject"
+    },
+    {
+      "name": "Pad",
+      "type": "PartDesign::Pad"
+    },
+    {
+      "name": "PocketSketch",
+      "type": "Sketcher::SketchObject"
+    },
+    {
+      "name": "Pocket",
+      "type": "PartDesign::Pocket"
+    },
+    {
+      "name": "HolesSketch",
+      "type": "Sketcher::SketchObject"
+    },
+    {
+      "name": "Holes",
+      "type": "PartDesign::Pocket"
+    }
+  ],
+  "native_parameters": {
+    "Holes": {
+      "length_mm": 5.0,
+      "type": "ThroughAll"
+    },
+    "HolesSketch": {
+      "Hole0Diameter": 8.0,
+      "Hole0X": -30.0,
+      "Hole0Y": -20.0,
+      "Hole1X": 30.0,
+      "Hole1Y": -20.0,
+      "Hole2X": 30.0,
+      "Hole2Y": 20.0,
+      "Hole3X": -30.0,
+      "Hole3Y": 20.0
+    },
+    "Pad": {
+      "length_mm": 10.0
+    },
+    "PlateSketch": {
+      "Height": 80.0,
+      "OriginX": -50.0,
+      "OriginY": -40.0,
+      "Width": 100.0
+    },
+    "Pocket": {
+      "length_mm": 5.0,
+      "type": "Length"
+    },
+    "PocketSketch": {
+      "Height": 20.0,
+      "OriginX": -15.0,
+      "OriginY": -10.0,
+      "Width": 30.0
+    }
+  },
+  "plan": {
+    "hole_relation": "equal_diameter",
+    "holes": [
+      {
+        "diameter": 8.0,
+        "x": -30.0,
+        "y": -20.0
+      },
+      {
+        "diameter": 8.0,
+        "x": 30.0,
+        "y": -20.0
+      },
+      {
+        "diameter": 8.0,
+        "x": 30.0,
+        "y": 20.0
+      },
+      {
+        "diameter": 8.0,
+        "x": -30.0,
+        "y": 20.0
+      }
+    ],
+    "plate": {
+      "height": 80.0,
+      "thickness": 10.0,
+      "width": 100.0
+    },
+    "pocket": {
+      "depth": 5.0,
+      "height": 20.0,
+      "width": 30.0
+    },
+    "schema": "cadbridge.plan.v1",
+    "units": "mm"
+  },
+  "product_acceptance": "not_assessed",
+  "reopened": true,
+  "shape_valid": true,
+  "sketch_constraints": {
+    "HolesSketch": 12,
+    "PlateSketch": 12,
+    "PocketSketch": 12
+  },
+  "sketch_fully_constrained": {
+    "HolesSketch": true,
+    "PlateSketch": true,
+    "PocketSketch": true
+  },
+  "solid_count": 1,
+  "status": "ok",
+  "symmetric_difference_mm3": 0.0,
+  "volume_mm3": 74989.38070170252
+}

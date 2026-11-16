@@ -1,0 +1,21 @@
+{
+  "edited_hole_diameters_mm": [
+    10.0,
+    10.0,
+    10.0,
+    10.0
+  ],
+  "edited_plan_sha256": "293a66a86027076e48d2bf737fbde7bee19181e651ddc4e7717b739272e47282",
+  "edited_version": "e1e34afd-be33-4a0e-b2ad-38db450b06f1",
+  "external_llm_calls": 0,
+  "initial_plan_sha256": "7c609dfbd4127bcd05f2320f3b136bdcd4c22756b59ea85b555f388af8661c02",
+  "initial_version": "87124e64-01e5-4127-8e97-16cf8447c863",
+  "input_information_group": "known_plan_fixture",
+  "product_acceptance": "not_assessed",
+  "separate_process_reopen": true,
+  "status": "ok",
+  "thickness_change_mm": [
+    10.0,
+    15.0
+  ]
+}

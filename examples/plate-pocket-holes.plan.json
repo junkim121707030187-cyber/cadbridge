@@ -1,0 +1,13 @@
+{
+  "schema": "cadbridge.plan.v1",
+  "units": "mm",
+  "plate": {"width": 100, "height": 80, "thickness": 10},
+  "pocket": {"width": 30, "height": 20, "depth": 5},
+  "holes": [
+    {"x": -30, "y": -20, "diameter": 8},
+    {"x": 30, "y": -20, "diameter": 8},
+    {"x": 30, "y": 20, "diameter": 8},
+    {"x": -30, "y": 20, "diameter": 8}
+  ],
+  "hole_relation": "equal_diameter"
+}
