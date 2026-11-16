@@ -1,0 +1,27 @@
+{
+  "format": "cadbridge-repository-handoffs/1",
+  "date_kst": "2026-11-16",
+  "scope": "AI connection, UIUX requirements, mechanical design guard handoff documents/reference",
+  "cad_execution_performed": false,
+  "llm_calls_performed": 0,
+  "files": [
+    {
+      "module_id": "AI_CONNECTOR",
+      "path": "ai-connection.zip",
+      "bytes": 98557,
+      "sha256": "7f1e60ef133d13f9fc5ff6d6f29a4a29863f88bee7590b1c6545bcb0bba40ee8"
+    },
+    {
+      "module_id": "UIUX_REQUIREMENTS",
+      "path": "uiux-requirements.zip",
+      "bytes": 19183,
+      "sha256": "5956ea877f68e4606ea9cad7f0480191ee4724def485f2e2f857e9b2ae1874cc"
+    },
+    {
+      "module_id": "DESIGN_GUARDS",
+      "path": "cad-mechanical-constraints.zip",
+      "bytes": 30545,
+      "sha256": "6505347f7633a81e266234985ede00d6c3689eeb95836fea25a2048d7b99251e"
+    }
+  ]
+}

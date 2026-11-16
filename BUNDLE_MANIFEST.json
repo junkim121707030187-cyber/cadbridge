@@ -59,11 +59,6 @@
       "size_bytes": 3455
     },
     {
-      "path": "README.md",
-      "sha256": "808a1cd86e3b72cc438beb541f5d8c036ef93f26a35dba4294e8b93158ebf750",
-      "size_bytes": 3416
-    },
-    {
       "path": "docs/AGENT_WORKFLOW.md",
       "sha256": "1183a8943b0489b16d942b36709939713205e0b7dbb3e3eeaf24253eee013cd6",
       "size_bytes": 3329
@@ -85,8 +80,8 @@
     },
     {
       "path": "docs/DECISIONS.md",
-      "sha256": "4ce0301d1ca511a8fc9dfd92db25cc44273a1ef64474f0ab0d0d304b9abdda59",
-      "size_bytes": 4380
+      "sha256": "0bdf84354f2d023c04f0eb69721ac0c12d94451eadfa77036141655896f521e0",
+      "size_bytes": 4970
     },
     {
       "path": "docs/DEVELOPMENT_WORKFLOW.md",
@@ -102,6 +97,11 @@
       "path": "docs/INTERFACES.md",
       "sha256": "fb11c06d700c54147df45ddd9261aa956a22770731231290b844a45806b730d2",
       "size_bytes": 1140
+    },
+    {
+      "path": "docs/MODULE_HANDOFFS.md",
+      "sha256": "205bb6e866d5bb6c9efa49517db3b178fc378befd7ef8ac6055bc2c1af2a790e",
+      "size_bytes": 4169
     },
     {
       "path": "docs/PRODUCT_CONCEPT.md",
@@ -125,28 +125,23 @@
     },
     {
       "path": "docs/STATUS_AND_EVIDENCE.md",
-      "sha256": "d5ccf1a1fb2b40ffd586e29ba2c04e2f70718331631e179021cb0d4be64aab2e",
-      "size_bytes": 6887
+      "sha256": "50ed3b0b6b332dba0b4941d9aa83d9e116003e280cc838835a29ce2c73f30092",
+      "size_bytes": 7506
     },
     {
       "path": "docs/TASK_BOARD.md",
-      "sha256": "d0cd5d397103f895dd8ff0582a8ff6f41da843ad2d494682226758069e38e928",
-      "size_bytes": 2120
-    },
-    {
-      "path": "docs/VALIDATION.md",
-      "sha256": "fe5ea8dda506ee6c66a49268fbf97cc4ce58262b0b264f817f55784befb09066",
-      "size_bytes": 3600
-    },
-    {
-      "path": "docs/WORKSPACE_REVIEW.md",
-      "sha256": "a30da91b6ebcbabf8ac9ef5b97f0312dad9d4a72a64fb4f2c6b2f2f5c045be82",
-      "size_bytes": 3754
+      "sha256": "98693483dfb5985cbfabf25bad50c1ed71b737efaa0dd9bdfa61f4b361c79068",
+      "size_bytes": 2548
     },
     {
       "path": "docs/tasks/CB-001.md",
       "sha256": "7347ca05ac5a58bfd5da7351456efe7b9f0772c72558c9d882e6702b46f6bebc",
       "size_bytes": 1224
+    },
+    {
+      "path": "docs/tasks/CB-002.md",
+      "sha256": "931cbe99c0dcfcf9ec56219f7e4c16d7905b492bba6086bb35ef0fafdfa4da22",
+      "size_bytes": 1364
     },
     {
       "path": "docs/tasks/README.md",
@@ -167,6 +162,41 @@
       "path": "docs/templates/TASK.md",
       "sha256": "7fb3f44794aab60d69f8bdbfd132c590306923acecddfc952c7d3ef280f68bf5",
       "size_bytes": 611
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "fe5ea8dda506ee6c66a49268fbf97cc4ce58262b0b264f817f55784befb09066",
+      "size_bytes": 3600
+    },
+    {
+      "path": "docs/WORKSPACE_REVIEW.md",
+      "sha256": "a30da91b6ebcbabf8ac9ef5b97f0312dad9d4a72a64fb4f2c6b2f2f5c045be82",
+      "size_bytes": 3754
+    },
+    {
+      "path": "handoffs/2026-11-16/ai-connection.zip",
+      "sha256": "7f1e60ef133d13f9fc5ff6d6f29a4a29863f88bee7590b1c6545bcb0bba40ee8",
+      "size_bytes": 98557
+    },
+    {
+      "path": "handoffs/2026-11-16/cad-mechanical-constraints.zip",
+      "sha256": "6505347f7633a81e266234985ede00d6c3689eeb95836fea25a2048d7b99251e",
+      "size_bytes": 30545
+    },
+    {
+      "path": "handoffs/2026-11-16/manifest.json",
+      "sha256": "3d479440a515f780701fd1380e06ae300057504c8cabd6789f19333147480dab",
+      "size_bytes": 846
+    },
+    {
+      "path": "handoffs/2026-11-16/uiux-requirements.zip",
+      "sha256": "5956ea877f68e4606ea9cad7f0480191ee4724def485f2e2f857e9b2ae1874cc",
+      "size_bytes": 19183
+    },
+    {
+      "path": "README.md",
+      "sha256": "ffc2e9a15ca27cff332555a4a636cdcb97773ee0f8fe6b4a996eeb62e494940f",
+      "size_bytes": 3783
     },
     {
       "path": "scripts/check_workspace.py",
@@ -219,5 +249,17 @@
     "sha256": "c87494c5f6776cfc9501ae2b9c73b5c5cc70d0030c37f2df4ac551c218a7add7",
     "size_bytes": 88539,
     "required_for_repository_check": false
+  },
+  "module_handoff_revision": {
+    "date_kst": "2026-11-16",
+    "task": "CB-002",
+    "modules": [
+      "AI_CONNECTOR",
+      "UIUX_REQUIREMENTS",
+      "DESIGN_GUARDS"
+    ],
+    "scope": "handoff documents and reference archives; no runtime tests",
+    "previous_recovery_scope": "recovery metadata describes preserved v1.2.1 document bundle only",
+    "line_endings": "LF per repository .gitattributes"
   }
 }

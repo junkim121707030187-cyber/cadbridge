@@ -21,3 +21,6 @@ ZIP을 풀고 cadbridge-seed/ 안의 파일과 폴더를 사용자가 만든 Git
 [CONTRIBUTING](CONTRIBUTING.md)에서 사람용 절차를 읽고 [에이전트 작업 절차](docs/AGENT_WORKFLOW.md), [계약 목록](docs/INTERFACES.md), [작업 카드](docs/tasks/README.md)를 사용한다. [참고 저장소 검토](docs/REFERENCE_REVIEW.md)에 적용·제외 근거가 있다.
 
 문서 검사: `python scripts/check_workspace.py` (Python 3.11 이상, 추가 설치 없음). GitHub CI도 같은 검사만 수행한다. CAD/API 호출·자동 배포·자동 merge는 없다. 초기 작업은 [CB-001 프로그램 조사](docs/tasks/CB-001.md)이며 아직 미배정·미시작이다.
+
+## 분담 인수인계 모듈
+후속 사용자 요청에 따른 [AI 연결·UIUX·CAD 기계 제약 인수인계](docs/MODULE_HANDOFFS.md)를 추가했다. 각 파트의 독립 전달 ZIP과 최신 CAD·부품·공차 채택, 역할 경계·열린 결정은 해당 안내를 따른다. 이 추가분은 새 런타임 구현이나 CAD/API 실행 성공이 아니다.
