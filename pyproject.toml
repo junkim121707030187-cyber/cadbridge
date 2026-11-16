@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cadbridge-native-foundation"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Experimental explicit-plan STEP to FreeCAD native reconstruction"
+dependencies = []
+
+[project.scripts]
+cadbridge = "cadbridge.cli:main"
+
+[tool.setuptools]
+packages = ["cadbridge"]

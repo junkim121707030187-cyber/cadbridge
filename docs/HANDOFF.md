@@ -1,4 +1,6 @@
 # 인계
+최신 구현 인계는 [START_HERE_NEXT_CHAT](START_HERE_NEXT_CHAT.md), [MVP 계획](MVP_PLAN.md), [실행 안내](MVP_QUICKSTART.md), [현재 결과](STATUS_AND_EVIDENCE.md)를 먼저 읽는다. 아래 1.2.1은 보존된 준비 정본의 인계 기록이며 최신 코드 상태를 덮어쓰지 않는다.
+
 이 패키지는 개발 준비 문서 1.2.1의 기준선이다. [README](../README.md)→[제품 개념도](PRODUCT_CONCEPT.md)→[요구사항](REQUIREMENTS.md)→[상태·근거](STATUS_AND_EVIDENCE.md)→[검증](VALIDATION.md)→[작업 보드](TASK_BOARD.md) 순으로 읽는다. 작업 규칙은 [AGENTS](../AGENTS.md)에 있다.
 
 ## 다음 사람이 할 일

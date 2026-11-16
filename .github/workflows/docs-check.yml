@@ -1,4 +1,4 @@
-name: Workspace documents
+name: Workspace foundation
 on:
   pull_request:
   push:
@@ -17,5 +17,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python scripts/check_workspace.py
-# 문서 검사만 수행. CAD/API 호출·외부 모델 추론·배포 없음.
+      - run: python -B scripts/check_workspace.py --verify-manifest
+      - run: python -B -m unittest discover -s tests -v
+# FreeCAD가 없는 runner의 native 시험은 명시적으로 skip된다. 이 CI를 CAD 실행 통과로 보고하지 않는다.
+# 문서·단위 시험, 실행기가 있는 경우 실제 native 시험. 외부 모델 추론·배포 없음.

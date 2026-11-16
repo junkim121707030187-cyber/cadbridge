@@ -1,4 +1,6 @@
 # 사람과 에이전트의 협업 시작
+MVP 코딩 착수 후 현재 범위는 [실행 계약](docs/MVP_EXECUTION_CONTRACT.md), [에이전트 계획](docs/MVP_AGENT_PLAN.md), [실행 안내](docs/MVP_QUICKSTART.md)를 따른다. 아래 문서 준비 기준의 미실행 설명은 과거 단계이며 최신 실제 결과는 [상태](docs/STATUS_AND_EVIDENCE.md)에서 구분한다.
+
 [README](README.md) · [공통 작업 규칙](AGENTS.md) · [에이전트 절차](docs/AGENT_WORKFLOW.md)
 
 이 기준선은 CADBridge 문서와 협업 준비 도구다. CAD 프로그램·패키지를 설치하지 않으며 CAD/API 제품 시험은 아직 없다. 참고 저장소의 웹앱 스택과 해커톤 일정은 가져오지 않았다.

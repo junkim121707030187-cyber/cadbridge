@@ -1,0 +1,106 @@
+{
+  "assets": {
+    "build-report.json": "ba4a5963db4db16dd267232f23ada33f31784acf7e98d864d9b13e55cdf1357d",
+    "inspect-report.json": "f6dd25442b51158eb01991f606ae094396cab11ff6d745a19855dec6ce1bb0c7",
+    "model.FCStd": "f68a40123fb805232d328815858dea2cbf90c48467276f4d5d79bb2856a96926",
+    "result.step": "8b112ff651c660855b03c3890c5f90276144a4f42eb99f8f496647e5f78ec46c",
+    "source.step": "3cec08a25c484badab2d017efa210b017935afb5bfcd4156ff50449f80c36107"
+  },
+  "context": {
+    "assumptions": [
+      "Plan intent is supplied, not inferred from STEP"
+    ],
+    "constraints": [
+      "holes.0.x",
+      "holes.0.y",
+      "holes.1.x",
+      "holes.1.y",
+      "holes.2.x",
+      "holes.2.y",
+      "holes.3.x",
+      "holes.3.y",
+      "plate.height",
+      "plate.width"
+    ],
+    "external_llm_calls": 0,
+    "origin": "explicit plan and measured STEP geometry",
+    "separate_process_reopen": true
+  },
+  "history": [
+    {
+      "at": "2026-11-16T04:42:09.060108+00:00",
+      "changes": {},
+      "operation": "reconstruct",
+      "plan_sha256": "7c609dfbd4127bcd05f2320f3b136bdcd4c22756b59ea85b555f388af8661c02"
+    }
+  ],
+  "input_information_group": "known_plan_fixture",
+  "parent_version_id": null,
+  "plan": {
+    "hole_relation": "equal_diameter",
+    "holes": [
+      {
+        "diameter": 8.0,
+        "x": -30.0,
+        "y": -20.0
+      },
+      {
+        "diameter": 8.0,
+        "x": 30.0,
+        "y": -20.0
+      },
+      {
+        "diameter": 8.0,
+        "x": 30.0,
+        "y": 20.0
+      },
+      {
+        "diameter": 8.0,
+        "x": -30.0,
+        "y": 20.0
+      }
+    ],
+    "plate": {
+      "height": 80.0,
+      "thickness": 10.0,
+      "width": 100.0
+    },
+    "pocket": {
+      "depth": 5.0,
+      "height": 20.0,
+      "width": 30.0
+    },
+    "schema": "cadbridge.plan.v1",
+    "units": "mm"
+  },
+  "plan_sha256": "7c609dfbd4127bcd05f2320f3b136bdcd4c22756b59ea85b555f388af8661c02",
+  "product_acceptance": "not_assessed",
+  "project_id": "3cf5095a-54ad-4926-87b6-85cdf2a0eeac",
+  "protected_fields": [
+    "holes.0.x",
+    "holes.0.y",
+    "holes.1.x",
+    "holes.1.y",
+    "holes.2.x",
+    "holes.2.y",
+    "holes.3.x",
+    "holes.3.y",
+    "plate.height",
+    "plate.width"
+  ],
+  "schema": "cadbridge.session.v1",
+  "selection": {
+    "identity_authenticated": false,
+    "mode": "explicit_plan_version",
+    "plan_sha256": "7c609dfbd4127bcd05f2320f3b136bdcd4c22756b59ea85b555f388af8661c02"
+  },
+  "source": {
+    "filename": "fixture.step",
+    "sha256": "3cec08a25c484badab2d017efa210b017935afb5bfcd4156ff50449f80c36107"
+  },
+  "validation_profile": {
+    "kind": "engineering_exploration",
+    "volume_tolerance_mm3": 1e-05
+  },
+  "version_id": "87124e64-01e5-4127-8e97-16cf8447c863"
+}
