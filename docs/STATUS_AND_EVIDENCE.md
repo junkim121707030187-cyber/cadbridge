@@ -67,3 +67,17 @@ GitHub 도구 확인: 2026-11-16 계정 조회 성공, 접근 가능한 설치 �
 - `python scripts/check_workspace.py --verify-manifest`: fail 131건. 기준 상태와 같은 크기 필드명(`bytes`) 오류만 남고 새 오류 0. 2단계에서 다룬다
 
 미실행: GitHub CI(사용자 커밋 후 해당 SHA에서 확인), Windows checkout 확인, 편집기의 `.editorconfig` 예외 적용 확인(검사 도구 없음), CAD/API 실행. 커밋·push는 사용자가 직접 한다.
+
+## 2026-11-23 · 매니페스트 크기 필드명 통일 (CB-010 2단계)
+
+1단계는 PR #3으로 main에 병합됐다(병합 커밋 `7ace128`). 병합 커밋의 GitHub CI 결과는 이 기록에서 확인하지 않았다.
+
+변경(구현): `BUNDLE_MANIFEST.json`의 파일 항목 131개가 크기를 `bytes`로 적고 있어, `size_bytes`를 읽는 검사기가 크기 불일치로 실패했다. 이 131개 항목의 이름을 `size_bytes`로 바꾸고 키 순서를 나머지 항목과 같은 `path`, `sha256`, `size_bytes`로 맞췄다. SHA256과 크기 값은 바꾸지 않았다. 함께 수정한 문서 4개의 해시·크기만 새로 계산했다. 머리말(`document_version`, `review` 등)은 갱신하지 않았다.
+
+로컬 검증(2026-11-23, git 2.43.0, Python 3.12.3, 기준 commit `7ace128`, 미커밋 작업 폴더):
+- 이름을 바꾼 131개 항목의 SHA256·크기 값이 변경 전과 같음
+- `python scripts/check_workspace.py --verify-manifest`: pass, 오류 0 (manifest_entries 159). 변경 전 오류 131건
+- `python scripts/check_workspace.py`: pass, 오류 0
+- 수정 허용 경로 밖 tracked 파일 바이트 변경 0
+
+미실행: GitHub CI(커밋 후 확인), CAD/API 실행.
