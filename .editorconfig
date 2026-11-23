@@ -9,3 +9,13 @@ indent_size = 2
 
 [*.py]
 indent_size = 4
+
+# Recorded runtime outputs and provenance. Other files store their SHA256,
+# so editors must keep the existing line endings and final newline on save.
+[prototype/{data,evidence,source-provenance}/**]
+end_of_line = unset
+insert_final_newline = unset
+
+[prototype/examples/terra-execution.json]
+end_of_line = unset
+insert_final_newline = unset

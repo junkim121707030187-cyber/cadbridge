@@ -14,6 +14,8 @@
 
 변경 전에 `git status`, 반영 전에 `git diff --check`와 `git diff --stat`를 확인한다. `git add <확인한 파일>`로 지정한 변경만 stage한다. 테스트 로그·비밀·다른 담당 변경을 한꺼번에 넣지 않는다. 원격 작업은 그 시점 사용자 요청과 저장소 정책 범위 안에서 한다. push·PR·병합이 서로 다른 행동임을 구분한다. 시간 경과나 검토자 부재를 승인으로 해석하지 않는다.
 
+줄바꿈: Git은 줄바꿈을 변환하지 않고 바이트 그대로 저장한다(`.gitattributes`의 `* -text`). 이 저장소가 파일 SHA256으로 무결성을 검증하기 때문이다. 새로 만들거나 고치는 텍스트 파일은 `.editorconfig`에 따라 LF로 쓴다. `prototype/data`·`prototype/evidence`·`prototype/source-provenance`와 `prototype/examples/terra-execution.json`은 다른 파일에 해시가 기록된 실행·출처 기록이므로 바이트를 바꾸지 않는다.
+
 ## 공동 작업
 담당은 사람 이름 대신 작업 카드의 owner와 allowed_paths로 배정한다. 실제 계정·CODEOWNERS·가짜 담당자를 미리 만들지 않는다. 공용 문서·계약 파일은 통합 담당이 변경을 모아 반영한다. 다른 경로가 필요하면 작업 범위와 의존성을 갱신하고 충돌이 없는지 확인한다.
 
