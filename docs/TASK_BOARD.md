@@ -28,6 +28,6 @@ T1~T5는 이번 구현 지시가 아니라 후속 계획이다. 원 M3 재사용
 
 | 작업 | 상태 | 범위 | 다음 행동 |
 |---|---|---|---|
-| [CB-010](tasks/CB-010.md) 1단계 · 줄바꿈 정책 변경 | review · 사용자 커밋 대기 | `.gitattributes`, `.editorconfig`, 관련 문서, 매니페스트 해시 | 사용자 커밋 후 해당 SHA의 CI 결과 확인 |
-| CB-010 2단계 · 매니페스트 크기 필드명 통일 | 대기 | `BUNDLE_MANIFEST.json` | 1단계 커밋 후 시작 |
+| [CB-010](tasks/CB-010.md) 1단계 · 줄바꿈 정책 변경 | 완료 · PR #3 병합(`7ace128`) | `.gitattributes`, `.editorconfig`, 관련 문서, 매니페스트 해시 | 병합 커밋의 CI 결과 확인 |
+| CB-010 2단계 · 매니페스트 크기 필드명 통일 | review · 사용자 커밋 대기 | `BUNDLE_MANIFEST.json` | 병합 후 3·4단계 진행 여부 결정 |
 | CB-010 3·4단계 · 루트 문서 LF 변환, CRLF 검사 | 대기(선택) | 루트 문서 6개·매니페스트, `scripts/check_workspace.py` | 사용자 결정 |

@@ -30,3 +30,9 @@
 수정 파일: `.gitattributes`, `.editorconfig`, `CONTRIBUTING.md`, `BUNDLE_MANIFEST.json`(변경 파일 항목의 해시·크기 값과 새 카드 항목만), `docs/STATUS_AND_EVIDENCE.md`, `docs/TASK_BOARD.md`, `docs/DECISIONS.md`, `docs/HANDOFF.md`, `docs/tasks/README.md`, 새 `docs/tasks/CB-010.md`. 검증 범위와 결과는 [상태·근거](STATUS_AND_EVIDENCE.md)를 따른다. 커밋·push는 사용자가 한다.
 
 미해결: 매니페스트 항목 131개가 크기 필드명을 `bytes`로 적어 `--verify-manifest`가 계속 실패한다(2단계). 루트 문서 6개와 매니페스트는 아직 CRLF라 `git diff --check`가 새로 덧붙인 줄의 CR을 줄 끝 공백으로 표시한다(3단계에서 해소). 매니페스트 머리말(`document_version`, `review` 등)은 갱신하지 않았다. 시제품 앱의 CRLF 쓰기 문제는 범위 밖으로 남겼다. 다음 행동은 [CB-010](tasks/CB-010.md) 2단계다.
+
+## 2026-11-23 · CB-010 2단계 인계
+
+수정 파일: `BUNDLE_MANIFEST.json`(크기 필드명 통일, 수정 문서 해시), `docs/STATUS_AND_EVIDENCE.md`, `docs/TASK_BOARD.md`, `docs/HANDOFF.md`, `docs/tasks/CB-010.md`. 이 변경으로 `--verify-manifest`가 통과한다. 커밋·push는 사용자가 한다.
+
+미해결: CI는 아직 `--verify-manifest`를 실행하지 않는다(4단계). 매니페스트는 손으로 갱신하며 생성 스크립트가 없다. 루트 문서 6개와 매니페스트는 CRLF다(3단계). 다음 행동은 3·4단계 진행 여부 결정이다.

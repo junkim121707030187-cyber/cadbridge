@@ -60,18 +60,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 4924,
-      "sha256": "58755a2b0ba0c1175bdc0ca6e3dfadcde2775dee2a80217d34e2d8e50637b659"
+      "sha256": "58755a2b0ba0c1175bdc0ca6e3dfadcde2775dee2a80217d34e2d8e50637b659",
+      "size_bytes": 4924
     },
     {
       "path": "deliverables/CADBridgeWorkspace_MVP_소스와예제.zip",
-      "bytes": 567274,
-      "sha256": "7c9fd387919133e0867af9ccba1b6fcfd0be999b805c4fad1a074a188e150893"
+      "sha256": "7c9fd387919133e0867af9ccba1b6fcfd0be999b805c4fad1a074a188e150893",
+      "size_bytes": 567274
     },
     {
       "path": "deliverables/CADBridge_구현진척과_파트별후속작업_2026-11-16.docx",
-      "bytes": 45519,
-      "sha256": "a6f27d91b1136ac4892db37e783444931329c4a7ba3a6cc7a3238a85bfc993a8"
+      "sha256": "a6f27d91b1136ac4892db37e783444931329c4a7ba3a6cc7a3238a85bfc993a8",
+      "size_bytes": 45519
     },
     {
       "path": "docs/AGENT_WORKFLOW.md",
@@ -95,8 +95,8 @@
     },
     {
       "path": "docs/DECISIONS.md",
-      "bytes": 6475,
-      "sha256": "e8258f55e1d3a115f34f2e7e211eea6f9bc69360e302ec6e4602e74f21dd22fb"
+      "sha256": "e8258f55e1d3a115f34f2e7e211eea6f9bc69360e302ec6e4602e74f21dd22fb",
+      "size_bytes": 6475
     },
     {
       "path": "docs/DEVELOPMENT_WORKFLOW.md",
@@ -105,8 +105,8 @@
     },
     {
       "path": "docs/HANDOFF.md",
-      "bytes": 5029,
-      "sha256": "4769d6ca765abef9a85e3b390d2b2cd72c66c5b5aea6cdf7e3bb3ad2ca762caf"
+      "sha256": "ee72f798c8c9b6ff9031da34fb96bcb97c0e3ea97e77116c7f2f31b42e1dfc28",
+      "size_bytes": 5618
     },
     {
       "path": "docs/INTERFACES.md",
@@ -125,8 +125,8 @@
     },
     {
       "path": "docs/PROTOTYPE_UPLOAD_2026-11-16.md",
-      "bytes": 3311,
-      "sha256": "951666c81ddc8ff58ffd59e9dc44bf3ae418343652f45831edaedca8998b9269"
+      "sha256": "951666c81ddc8ff58ffd59e9dc44bf3ae418343652f45831edaedca8998b9269",
+      "size_bytes": 3311
     },
     {
       "path": "docs/REFERENCE_REVIEW.md",
@@ -140,13 +140,13 @@
     },
     {
       "path": "docs/STATUS_AND_EVIDENCE.md",
-      "bytes": 9693,
-      "sha256": "a9a05832dc913d4ee7dd6b00abaa45a21631364a3717156d91315d8f35945030"
+      "sha256": "21b42abdc3c1806e5c287d61b168577ebadc73c791f57b32c43bfd53de97808c",
+      "size_bytes": 10912
     },
     {
       "path": "docs/TASK_BOARD.md",
-      "bytes": 3411,
-      "sha256": "b4db7c1a127d89b0036e8d83514f2678876f48c47e6654bfaeddc1fa289fcdcd"
+      "sha256": "15444a15b3df2b584648547594128ee98db58447e18f34a2f44a201bf14546f8",
+      "size_bytes": 3437
     },
     {
       "path": "docs/VALIDATION.md",
@@ -165,8 +165,8 @@
     },
     {
       "path": "docs/tasks/CB-010.md",
-      "sha256": "473322c761a3791d7418652d41b263668b99e2ef32487ba846d4ffa96915f41d",
-      "size_bytes": 2364
+      "sha256": "7e6609d72b7e64e4ee845c24114202af8588bcc6785b6fcfc947d95a1a4648cc",
+      "size_bytes": 2801
     },
     {
       "path": "docs/tasks/README.md",
@@ -190,618 +190,618 @@
     },
     {
       "path": "prototype/.gitignore",
-      "bytes": 124,
-      "sha256": "0dcc9b8240515e831db274971dcbdd81152d3e04fd687acc6ffcbb7b736c9a43"
+      "sha256": "0dcc9b8240515e831db274971dcbdd81152d3e04fd687acc6ffcbb7b736c9a43",
+      "size_bytes": 124
     },
     {
       "path": "prototype/README.md",
-      "bytes": 3516,
-      "sha256": "ef732017c6029ba609b4bb3678a7a6ab964b01e1435e4a4ea3758ca4db6a0b9f"
+      "sha256": "ef732017c6029ba609b4bb3678a7a6ab964b01e1435e4a4ea3758ca4db6a0b9f",
+      "size_bytes": 3516
     },
     {
       "path": "prototype/Setup.ps1",
-      "bytes": 1500,
-      "sha256": "02f5e46991f332673004428d479e1f5da5c39c1c3f28904761c3f1d4a1bfc0f7"
+      "sha256": "02f5e46991f332673004428d479e1f5da5c39c1c3f28904761c3f1d4a1bfc0f7",
+      "size_bytes": 1500
     },
     {
       "path": "prototype/Start.cmd",
-      "bytes": 269,
-      "sha256": "7cc6b276228db7ab27f741fb1e930636fca14d76301a677697d7d1d71b080f10"
+      "sha256": "7cc6b276228db7ab27f741fb1e930636fca14d76301a677697d7d1d71b080f10",
+      "size_bytes": 269
     },
     {
       "path": "prototype/Stop.cmd",
-      "bytes": 98,
-      "sha256": "d36e551735d91dcbd6dd8fedb4cc306cb4c69b458ad98589cf5e71ca98e40ab5"
+      "sha256": "d36e551735d91dcbd6dd8fedb4cc306cb4c69b458ad98589cf5e71ca98e40ab5",
+      "size_bytes": 98
     },
     {
       "path": "prototype/Tests.cmd",
-      "bytes": 127,
-      "sha256": "383cf7ab309b7e3c8d91ba77b4a2538ca88c0ae36237c5ce648af8f4b39e4e0d"
+      "sha256": "383cf7ab309b7e3c8d91ba77b4a2538ca88c0ae36237c5ce648af8f4b39e4e0d",
+      "size_bytes": 127
     },
     {
       "path": "prototype/app/cadbridge/__init__.py",
-      "bytes": 86,
-      "sha256": "dbc34b6a717a107394e292bd4660d70b1598910087dba5ea4d63f26eda804111"
+      "sha256": "dbc34b6a717a107394e292bd4660d70b1598910087dba5ea4d63f26eda804111",
+      "size_bytes": 86
     },
     {
       "path": "prototype/app/cadbridge/__main__.py",
-      "bytes": 48,
-      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "size_bytes": 48
     },
     {
       "path": "prototype/app/cadbridge/cli.py",
-      "bytes": 2473,
-      "sha256": "9efe73187486c62dac834ed3129e11b69695c27cfbf868af37046729e69ae26a"
+      "sha256": "9efe73187486c62dac834ed3129e11b69695c27cfbf868af37046729e69ae26a",
+      "size_bytes": 2473
     },
     {
       "path": "prototype/app/cadbridge/freecad_worker.py",
-      "bytes": 33318,
-      "sha256": "dfff36cb9f157ae9d5f7a94c2fe8e9b3ae4660703f686bcfe4ec5f8772b7badc"
+      "sha256": "dfff36cb9f157ae9d5f7a94c2fe8e9b3ae4660703f686bcfe4ec5f8772b7badc",
+      "size_bytes": 33318
     },
     {
       "path": "prototype/app/cadbridge/model.py",
-      "bytes": 8744,
-      "sha256": "22781aa11b6c95c84f2c6a69c3b39b94d48f4f04af76a8d10010ca7bd3b0f1f7"
+      "sha256": "22781aa11b6c95c84f2c6a69c3b39b94d48f4f04af76a8d10010ca7bd3b0f1f7",
+      "size_bytes": 8744
     },
     {
       "path": "prototype/app/cadbridge/policy.py",
-      "bytes": 776,
-      "sha256": "503b8bc0ffa250c8536e5ca199ffdac5ba94867df91d1a04db0c309f0cd984e7"
+      "sha256": "503b8bc0ffa250c8536e5ca199ffdac5ba94867df91d1a04db0c309f0cd984e7",
+      "size_bytes": 776
     },
     {
       "path": "prototype/app/cadbridge/workflow.py",
-      "bytes": 21035,
-      "sha256": "dbacfc9d5c7cd370b90a961034c2d5b0d7ef3b59efea622e87f5846b4dce9b7c"
+      "sha256": "dbacfc9d5c7cd370b90a961034c2d5b0d7ef3b59efea622e87f5846b4dce9b7c",
+      "size_bytes": 21035
     },
     {
       "path": "prototype/app/launch.py",
-      "bytes": 733,
-      "sha256": "5ef680f7d629c5f25d65231a5e6a446f05e0b3a6d78ae3f88e09f8b17910a500"
+      "sha256": "5ef680f7d629c5f25d65231a5e6a446f05e0b3a6d78ae3f88e09f8b17910a500",
+      "size_bytes": 733
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/__init__.py",
-      "bytes": 111,
-      "sha256": "9ef3a6857292b5c156f119e0653e8bb6d8623a113d1b55aee69336e8ca089a3a"
+      "sha256": "9ef3a6857292b5c156f119e0653e8bb6d8623a113d1b55aee69336e8ca089a3a",
+      "size_bytes": 111
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/__main__.py",
-      "bytes": 49,
-      "sha256": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7"
+      "sha256": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7",
+      "size_bytes": 49
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/capabilities.py",
-      "bytes": 1699,
-      "sha256": "8712ce28a4027d8df24b33dce3cbb41b913804ea5d437cf5c16c99aadac9e69e"
+      "sha256": "8712ce28a4027d8df24b33dce3cbb41b913804ea5d437cf5c16c99aadac9e69e",
+      "size_bytes": 1699
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cli.py",
-      "bytes": 13784,
-      "sha256": "901780f36f44c59bc1c2c6959aa40b6651e13eef27a9380dd90ae0e97600d99e"
+      "sha256": "901780f36f44c59bc1c2c6959aa40b6651e13eef27a9380dd90ae0e97600d99e",
+      "size_bytes": 13784
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/__init__.py",
-      "bytes": 81,
-      "sha256": "6caddbc6d7704eb4723ae5efba6307d45440ed0957fb18e4690cd8a9219ee4fd"
+      "sha256": "6caddbc6d7704eb4723ae5efba6307d45440ed0957fb18e4690cd8a9219ee4fd",
+      "size_bytes": 81
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/__main__.py",
-      "bytes": 47,
-      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "size_bytes": 47
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/adapters.py",
-      "bytes": 3886,
-      "sha256": "ab0cf6404e48f531af6d8e90b475265d57e8a8f472ea7a5e8aa18080d990718f"
+      "sha256": "ab0cf6404e48f531af6d8e90b475265d57e8a8f472ea7a5e8aa18080d990718f",
+      "size_bytes": 3886
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/api_config.py",
-      "bytes": 5564,
-      "sha256": "5cb694fcd7b7a86df4b6594df646f451a12620d7cf0563fcd4a28a8049776f65"
+      "sha256": "5cb694fcd7b7a86df4b6594df646f451a12620d7cf0563fcd4a28a8049776f65",
+      "size_bytes": 5564
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/api_schema.py",
-      "bytes": 5729,
-      "sha256": "8c6a4f13c938d0386b70b6e636c1c5ecbf9131e071fd89a93e549c958f7e78e2"
+      "sha256": "8c6a4f13c938d0386b70b6e636c1c5ecbf9131e071fd89a93e549c958f7e78e2",
+      "size_bytes": 5729
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/api_workflow.py",
-      "bytes": 21763,
-      "sha256": "c494cad7d3e2dc7897930eb6f03eb1947ea0bcf18fdf8e3051d30d1b7241f4b2"
+      "sha256": "c494cad7d3e2dc7897930eb6f03eb1947ea0bcf18fdf8e3051d30d1b7241f4b2",
+      "size_bytes": 21763
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/cli.py",
-      "bytes": 8040,
-      "sha256": "7f47eb1f6b7c550f614f120296ec55d259c6d45dd297ebd48bdf51f87d4bc09e"
+      "sha256": "7f47eb1f6b7c550f614f120296ec55d259c6d45dd297ebd48bdf51f87d4bc09e",
+      "size_bytes": 8040
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/evaluation.py",
-      "bytes": 15500,
-      "sha256": "8d0fb3ca236269da8180ad88b36733c41c750082555297c88414dd4be4994635"
+      "sha256": "8d0fb3ca236269da8180ad88b36733c41c750082555297c88414dd4be4994635",
+      "size_bytes": 15500
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/ir.py",
-      "bytes": 11093,
-      "sha256": "301b9ac694a6236cdff20f2194fe10f005e0054d81a071391e08f3f38838112f"
+      "sha256": "301b9ac694a6236cdff20f2194fe10f005e0054d81a071391e08f3f38838112f",
+      "size_bytes": 11093
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/observations.py",
-      "bytes": 6794,
-      "sha256": "0482cec34d88b03246b96a546d56812d49410b80e895d7ad069c50f9d0052d71"
+      "sha256": "0482cec34d88b03246b96a546d56812d49410b80e895d7ad069c50f9d0052d71",
+      "size_bytes": 6794
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/pipeline.py",
-      "bytes": 9222,
-      "sha256": "2015fd4eabc142d0d909c5b4203f3c616601699bed67a5b37e9225ef2fed0f9b"
+      "sha256": "2015fd4eabc142d0d909c5b4203f3c616601699bed67a5b37e9225ef2fed0f9b",
+      "size_bytes": 9222
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/providers.py",
-      "bytes": 28757,
-      "sha256": "3a1a3f67bd4c1074061245fc2488785422dbab7250229019cb37151b288b2be5"
+      "sha256": "3a1a3f67bd4c1074061245fc2488785422dbab7250229019cb37151b288b2be5",
+      "size_bytes": 28757
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/solver.py",
-      "bytes": 8984,
-      "sha256": "fea2a31f6007ca30f93bd2bfd5fc538f3a50c317edff3649f6d62b7d69f6c45a"
+      "sha256": "fea2a31f6007ca30f93bd2bfd5fc538f3a50c317edff3649f6d62b7d69f6c45a",
+      "size_bytes": 8984
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/cloud/workspace.py",
-      "bytes": 19998,
-      "sha256": "05688b4f0c91f4bb0acf70fed1e6f88097360fd290e075c3115d411665b863d9"
+      "sha256": "05688b4f0c91f4bb0acf70fed1e6f88097360fd290e075c3115d411665b863d9",
+      "size_bytes": 19998
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/extractor.py",
-      "bytes": 7236,
-      "sha256": "9da0e83c7a472cbb0abd31d82d302b61fda8088895a3f1740a8060dd1d86dccf"
+      "sha256": "9da0e83c7a472cbb0abd31d82d302b61fda8088895a3f1740a8060dd1d86dccf",
+      "size_bytes": 7236
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/geometry.py",
-      "bytes": 9539,
-      "sha256": "56ea240365c912240f7ddd65f60f0b699a153b3a9c6fcebd72b6ab7d2ce54496"
+      "sha256": "56ea240365c912240f7ddd65f60f0b699a153b3a9c6fcebd72b6ab7d2ce54496",
+      "size_bytes": 9539
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/kernel.py",
-      "bytes": 10851,
-      "sha256": "1b4e1b2b1dfa36f6107c5147e1b6b97f63ec4725de28f6c04e9b1bb11246e14a"
+      "sha256": "1b4e1b2b1dfa36f6107c5147e1b6b97f63ec4725de28f6c04e9b1bb11246e14a",
+      "size_bytes": 10851
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/model.py",
-      "bytes": 6994,
-      "sha256": "8347d16bd299952bb35907c6d9d92b9881dce4a4e425351fab56ac6398b36838"
+      "sha256": "8347d16bd299952bb35907c6d9d92b9881dce4a4e425351fab56ac6398b36838",
+      "size_bytes": 6994
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/planner.py",
-      "bytes": 2136,
-      "sha256": "a77f0ee313fa2a8bef6737bf820375e3ec80ae73e52689f8e14271cfa46d04a5"
+      "sha256": "a77f0ee313fa2a8bef6737bf820375e3ec80ae73e52689f8e14271cfa46d04a5",
+      "size_bytes": 2136
     },
     {
       "path": "prototype/app/legacy/implementation/cadbridge/report.py",
-      "bytes": 23873,
-      "sha256": "2ef343a868cbc4707330b2fc1fd52c1c6d9730e848ebc21a403553cfc528349c"
+      "sha256": "2ef343a868cbc4707330b2fc1fd52c1c6d9730e848ebc21a403553cfc528349c",
+      "size_bytes": 23873
     },
     {
       "path": "prototype/app/legacy/implementation/examples/edit-contract.json",
-      "bytes": 205,
-      "sha256": "e7aef88796b169d5492fe1a79927db5295488162f65bf5c76d64c998ea405cb7"
+      "sha256": "e7aef88796b169d5492fe1a79927db5295488162f65bf5c76d64c998ea405cb7",
+      "size_bytes": 205
     },
     {
       "path": "prototype/app/legacy/implementation/examples/session-ai-candidate.json",
-      "bytes": 699,
-      "sha256": "dc628882487693e27e85c8087ad0b4bb94a2e37fae5198285ad6fa677ba35309"
+      "sha256": "dc628882487693e27e85c8087ad0b4bb94a2e37fae5198285ad6fa677ba35309",
+      "size_bytes": 699
     },
     {
       "path": "prototype/app/legacy/implementation/pyproject.toml",
-      "bytes": 630,
-      "sha256": "d6201ddff754d1689e3a7358b1923029081e9cde9e5d44f7b9e65de04efea56b"
+      "sha256": "d6201ddff754d1689e3a7358b1923029081e9cde9e5d44f7b9e65de04efea56b",
+      "size_bytes": 630
     },
     {
       "path": "prototype/app/legacy/implementation/requirements-cloud-lock.txt",
-      "bytes": 211,
-      "sha256": "9c32b39367d6aa2c328620e118b2dde3598bb9a3cc94261da9abe4e2b104e13c"
+      "sha256": "9c32b39367d6aa2c328620e118b2dde3598bb9a3cc94261da9abe4e2b104e13c",
+      "size_bytes": 211
     },
     {
       "path": "prototype/app/legacy/implementation/requirements-linux-py312-lock.txt",
-      "bytes": 545,
-      "sha256": "432c2f8f3fc16be0ef463dfe81e0a659d33c5f9c1339d4ca20be2d2b5a3e49e0"
+      "sha256": "432c2f8f3fc16be0ef463dfe81e0a659d33c5f9c1339d4ca20be2d2b5a3e49e0",
+      "size_bytes": 545
     },
     {
       "path": "prototype/app/legacy_bridge.py",
-      "bytes": 25149,
-      "sha256": "4bbb2ec6732b2c500dc425fb0fb9b6d1e9e8050683376738b2b50978ae0075ad"
+      "sha256": "4bbb2ec6732b2c500dc425fb0fb9b6d1e9e8050683376738b2b50978ae0075ad",
+      "size_bytes": 25149
     },
     {
       "path": "prototype/app/open_model_macro.py",
-      "bytes": 1580,
-      "sha256": "cc12bef1debf5ea6383c2edbe0f6e10fd8d1592d73a38c3e7f207ddfe75ed1af"
+      "sha256": "cc12bef1debf5ea6383c2edbe0f6e10fd8d1592d73a38c3e7f207ddfe75ed1af",
+      "size_bytes": 1580
     },
     {
       "path": "prototype/app/prototype.py",
-      "bytes": 32254,
-      "sha256": "9b9d21879feb161c3e02cdd34736a8b1e9ea780e182be868f7894b9d84bfe59d"
+      "sha256": "9b9d21879feb161c3e02cdd34736a8b1e9ea780e182be868f7894b9d84bfe59d",
+      "size_bytes": 32254
     },
     {
       "path": "prototype/app/stop.py",
-      "bytes": 721,
-      "sha256": "03cf22ce526c58f9c6c2c85d4613932cc04d12246426509b0e06c1df47dfc9be"
+      "sha256": "03cf22ce526c58f9c6c2c85d4613932cc04d12246426509b0e06c1df47dfc9be",
+      "size_bytes": 721
     },
     {
       "path": "prototype/app/ui.html",
-      "bytes": 21507,
-      "sha256": "89edc0261f2950cc841ca6ea46b64c52455018945c89f3647465e11b7b15e378"
+      "sha256": "89edc0261f2950cc841ca6ea46b64c52455018945c89f3647465e11b7b15e378",
+      "size_bytes": 21507
     },
     {
       "path": "prototype/app/workspace.html",
-      "bytes": 67599,
-      "sha256": "90b34e403e447c565457586442e243957c42475cacdb0931f41b47103fab1377"
+      "sha256": "90b34e403e447c565457586442e243957c42475cacdb0931f41b47103fab1377",
+      "size_bytes": 67599
     },
     {
       "path": "prototype/app/workspace_store.py",
-      "bytes": 33680,
-      "sha256": "a5be519661d3cb8f2c696bba44ccd92cfb27a4b6fc2313c96d88adb9a06279c9"
+      "sha256": "a5be519661d3cb8f2c696bba44ccd92cfb27a4b6fc2313c96d88adb9a06279c9",
+      "size_bytes": 33680
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/agent-request.json",
-      "bytes": 33263,
-      "sha256": "dad1c6cb258c49d4403274a9bc1e5c49060d75597e7e27b7f351003f80452bdd"
+      "sha256": "dad1c6cb258c49d4403274a9bc1e5c49060d75597e7e27b7f351003f80452bdd",
+      "size_bytes": 33263
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/agent-response.schema.json",
-      "bytes": 8870,
-      "sha256": "82e9186b6d8862263a2c21ed9b67fb41651e2fa37917de0f86fcfc7ca50138fc"
+      "sha256": "82e9186b6d8862263a2c21ed9b67fb41651e2fa37917de0f86fcfc7ca50138fc",
+      "size_bytes": 8870
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/candidates/f7def17d-507b-4e12-9af4-2f56c73af61d/agent-response.json",
-      "bytes": 11707,
-      "sha256": "612ef70aec8b9b5d0cd57f695ac801e7691998c452881f4270b46b35ce0c98ea"
+      "sha256": "612ef70aec8b9b5d0cd57f695ac801e7691998c452881f4270b46b35ce0c98ea",
+      "size_bytes": 11707
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/candidates/f7def17d-507b-4e12-9af4-2f56c73af61d/candidate.ir.json",
-      "bytes": 10034,
-      "sha256": "6c7350fb1c4024e5119c1105157ad8f5a5d9c7067a30cd3228f0824c8f6c28d1"
+      "sha256": "6c7350fb1c4024e5119c1105157ad8f5a5d9c7067a30cd3228f0824c8f6c28d1",
+      "size_bytes": 10034
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/candidates/f7def17d-507b-4e12-9af4-2f56c73af61d/native-plan.bridge.json",
-      "bytes": 27566,
-      "sha256": "29411d0dc0db56c9b53eef0366aa87e9abf5f4905760ef8e5a598db1f57b2834"
+      "sha256": "29411d0dc0db56c9b53eef0366aa87e9abf5f4905760ef8e5a598db1f57b2834",
+      "size_bytes": 27566
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/candidates/f7def17d-507b-4e12-9af4-2f56c73af61d/native-plan.json",
-      "bytes": 542,
-      "sha256": "a416fbb745bbb22f556104d2ba8d4cbad9258d8824653a841e645feff71fef0e"
+      "sha256": "a416fbb745bbb22f556104d2ba8d4cbad9258d8824653a841e645feff71fef0e",
+      "size_bytes": 542
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/executed-agent-response.json",
-      "bytes": 7020,
-      "sha256": "a4c66154b9a7f33e349f97eb11c2b901092c6201c8d1f3dbf984db5d4c87d615"
+      "sha256": "a4c66154b9a7f33e349f97eb11c2b901092c6201c8d1f3dbf984db5d4c87d615",
+      "size_bytes": 7020
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/observation-request.json",
-      "bytes": 19917,
-      "sha256": "cd8fe9d18a5b21750cf9f87c35b4b58a2e21fbfe7e4676a4d6aecafd35f26fb6"
+      "sha256": "cd8fe9d18a5b21750cf9f87c35b4b58a2e21fbfe7e4676a4d6aecafd35f26fb6",
+      "size_bytes": 19917
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/project.json",
-      "bytes": 22140,
-      "sha256": "afd99f789562fcc1f243737588288275d9392d5ed01ca77732a68ddd10f527dc"
+      "sha256": "afd99f789562fcc1f243737588288275d9392d5ed01ca77732a68ddd10f527dc",
+      "size_bytes": 22140
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/source.step",
-      "bytes": 44267,
-      "sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18"
+      "sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+      "size_bytes": 44267
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/agent-request.json",
-      "bytes": 33263,
-      "sha256": "dad1c6cb258c49d4403274a9bc1e5c49060d75597e7e27b7f351003f80452bdd"
+      "sha256": "dad1c6cb258c49d4403274a9bc1e5c49060d75597e7e27b7f351003f80452bdd",
+      "size_bytes": 33263
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/agent-response.json",
-      "bytes": 11707,
-      "sha256": "612ef70aec8b9b5d0cd57f695ac801e7691998c452881f4270b46b35ce0c98ea"
+      "sha256": "612ef70aec8b9b5d0cd57f695ac801e7691998c452881f4270b46b35ce0c98ea",
+      "size_bytes": 11707
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/build-report.json",
-      "bytes": 3090,
-      "sha256": "031111cedfa46c55c8052ce279b812ec2d41c38ca6a9dc0870c8032d0279f77e"
+      "sha256": "031111cedfa46c55c8052ce279b812ec2d41c38ca6a9dc0870c8032d0279f77e",
+      "size_bytes": 3090
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/candidate.ir.json",
-      "bytes": 10034,
-      "sha256": "6c7350fb1c4024e5119c1105157ad8f5a5d9c7067a30cd3228f0824c8f6c28d1"
+      "sha256": "6c7350fb1c4024e5119c1105157ad8f5a5d9c7067a30cd3228f0824c8f6c28d1",
+      "size_bytes": 10034
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/executed-agent-response.json",
-      "bytes": 7020,
-      "sha256": "a4c66154b9a7f33e349f97eb11c2b901092c6201c8d1f3dbf984db5d4c87d615"
+      "sha256": "a4c66154b9a7f33e349f97eb11c2b901092c6201c8d1f3dbf984db5d4c87d615",
+      "size_bytes": 7020
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/geometry-check.json",
-      "bytes": 5043,
-      "sha256": "4da762a833bb8b2c7452af41314b59d19bcccfddcbdd7c14e48858da12b3e402"
+      "sha256": "4da762a833bb8b2c7452af41314b59d19bcccfddcbdd7c14e48858da12b3e402",
+      "size_bytes": 5043
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/inspect-report.json",
-      "bytes": 2988,
-      "sha256": "db64f537fa7f437998057bcfe907053b4722619a045ca97873eab9c9a433d233"
+      "sha256": "db64f537fa7f437998057bcfe907053b4722619a045ca97873eab9c9a433d233",
+      "size_bytes": 2988
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/model.FCStd",
-      "bytes": 20387,
-      "sha256": "e347133c3101506737f47df559fbe13155a31d9c9c097791fbf0e45e2f4bf8f4"
+      "sha256": "e347133c3101506737f47df559fbe13155a31d9c9c097791fbf0e45e2f4bf8f4",
+      "size_bytes": 20387
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/native-plan.bridge.json",
-      "bytes": 27566,
-      "sha256": "29411d0dc0db56c9b53eef0366aa87e9abf5f4905760ef8e5a598db1f57b2834"
+      "sha256": "29411d0dc0db56c9b53eef0366aa87e9abf5f4905760ef8e5a598db1f57b2834",
+      "size_bytes": 27566
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/observation-request.json",
-      "bytes": 19917,
-      "sha256": "cd8fe9d18a5b21750cf9f87c35b4b58a2e21fbfe7e4676a4d6aecafd35f26fb6"
+      "sha256": "cd8fe9d18a5b21750cf9f87c35b4b58a2e21fbfe7e4676a4d6aecafd35f26fb6",
+      "size_bytes": 19917
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/preview.stl",
-      "bytes": 35884,
-      "sha256": "8b20c3160a560b3c2d59eebf66373acf642a63fe06bf2d767059c872b85c0b9e"
+      "sha256": "8b20c3160a560b3c2d59eebf66373acf642a63fe06bf2d767059c872b85c0b9e",
+      "size_bytes": 35884
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/result.step",
-      "bytes": 17905,
-      "sha256": "c3da068d8bd7bcf8b65be87c6c61376ec7d7b70350761966297732dc7475a5db"
+      "sha256": "c3da068d8bd7bcf8b65be87c6c61376ec7d7b70350761966297732dc7475a5db",
+      "size_bytes": 17905
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/session.json",
-      "bytes": 6078,
-      "sha256": "e5b0f5b729fd0e703cf5428e876acd755875e8fdeb5b69d52c647a902504f416"
+      "sha256": "e5b0f5b729fd0e703cf5428e876acd755875e8fdeb5b69d52c647a902504f416",
+      "size_bytes": 6078
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v001/source.step",
-      "bytes": 44267,
-      "sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18"
+      "sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+      "size_bytes": 44267
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/agent-request.json",
-      "bytes": 33263,
-      "sha256": "dad1c6cb258c49d4403274a9bc1e5c49060d75597e7e27b7f351003f80452bdd"
+      "sha256": "dad1c6cb258c49d4403274a9bc1e5c49060d75597e7e27b7f351003f80452bdd",
+      "size_bytes": 33263
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/agent-response.json",
-      "bytes": 11707,
-      "sha256": "612ef70aec8b9b5d0cd57f695ac801e7691998c452881f4270b46b35ce0c98ea"
+      "sha256": "612ef70aec8b9b5d0cd57f695ac801e7691998c452881f4270b46b35ce0c98ea",
+      "size_bytes": 11707
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/build-report.json",
-      "bytes": 3090,
-      "sha256": "2d6ed1c02b7ec27309332cbb2f4f5f628eba2a45c54bc7e8309380c3c4b8914a"
+      "sha256": "2d6ed1c02b7ec27309332cbb2f4f5f628eba2a45c54bc7e8309380c3c4b8914a",
+      "size_bytes": 3090
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/candidate.ir.json",
-      "bytes": 10034,
-      "sha256": "6c7350fb1c4024e5119c1105157ad8f5a5d9c7067a30cd3228f0824c8f6c28d1"
+      "sha256": "6c7350fb1c4024e5119c1105157ad8f5a5d9c7067a30cd3228f0824c8f6c28d1",
+      "size_bytes": 10034
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/executed-agent-response.json",
-      "bytes": 7020,
-      "sha256": "a4c66154b9a7f33e349f97eb11c2b901092c6201c8d1f3dbf984db5d4c87d615"
+      "sha256": "a4c66154b9a7f33e349f97eb11c2b901092c6201c8d1f3dbf984db5d4c87d615",
+      "size_bytes": 7020
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/expected-plan.json",
-      "bytes": 583,
-      "sha256": "e1313e5597dd52382cd9a73457199f6e7c83a5ad5ad7d0b1a967e0f8a7858bf3"
+      "sha256": "e1313e5597dd52382cd9a73457199f6e7c83a5ad5ad7d0b1a967e0f8a7858bf3",
+      "size_bytes": 583
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/geometry-check.json",
-      "bytes": 5760,
-      "sha256": "af0ca746968359c11f4086b0b89d8f90dc893c6c241914f87365e45c785b8a9d"
+      "sha256": "af0ca746968359c11f4086b0b89d8f90dc893c6c241914f87365e45c785b8a9d",
+      "size_bytes": 5760
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/inspect-report.json",
-      "bytes": 2995,
-      "sha256": "48d98bf9aea727f945207f13c788956892492c2241092f3577163c1952542764"
+      "sha256": "48d98bf9aea727f945207f13c788956892492c2241092f3577163c1952542764",
+      "size_bytes": 2995
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/model.FCStd",
-      "bytes": 20382,
-      "sha256": "4cc5775deb7a9c123d53f294ae4f5a88161d12df619c58b894ae5193fbb19b42"
+      "sha256": "4cc5775deb7a9c123d53f294ae4f5a88161d12df619c58b894ae5193fbb19b42",
+      "size_bytes": 20382
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/native-plan.bridge.json",
-      "bytes": 27566,
-      "sha256": "29411d0dc0db56c9b53eef0366aa87e9abf5f4905760ef8e5a598db1f57b2834"
+      "sha256": "29411d0dc0db56c9b53eef0366aa87e9abf5f4905760ef8e5a598db1f57b2834",
+      "size_bytes": 27566
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/observation-request.json",
-      "bytes": 19917,
-      "sha256": "cd8fe9d18a5b21750cf9f87c35b4b58a2e21fbfe7e4676a4d6aecafd35f26fb6"
+      "sha256": "cd8fe9d18a5b21750cf9f87c35b4b58a2e21fbfe7e4676a4d6aecafd35f26fb6",
+      "size_bytes": 19917
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/preview.stl",
-      "bytes": 35884,
-      "sha256": "6bbced6005c718cc05173186c825cd2afaaecb9513397baa877521bc4c9126e3"
+      "sha256": "6bbced6005c718cc05173186c825cd2afaaecb9513397baa877521bc4c9126e3",
+      "size_bytes": 35884
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/result.step",
-      "bytes": 17914,
-      "sha256": "55f1f9f34e41ac3b855ed6acfd1b8e9a5803421355e5c41c6264e975b4d4b39f"
+      "sha256": "55f1f9f34e41ac3b855ed6acfd1b8e9a5803421355e5c41c6264e975b4d4b39f",
+      "size_bytes": 17914
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/session.json",
-      "bytes": 6604,
-      "sha256": "65add627ff4069699bed03eb1bb6a56ac347d39bb3f4024900c817d598cff7e0"
+      "sha256": "65add627ff4069699bed03eb1bb6a56ac347d39bb3f4024900c817d598cff7e0",
+      "size_bytes": 6604
     },
     {
       "path": "prototype/data/projects/3e021549-36ac-45b6-87d2-2df611ec475b/versions/v002/source.step",
-      "bytes": 44267,
-      "sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18"
+      "sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+      "size_bytes": 44267
     },
     {
       "path": "prototype/data/workspace/blobs/170bd224-c37d-5440-82cf-46e76659470e.bin",
-      "bytes": 2988,
-      "sha256": "db64f537fa7f437998057bcfe907053b4722619a045ca97873eab9c9a433d233"
+      "sha256": "db64f537fa7f437998057bcfe907053b4722619a045ca97873eab9c9a433d233",
+      "size_bytes": 2988
     },
     {
       "path": "prototype/data/workspace/blobs/25f3f1dd-d07f-5feb-8419-a5e3d68c4877.bin",
-      "bytes": 2995,
-      "sha256": "48d98bf9aea727f945207f13c788956892492c2241092f3577163c1952542764"
+      "sha256": "48d98bf9aea727f945207f13c788956892492c2241092f3577163c1952542764",
+      "size_bytes": 2995
     },
     {
       "path": "prototype/data/workspace/blobs/3c6db3b6-837c-5e53-b01c-fb90c24559c9.bin",
-      "bytes": 20382,
-      "sha256": "4cc5775deb7a9c123d53f294ae4f5a88161d12df619c58b894ae5193fbb19b42"
+      "sha256": "4cc5775deb7a9c123d53f294ae4f5a88161d12df619c58b894ae5193fbb19b42",
+      "size_bytes": 20382
     },
     {
       "path": "prototype/data/workspace/blobs/44147fc5-12ba-5775-8e99-202bcc9590dc.bin",
-      "bytes": 5760,
-      "sha256": "af0ca746968359c11f4086b0b89d8f90dc893c6c241914f87365e45c785b8a9d"
+      "sha256": "af0ca746968359c11f4086b0b89d8f90dc893c6c241914f87365e45c785b8a9d",
+      "size_bytes": 5760
     },
     {
       "path": "prototype/data/workspace/blobs/4489da49-52b7-5f5e-b7e4-233ca64c6194.bin",
-      "bytes": 35884,
-      "sha256": "6bbced6005c718cc05173186c825cd2afaaecb9513397baa877521bc4c9126e3"
+      "sha256": "6bbced6005c718cc05173186c825cd2afaaecb9513397baa877521bc4c9126e3",
+      "size_bytes": 35884
     },
     {
       "path": "prototype/data/workspace/blobs/4fde0a0f-6c8e-57da-8c4b-861940d09794.bin",
-      "bytes": 17905,
-      "sha256": "c3da068d8bd7bcf8b65be87c6c61376ec7d7b70350761966297732dc7475a5db"
+      "sha256": "c3da068d8bd7bcf8b65be87c6c61376ec7d7b70350761966297732dc7475a5db",
+      "size_bytes": 17905
     },
     {
       "path": "prototype/data/workspace/blobs/51d044d2-e4aa-4aea-8b22-9e208937f08b.bin",
-      "bytes": 155,
-      "sha256": "529d8ebc84066f58646014964155cb2ca4c30592922360e52359a60c773db15c"
+      "sha256": "529d8ebc84066f58646014964155cb2ca4c30592922360e52359a60c773db15c",
+      "size_bytes": 155
     },
     {
       "path": "prototype/data/workspace/blobs/54f7ac5b-5921-5968-b3a4-a60efdb375b1.bin",
-      "bytes": 20387,
-      "sha256": "e347133c3101506737f47df559fbe13155a31d9c9c097791fbf0e45e2f4bf8f4"
+      "sha256": "e347133c3101506737f47df559fbe13155a31d9c9c097791fbf0e45e2f4bf8f4",
+      "size_bytes": 20387
     },
     {
       "path": "prototype/data/workspace/blobs/ae75a66e-d1ce-54b9-bf0b-8f217af155a2.bin",
-      "bytes": 35884,
-      "sha256": "8b20c3160a560b3c2d59eebf66373acf642a63fe06bf2d767059c872b85c0b9e"
+      "sha256": "8b20c3160a560b3c2d59eebf66373acf642a63fe06bf2d767059c872b85c0b9e",
+      "size_bytes": 35884
     },
     {
       "path": "prototype/data/workspace/blobs/e41eefbc-4965-58fd-9a44-2bd5d8f4b406.bin",
-      "bytes": 5043,
-      "sha256": "4da762a833bb8b2c7452af41314b59d19bcccfddcbdd7c14e48858da12b3e402"
+      "sha256": "4da762a833bb8b2c7452af41314b59d19bcccfddcbdd7c14e48858da12b3e402",
+      "size_bytes": 5043
     },
     {
       "path": "prototype/data/workspace/blobs/e44bc453-9368-58b1-940a-a4bde806f779.bin",
-      "bytes": 17914,
-      "sha256": "55f1f9f34e41ac3b855ed6acfd1b8e9a5803421355e5c41c6264e975b4d4b39f"
+      "sha256": "55f1f9f34e41ac3b855ed6acfd1b8e9a5803421355e5c41c6264e975b4d4b39f",
+      "size_bytes": 17914
     },
     {
       "path": "prototype/data/workspace/index.json",
-      "bytes": 19856,
-      "sha256": "44c5b342e205b18c31d6a97d53619648ed7a46ef3a53b85940a0ce0b3a55bb46"
+      "sha256": "44c5b342e205b18c31d6a97d53619648ed7a46ef3a53b85940a0ce0b3a55bb46",
+      "size_bytes": 19856
     },
     {
       "path": "prototype/evidence/CADBridge_편집결과.FCStd",
-      "bytes": 31710,
-      "sha256": "baa763354db3e8d7a6ba0367afa785395127b24f196dda046765706aac664339"
+      "sha256": "baa763354db3e8d7a6ba0367afa785395127b24f196dda046765706aac664339",
+      "size_bytes": 31710
     },
     {
       "path": "prototype/evidence/CADBridge_편집결과.step",
-      "bytes": 17914,
-      "sha256": "55f1f9f34e41ac3b855ed6acfd1b8e9a5803421355e5c41c6264e975b4d4b39f"
+      "sha256": "55f1f9f34e41ac3b855ed6acfd1b8e9a5803421355e5c41c6264e975b4d4b39f",
+      "size_bytes": 17914
     },
     {
       "path": "prototype/evidence/gui-open-verification.json",
-      "bytes": 4133,
-      "sha256": "f6a9a80d8dc6c040722f69c262444a30dd48182683cbb0656592e9a601a71b50"
+      "sha256": "f6a9a80d8dc6c040722f69c262444a30dd48182683cbb0656592e9a601a71b50",
+      "size_bytes": 4133
     },
     {
       "path": "prototype/evidence/test-summary.json",
-      "bytes": 413,
-      "sha256": "891585c2afd4549b4aa270a36d36b6a3721faa2342a42e4e5340aadbf6673740"
+      "sha256": "891585c2afd4549b4aa270a36d36b6a3721faa2342a42e4e5340aadbf6673740",
+      "size_bytes": 413
     },
     {
       "path": "prototype/evidence/validation.json",
-      "bytes": 2999,
-      "sha256": "4ffbfe3066a56e2e431b2eba7ef0a4eb9df7d6db7e533ff7c03aeaa43101a6dc"
+      "sha256": "4ffbfe3066a56e2e431b2eba7ef0a4eb9df7d6db7e533ff7c03aeaa43101a6dc",
+      "size_bytes": 2999
     },
     {
       "path": "prototype/evidence/workspace-validation.json",
-      "bytes": 2040,
-      "sha256": "052374c6e7c257d3b98156510fb104b299d521fb8b74786ec4907e46fc91183d"
+      "sha256": "052374c6e7c257d3b98156510fb104b299d521fb8b74786ec4907e46fc91183d",
+      "size_bytes": 2040
     },
     {
       "path": "prototype/evidence/시제품_실행화면.png",
-      "bytes": 20448,
-      "sha256": "e2c6604e3d3b9283c74486d952aa74c5319e7c223614fd8e3916ac2388b10e2c"
+      "sha256": "e2c6604e3d3b9283c74486d952aa74c5319e7c223614fd8e3916ac2388b10e2c",
+      "size_bytes": 20448
     },
     {
       "path": "prototype/evidence/워크스페이스_실행화면.png",
-      "bytes": 103400,
-      "sha256": "4687a2a4ebd2bb7c68d6a83f92b672dc559f59597be627c7aee0aa5f41a6f515"
+      "sha256": "4687a2a4ebd2bb7c68d6a83f92b672dc559f59597be627c7aee0aa5f41a6f515",
+      "size_bytes": 103400
     },
     {
       "path": "prototype/examples/AI_EXAMPLE.md",
-      "bytes": 2760,
-      "sha256": "51e29ffd3503b79b9784bbb9985f002196f518c652af3dfb081fa1f679efc065"
+      "sha256": "51e29ffd3503b79b9784bbb9985f002196f518c652af3dfb081fa1f679efc065",
+      "size_bytes": 2760
     },
     {
       "path": "prototype/examples/input.step",
-      "bytes": 44267,
-      "sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18"
+      "sha256": "fa8f160282a04ccece071ea2f1877028665401f70024683d1def021be3dc3c18",
+      "size_bytes": 44267
     },
     {
       "path": "prototype/examples/terra-execution.json",
-      "bytes": 370,
-      "sha256": "e2ddb169d126849c58e45a57a27f8d814605bfe3ac8416c535c8abb86753887d"
+      "sha256": "e2ddb169d126849c58e45a57a27f8d814605bfe3ac8416c535c8abb86753887d",
+      "size_bytes": 370
     },
     {
       "path": "prototype/requirements.txt",
-      "bytes": 74,
-      "sha256": "2063e6920e4554d435a71660bb1e97d43eb76a6c4de8a044ff389a33545f6ebc"
+      "sha256": "2063e6920e4554d435a71660bb1e97d43eb76a6c4de8a044ff389a33545f6ebc",
+      "size_bytes": 74
     },
     {
       "path": "prototype/source-provenance/freecad.json",
-      "bytes": 354,
-      "sha256": "54001800ac763bb6e290bcfb21ba5f11ac473fcc65a75c7e76f09e0bcf0b75b0"
+      "sha256": "54001800ac763bb6e290bcfb21ba5f11ac473fcc65a75c7e76f09e0bcf0b75b0",
+      "size_bytes": 354
     },
     {
       "path": "prototype/source-provenance/integrated-manifest.json",
-      "bytes": 23913,
-      "sha256": "6012db9dd79d0b11e243da5dd8790ca4c797cde0af69401da297098da3035e7b"
+      "sha256": "6012db9dd79d0b11e243da5dd8790ca4c797cde0af69401da297098da3035e7b",
+      "size_bytes": 23913
     },
     {
       "path": "prototype/source-provenance/m3.json",
-      "bytes": 325,
-      "sha256": "fe863f0bbbecbd8e4ac193d4456e3ab81141f065ce0b36447c12fdf3dcbec5fc"
+      "sha256": "fe863f0bbbecbd8e4ac193d4456e3ab81141f065ce0b36447c12fdf3dcbec5fc",
+      "size_bytes": 325
     },
     {
       "path": "prototype/source-provenance/native.json",
-      "bytes": 7850,
-      "sha256": "727e755d56db7ed15eea241deb32be81a2f2d7ec1711d98d23d92b56fc23b8b6"
+      "sha256": "727e755d56db7ed15eea241deb32be81a2f2d7ec1711d98d23d92b56fc23b8b6",
+      "size_bytes": 7850
     },
     {
       "path": "prototype/tests/test_core.py",
-      "bytes": 14860,
-      "sha256": "37244afa787e35876a12214831c08138728454a7c8fd9ad0242a787c19303f74"
+      "sha256": "37244afa787e35876a12214831c08138728454a7c8fd9ad0242a787c19303f74",
+      "size_bytes": 14860
     },
     {
       "path": "prototype/tests/test_prototype_guards.py",
-      "bytes": 12257,
-      "sha256": "446ca5ad11a553ea8104cf344b6bde87e47f08bb45330625a9480f52b3db63f2"
+      "sha256": "446ca5ad11a553ea8104cf344b6bde87e47f08bb45330625a9480f52b3db63f2",
+      "size_bytes": 12257
     },
     {
       "path": "prototype/tests/test_workflow.py",
-      "bytes": 9240,
-      "sha256": "ee08d5c8b63cdfea258e5d2241451491b4ec39775f558ad32571a5b82e212ce6"
+      "sha256": "ee08d5c8b63cdfea258e5d2241451491b4ec39775f558ad32571a5b82e212ce6",
+      "size_bytes": 9240
     },
     {
       "path": "prototype/tests/test_workspace.py",
-      "bytes": 17826,
-      "sha256": "8fd2de36c84086ba5a90a3ca3e434466b61fb4b7c6ede99796b808649f86d851"
+      "sha256": "8fd2de36c84086ba5a90a3ca3e434466b61fb4b7c6ede99796b808649f86d851",
+      "size_bytes": 17826
     },
     {
       "path": "prototype/사용안내.html",
-      "bytes": 5539,
-      "sha256": "72182771765442e745448f7cf9c68f26683911692affeb0fc371a45a45355fa2"
+      "sha256": "72182771765442e745448f7cf9c68f26683911692affeb0fc371a45a45355fa2",
+      "size_bytes": 5539
     },
     {
       "path": "prototype/워크스페이스_사용안내.html",
-      "bytes": 4053,
-      "sha256": "c73ba14affc518920df4150177cdaacf6c0e16815555e9c8708c37f9a0a2a839"
+      "sha256": "c73ba14affc518920df4150177cdaacf6c0e16815555e9c8708c37f9a0a2a839",
+      "size_bytes": 4053
     },
     {
       "path": "scripts/check_workspace.py",
