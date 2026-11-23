@@ -15,8 +15,8 @@
   "files": [
     {
       "path": ".editorconfig",
-      "sha256": "0236baaa876eef2fbe3d4a9b01aac87d148b925fac3f58e1bc0cc9819ed88dab",
-      "size_bytes": 139
+      "sha256": "b93b6818fc3a7ef13e38e3999c97f4f9a633ae729cb7fca53f684d63fc99e3b0",
+      "size_bytes": 481
     },
     {
       "path": ".env.example",
@@ -25,8 +25,8 @@
     },
     {
       "path": ".gitattributes",
-      "sha256": "be2c26e15ad7dc66169cd2a1cc95fc588a0e8a7f1d237e99863b09343579bdd8",
-      "size_bytes": 254
+      "sha256": "0e3f0d0fd272554b79bd3ca2ab90761cb71ff8c51af54148f8b5872acc77d1dd",
+      "size_bytes": 357
     },
     {
       "path": ".github/ISSUE_TEMPLATE/task.md",
@@ -55,8 +55,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "sha256": "2f97a8a816ae8a69a275fde5f477b82188cfd9ce286c2e5c2ababd48e295bc5e",
-      "size_bytes": 3455
+      "sha256": "2d82b6a0521bf586e5c51a4dbad3c3e00e56c2fb7c0e2166747afb9eef4c94a9",
+      "size_bytes": 3959
     },
     {
       "path": "README.md",
@@ -95,8 +95,8 @@
     },
     {
       "path": "docs/DECISIONS.md",
-      "bytes": 4979,
-      "sha256": "81fd628396c307c2b60a9d9e614088212bdd308196fb2ce1ef3d079e207e98c6"
+      "bytes": 6475,
+      "sha256": "e8258f55e1d3a115f34f2e7e211eea6f9bc69360e302ec6e4602e74f21dd22fb"
     },
     {
       "path": "docs/DEVELOPMENT_WORKFLOW.md",
@@ -105,8 +105,8 @@
     },
     {
       "path": "docs/HANDOFF.md",
-      "bytes": 4047,
-      "sha256": "02da2d78b50094825c5e3d1864c5b4af9b40e42d1d1aa5af7f876dcdff750baf"
+      "bytes": 5029,
+      "sha256": "4769d6ca765abef9a85e3b390d2b2cd72c66c5b5aea6cdf7e3bb3ad2ca762caf"
     },
     {
       "path": "docs/INTERFACES.md",
@@ -140,13 +140,13 @@
     },
     {
       "path": "docs/STATUS_AND_EVIDENCE.md",
-      "bytes": 7643,
-      "sha256": "2487f69fb9268e9134498a32b68828aba7a7de3bb360e44597ba87c58967d7ec"
+      "bytes": 9693,
+      "sha256": "a9a05832dc913d4ee7dd6b00abaa45a21631364a3717156d91315d8f35945030"
     },
     {
       "path": "docs/TASK_BOARD.md",
-      "bytes": 2784,
-      "sha256": "2af6eb77292a10583114e8193126010775c42234da52c658e978eecfc5cd1c62"
+      "bytes": 3411,
+      "sha256": "b4db7c1a127d89b0036e8d83514f2678876f48c47e6654bfaeddc1fa289fcdcd"
     },
     {
       "path": "docs/VALIDATION.md",
@@ -164,9 +164,14 @@
       "size_bytes": 1224
     },
     {
+      "path": "docs/tasks/CB-010.md",
+      "sha256": "473322c761a3791d7418652d41b263668b99e2ef32487ba846d4ffa96915f41d",
+      "size_bytes": 2364
+    },
+    {
       "path": "docs/tasks/README.md",
-      "sha256": "1016e290e93bc61f596b550a0589dd9dc130fd303fcae9e4c6ab5d1c74900c7b",
-      "size_bytes": 441
+      "sha256": "5feb33a6184e0cbbcb373e8f5d7b5f5ed3a2f3507e2e419ef02af71ad3f38675",
+      "size_bytes": 596
     },
     {
       "path": "docs/templates/HANDOFF.md",

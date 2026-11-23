@@ -52,3 +52,18 @@ GitHub 도구 확인: 2026-11-16 계정 조회 성공, 접근 가능한 설치 �
 ## 2026-11-16 · 로컬 통합 시제품 추가
 
 `prototype/`에 M3 관측과 Terra 후보·native 모델 생성/편집, 로컬 파일·형상 워크스페이스를 추가했습니다. AI 예제는 합성 CB-P01 하나의 실제 두 저장 버전입니다. 기존 개발 PC에서의 65개 소프트웨어 검사 함수·194개 하위 사례와 native 실행 기록은 `prototype/evidence/`에 보존했습니다. 이번에는 사용자 요청으로 새 실행 확인을 미루고 업로드만 수행합니다. 다른 PC 설치·원격 다인 협업·최종 제품 합격을 새로 통과 처리하지 않습니다. [배포 범위와 후속 작업](PROTOTYPE_UPLOAD_2026-11-16.md)을 참고합니다.
+
+## 2026-11-23 · 줄바꿈 정책 변경 (CB-010 1단계)
+
+현상: clone 직후 33개 파일이 수정됨(M)으로 표시됐다. 작업 폴더 바이트는 33개 모두 커밋 blob과 같았다. 원인은 `18edd4a`에 CRLF로 저장된 파일과 당시 `.gitattributes`의 `eol=lf` 규칙의 충돌이다. 33개 중 26개는 `prototype/` 안에 있으며, 그 SHA256이 `session.json` 등 실행 기록과 `prototype/source-provenance/integrated-manifest.json`에 기록되어 있다. integrated-manifest의 122개 항목은 모두 현재 바이트와 일치했다. 시제품 앱(`prototype/app/cadbridge/workflow.py`의 `load_session`)은 프로젝트를 열 때 이 해시를 검사하므로 이 파일들의 바이트를 바꾸지 않았다.
+
+변경(구현): `.gitattributes`를 `* -text`로 바꿔 Git이 어느 OS에서도 줄바꿈을 변환하지 않게 했다. `.editorconfig`는 LF를 유지하고 실행·출처 기록 경로만 예외로 뒀다. 결정은 [결정 로그](DECISIONS.md) D-12, 작업 범위는 [CB-010](tasks/CB-010.md)를 따른다.
+
+로컬 검증(2026-11-23, git 2.43.0, Python 3.12.3, 기준 commit `18edd4a`, 미커밋 작업 폴더):
+- `git status`: 기존 33개 M 표시 해소. 수정 허용 경로 10개만 표시
+- 바이트 대조(`git hash-object --no-filters`와 index blob 비교): 수정 허용 경로 밖 tracked 파일 변경 0
+- 임시 clone 모의: 새 규칙에서 `git add`한 blob이 작업 폴더 바이트와 같음. 기존 규칙에서는 CRLF 파일이 LF로 바뀌어 저장됨
+- `python scripts/check_workspace.py`: pass, 오류 0 (files 160, text_files 125, relative_links 146)
+- `python scripts/check_workspace.py --verify-manifest`: fail 131건. 기준 상태와 같은 크기 필드명(`bytes`) 오류만 남고 새 오류 0. 2단계에서 다룬다
+
+미실행: GitHub CI(사용자 커밋 후 해당 SHA에서 확인), Windows checkout 확인, 편집기의 `.editorconfig` 예외 적용 확인(검사 도구 없음), CAD/API 실행. 커밋·push는 사용자가 직접 한다.

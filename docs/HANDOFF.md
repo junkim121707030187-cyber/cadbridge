@@ -24,3 +24,9 @@
 ## 2026-11-16 · 통합 시제품 업로드 추가
 
 최신 진입점은 [prototype 설치·실행 안내](../prototype/README.md)이며, [AI 예제](../prototype/examples/AI_EXAMPLE.md)와 [DOCX](../deliverables/CADBridge_구현진척과_파트별후속작업_2026-11-16.docx)를 포함했습니다. 이번 수정은 앱·예제·출처 복사본과 README·상태·작업 보드·결정·인계·파일 목록입니다. 기존 개발 PC 검사 기록은 보존했고 이번 설치·실행 검사는 사용자 요청으로 미실행입니다. 팀원 PC 확인이 다음 행동입니다. [상세 인계](PROTOTYPE_UPLOAD_2026-11-16.md)를 따릅니다.
+
+## 2026-11-23 · CB-010 1단계 인계
+
+수정 파일: `.gitattributes`, `.editorconfig`, `CONTRIBUTING.md`, `BUNDLE_MANIFEST.json`(변경 파일 항목의 해시·크기 값과 새 카드 항목만), `docs/STATUS_AND_EVIDENCE.md`, `docs/TASK_BOARD.md`, `docs/DECISIONS.md`, `docs/HANDOFF.md`, `docs/tasks/README.md`, 새 `docs/tasks/CB-010.md`. 검증 범위와 결과는 [상태·근거](STATUS_AND_EVIDENCE.md)를 따른다. 커밋·push는 사용자가 한다.
+
+미해결: 매니페스트 항목 131개가 크기 필드명을 `bytes`로 적어 `--verify-manifest`가 계속 실패한다(2단계). 루트 문서 6개와 매니페스트는 아직 CRLF라 `git diff --check`가 새로 덧붙인 줄의 CR을 줄 끝 공백으로 표시한다(3단계에서 해소). 매니페스트 머리말(`document_version`, `review` 등)은 갱신하지 않았다. 시제품 앱의 CRLF 쓰기 문제는 범위 밖으로 남겼다. 다음 행동은 [CB-010](tasks/CB-010.md) 2단계다.

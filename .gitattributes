@@ -1,11 +1,6 @@
-# Keep document hashes stable on Windows and Linux
-* text=auto
-*.md text eol=lf
-*.json text eol=lf
-*.py text eol=lf
-*.yml text eol=lf
-*.yaml text eol=lf
-.env.example text eol=lf
-.gitignore text eol=lf
-.gitattributes text eol=lf
-.editorconfig text eol=lf
+# Keep document hashes stable on Windows and Linux.
+# This repository verifies files by SHA256 (BUNDLE_MANIFEST.json and the
+# prototype session asset hashes), so Git must store and check out bytes
+# exactly as committed on every OS. Do not re-enable line-ending conversion.
+# New or edited text files use LF through .editorconfig, not through Git.
+* -text
